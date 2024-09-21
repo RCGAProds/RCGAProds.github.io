@@ -11,9 +11,9 @@ window.cookieconsent.initialise({
     }
   },
   "content": {
-    "message": "Utilizamos cookies propias y de terceros para mejorar nuestros servicios. Si continúa con la navegación, consideraremos que acepta este uso.",
-    "dismiss": "ACEPTAR",
-    "link": "Leer más",
-    "href": "http://www.interior.gob.es/politica-de-cookies"
+    "message": "We use our own cookies to improve our services. If you continue browsing, we will consider that you accept this use.",
+    "dismiss": "ACCEPT",
+    "link": "Read more",
+    "href": "https://www.interior.gob.es/opencms/es/politica-de-cookies/index.html"
   }
 })});
