@@ -322,9 +322,9 @@ img{
 	margin-bottom: var(--mb-2);
 }
 
-.home__scroll{
-	/* display: none; */
-}
+/*.home__scroll{
+	display: none;
+}*/
 
 .home__scroll-button{
 	color: var(--first-color);
@@ -465,60 +465,6 @@ img{
 	font-weight: var(--font-medium);
 }
 
-.skills__bar, .skills__percentage{
-	height: 5px;
-	border-radius: .25rem;
-}
-
-.skills__bar{
-	background-color: var(--first-color-lighter);
-}
-
-.skills__percentage{
-	display: block;
-	background-color: var(--first-color);
-}
-
-.skills__3ds{
-	width: 90%;
-}
-
-.skills__modeling{
-	width: 70%;
-}
-
-.skills__texturing{
-	width: 75%;
-}
-
-.skills__rigging{
-	width: 80%;
-}
-
-.skills__animating{
-	width: 90%;
-}
-
-.skills__photoshop{
-	width: 90%;
-}
-
-.skills__premiere{
-	width: 90%;
-}
-
-.skills__aftereffects{
-	width: 60%;
-}
-
-.skills__unity{
-	width: 90%;
-}
-
-.skills__unreal{
-	width: 50%;
-}
-
 .skills__close .skills__list{
 	height: 0;
 	overflow: hidden;
@@ -533,7 +479,7 @@ img{
 	transform: rotate(-180deg);
 }
 
-/* QUALIFICATION */
+/* CERTIFICATES */
 .qualification__tabs{
 	display: flex;
 	justify-content: space-evenly;
@@ -607,6 +553,52 @@ img{
 
 /* SERVICES */
 /* Active Modal */
+
+/* Styles for the modal background when it's active */
+.modal {
+    display: none; /* Initially hidden */
+    position: fixed; /* Fixed position on the screen */
+    z-index: 1; /* Display over other elements */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background */
+}
+
+/* Styles for the modal content */
+.modal-content {
+    background-color: rgb(0, 0, 0);
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px; /* Maximum width */
+	color: var(--first-color-lighter);
+    text-align: center;
+    border-radius: 8px;
+	position: relative;
+}
+
+.modal-content p:hover {
+	color: var(--first-color-alt);
+}
+
+/* Close button styles */
+.close {
+	position: absolute;
+	top: var(--mb-0-25);
+	right: var(--mb-1);
+    color: var(--title-color);
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover, .close:focus {
+    color: var(--first-color);
+}
+
 /* PORTFOLIO */
 .portfolio__container{
 	overflow: initial;
@@ -749,7 +741,8 @@ img{
 
 .footer__social{
 	font-size: 1.25rem;
-	margin-right: var(--mb-1-5);
+	margin-right: var(--mb-0-75);
+	margin-left: var(--mb-0-75);
 }
 
 .footer__social:hover{
@@ -995,9 +988,8 @@ img{
 	}
 	
 	.footer__socials{
-		background-color: red;
-		justify-self: flex-end;
 		align-content: center;
+		text-align: center;
 	}
 	
 	.footer__copy{
