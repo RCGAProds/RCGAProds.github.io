@@ -38,7 +38,7 @@
 	--font-medium: 500;
 	--font-semi-bold: 600;
 	
-	/* Margenes Bottom */
+	/* Margins Bottom */
 	/* .25rem = 4px, .5rem = 8px, .75rem = 12px etc.. */
 	--mb-0-25: .25rem;
 	--mb-0-5: .5rem;
@@ -48,6 +48,7 @@
 	--mb-2: 2rem;
 	--mb-2-5: 2.5rem;
 	--mb-3: 3rem;
+	--mb-4: 4rem;
 	
 	/* z index */
 	--z-tooltip: 10;
@@ -137,6 +138,9 @@ img{
 	height: auto;
 	pointer-events: none;
 	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
 	-webkit-user-drag: none;
 }
 
@@ -745,6 +749,44 @@ img{
 	-moz-user-select: none;
 	-ms-user-select: none;
 }
+
+/* =========== Tooltip =========== */
+.tooltip{
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none; /* Optional: remove underline */
+}
+
+/* Tooltip text - hidden by default */
+.tooltip .tooltiptext{
+	visibility: hidden;
+	background-color: rgb(29, 29, 29);
+	color: #FFF;
+	text-align: center;
+	border: 1px solid white;
+	border-radius: 5px;
+    padding: 2px 5px;
+	font-size: var(--small-font-size);
+    
+    /* Positioning */
+    position: absolute;
+    z-index: 1;
+    top: 5%; /* Position align with the link */
+    left: 50%;
+    margin-left: var(--mb-1); /* Half the width to center */
+    
+    /* Fade-in effect */
+    opacity: 0;
+    transition: opacity 0.1s;
+}
+
+/* Show the tooltip when hovering over the link */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
 
 /* ===================== MEDIA QUERIES ===================== */
 /* For small devices */
