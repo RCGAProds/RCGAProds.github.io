@@ -26,6 +26,18 @@
     <link href="assets/css/cookies.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <h1 class="no-select">HackTheBox Academy</h1>
+          <h3 class="no-select">Student ID:</h3> 
+          <p id="codeToCopy">HTB-8717656FEC</p>
+          <span class="no-select" id="copyCode">Copied to clipboard!</span>
+      </div>
+    </div>
+
     <!-- ===================== HEADER ===================== -->
     <header class="header" id="header">
       <nav class="nav container">
@@ -97,8 +109,7 @@
 
               <a
                 href="#"
-                class="home__social-icon tooltip"
-                id="openModalLink"
+                class="home__social-icon openModalLink tooltip"
               >
                 <span class="tooltiptext">HackTheBox</span>
                 <i class="uil uil-cube"></i>
@@ -186,24 +197,17 @@
           <div class="home__scroll">
             <a href="#about" class="home__scroll-button button--flex">
               <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-              <span class="home__scroll-name">Scroll Down</span>
+              <span class="home__scroll-name no-select">Scroll Down</span>
               <i class="uil uil-arrow-down home__scroll-arrow"></i>
             </a>
           </div>
         </div>
       </section>
 
-      <!-- Modal -->
-      <div id="myModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <h1 class="no-select">HackTheBox Academy</h1>
-            <h3 class="no-select">Student ID:</h3> <p>HTB-8717656FEC</p>
-        </div>
-      </div>
+  
 
       <!-- ===================== ABOUT ===================== -->
-      <section class="about section" id="about">
+      <section class="about section no-select" id="about">
         <h2 class="section__title">About Me</h2>
         <span class="section__subtitle">My introduction</span>
 
@@ -268,7 +272,7 @@
       </section>
 
       <!-- ===================== SKILLS ===================== -->
-      <section class="skills section" id="skills">
+      <section class="skills section no-select" id="skills">
         <h2 class="section__title">Skills</h2>
         <span class="section__subtitle">My technical level</span>
 
@@ -288,18 +292,18 @@
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">
-                      ● Critical thinking and problem-solving
+                      Critical thinking and problem-solving
                     </h3>
                   </div>
                 </div>
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">● Communication</h3>
+                    <h3 class="skills__name">Communication</h3>
                   </div>
                 </div>
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">● Attention to detail</h3>
+                    <h3 class="skills__name">Attention to detail</h3>
                   </div>
                 </div>
               </div>
@@ -320,7 +324,7 @@
             <div class="skills__list grid">
               <div class="skills__data">
                 <div class="skills__titles">
-                  <h3 class="skills__name">● Security fundamentals</h3>
+                  <h3 class="skills__name">Security fundamentals</h3>
                 </div>
               </div>
             </div>
@@ -352,15 +356,15 @@
 
       <!-- CONTACT ME -->
       <section class="contact section" id="contact">
-        <h2 class="section__title">Contact Me</h2>
-        <span class="section__subtitle">Get in touch</span>
+        <h2 class="section__title no-select">Contact Me</h2>
+        <span class="section__subtitle no-select">Get in touch</span>
 
         <div class="contact__container container grid">
           <div>
             <div class="contact__information">
               <i class="uil uil-envelope contact__icon"></i>
               <div>
-                <h3 class="contact__title">Email</h3>
+                <h3 class="contact__title no-select">Email</h3>
                 <span class="contact__subtitle">rcgaproductions@gmail.com</span>
               </div>
             </div>
@@ -374,7 +378,7 @@
           >
             <div class="contact__inputs grid">
               <div class="contact__content">
-                <label for="" class="contact__label">Name</label>
+                <label for="" class="contact__label no-select">Name</label>
                 <input
                   type="text"
                   name="name"
@@ -383,7 +387,7 @@
                 />
               </div>
               <div class="contact__content">
-                <label for="" class="contact__label">Email</label>
+                <label for="" class="contact__label no-select">Email</label>
                 <input
                   type="email"
                   name="email"
@@ -393,7 +397,7 @@
               </div>
             </div>
             <div class="contact__content">
-              <label for="" class="contact__label">Subject</label>
+              <label for="" class="contact__label no-select">Subject</label>
               <input
                 type="text"
                 name="subject"
@@ -402,7 +406,7 @@
               />
             </div>
             <div class="contact__content">
-              <label for="" class="contact__label">Message</label>
+              <label for="" class="contact__label no-select">Message</label>
               <textarea
                 name="message"
                 id=""
@@ -418,7 +422,7 @@
                 style="border: none; background-color: rgba(0, 0, 0, 0)"
               >
                 <a
-                  class="button button--flex"
+                  class="button button--flex no-select"
                   style="font-family: var(--body-font); cursor: pointer"
                 >
                   Send
@@ -432,7 +436,7 @@
     </main>
 
     <!-- FOOTER -->
-    <footer class="footer">
+    <footer class="footer no-select">
       <div class="footer__bg">
         <div class="footer__container container grid">
           <div>
@@ -458,7 +462,7 @@
               <a href="#experience" class="footer__link">Experience</a>
             </li>
             <li>
-              <a href="#contact" class="footer__link">Contact Me</a>
+              <a href="#contact" class="footer__link" style="white-space: nowrap;">Contact Me</a>
             </li>
           </ul>
 
@@ -466,17 +470,18 @@
             <a
               href="https://github.com/RCGAProds"
               target="_blank"
-              class="footer__social"
+              class="footer__social tooltip"
             >
+              <span class="tooltiptext">Github</span>
               <i class="uil uil-github"></i>
               <!-- Github -->
             </a>
 
             <a
               href="#"
-              class="footer__social"
-              id="openModalLink"
+              class="footer__social openModalLink tooltip"
             >
+              <span class="tooltiptext">HackTheBox</span>
               <i class="uil uil-cube"></i>
               <!-- HackTheBox -->
             </a>

@@ -472,6 +472,10 @@ img{
 	font-weight: var(--font-medium);
 }
 
+.skills__name::before{
+	content: "⪧ ";
+}
+
 .skills__close .skills__list{
 	height: 0;
 	overflow: hidden;
@@ -517,6 +521,16 @@ img{
     text-align: center;
     border-radius: 8px;
 	position: relative;
+	transform: scale(0);
+	transition: transform 0.3s ease-in-out;
+}
+
+.modal.show{
+	display: flex;
+}
+
+.modal-content.show{
+	transform: scale(1);
 }
 
 .modal-content p:hover {
@@ -785,6 +799,32 @@ img{
 .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
+}
+
+/* =========== Code =========== */
+
+#copyCode{
+	display: none;
+	position: absolute;
+	bottom: 25%;
+	left: 40%;
+	width: 80%;
+	transform: rotate(12deg) scale(1);
+	transition: transform 0.5s ease-in-out;
+	color: #FFF;
+}
+
+#copyCode.scale-up {
+    animation: scaleAnimation 0.5s ease-in-out 2;
+}
+
+@keyframes scaleAnimation{
+	0%, 100%{
+		transform: rotate(12deg) scale(1);
+	}
+	50%{
+		transform: rotate(12deg) scale(1.2);
+	}
 }
 
 
