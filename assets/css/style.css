@@ -492,6 +492,72 @@ img{
 
 /* CERTIFICATES */
 
+.certificates__grid {
+	grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+	gap: 1rem;
+	justify-items: center;
+}
+
+.certificates__item {
+	height: 250px;
+	width: 150px;
+	background-color: var(--container-color);
+	border-radius: 1rem;
+	border: 1px solid var(--first-color); /* Borde amarillo */
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* Sombra leve */
+	transition: transform .3s ease-in-out, box-shadow .3s ease-in-out; /* Animación de sombra y movimiento */
+	cursor: pointer;
+	position: relative;
+}
+
+.certificates__item:hover {
+	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15); /* Aumenta sombra inferior */
+	transform: translateY(-0.5rem); /* Mueve hacia arriba */
+}
+
+
+.certificates__img {
+	width: 100%;
+	height: auto;
+}
+
+.certificates__title {
+	font-size: var(--small-font-size);
+	font-weight: var(--font-medium);
+	margin: 0 var(--mb-0-5);
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	text-overflow: ellipsis;
+	max-width: 100%;
+}
+
+.certificates__subtitle {
+    position: absolute; /* Posiciona el subtítulo de forma absoluta */
+    bottom: 10px; /* Ajusta la distancia desde el fondo */
+    left: 10px; /* Ajusta la distancia desde la izquierda */
+    font-size: var(--smaller-font-size); /* Tamaño de fuente */
+	color: var(--text-color-light);
+    padding: 2px 4px; /* Espaciado alrededor del texto */
+}
+
+.work-in-progress {
+	cursor: default;
+	height: 265px;
+    background-color: rgba(255, 204, 0, 0.158); /* Color amarillo suave para indicar progreso */
+    border: 2px solid rgba(255, 204, 0, 0.5); /* Borde amarillo */
+}
+
+.work-in-progress::before {
+    content: "In Progress"; /* Texto que indica que está en progreso */
+    display: block;
+    color: rgb(255, 204, 0);
+    font-weight: bold;
+    text-align: center;
+}
+
 /* SERVICES */
 /* Active Modal */
 
