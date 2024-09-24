@@ -534,7 +534,7 @@ img {
 }
 
 .certificates__title {
-  font-size: var(--small-font-size);
+  font-size: var(--smaller-font-size);
   font-weight: var(--font-medium);
   margin: 0 var(--mb-0-5);
   overflow: hidden;
@@ -548,8 +548,8 @@ img {
 
 .certificates__subtitle {
   position: absolute; /* Posiciona el subtítulo de forma absoluta */
-  bottom: 10px; /* Ajusta la distancia desde el fondo */
-  left: 10px; /* Ajusta la distancia desde la izquierda */
+  bottom: 5px; /* Ajusta la distancia desde el fondo */
+  left: 8px; /* Ajusta la distancia desde la izquierda */
   font-size: var(--smaller-font-size); /* Tamaño de fuente */
   color: var(--text-color-light);
   padding: 2px 4px; /* Espaciado alrededor del texto */
@@ -567,6 +567,14 @@ img {
   content: 'In Progress'; /* Texto que indica que está en progreso */
   display: block;
   color: var(--wip-color);
+  font-weight: bold;
+  text-align: center;
+}
+
+.certificates__item:not(.work-in-progress)::before {
+  content: attr(data-before);
+  display: block;
+  color: var(--first-color-lighter);
   font-weight: bold;
   text-align: center;
 }
