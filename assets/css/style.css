@@ -580,13 +580,13 @@ img {
 }
 
 /* SERVICES */
-/* Active Modal */
 
+/* Active Modal */
 /* Styles for the modal background when it's active */
 .modal {
   display: none; /* Initially hidden */
   position: fixed; /* Fixed position on the screen */
-  z-index: 1; /* Display over other elements */
+  z-index: var(--z-modal);
   left: 0;
   top: 0;
   width: 100%;
@@ -596,14 +596,13 @@ img {
   align-items: center;
 }
 
-/* Styles for the modal content */
 .modal-content {
   background-color: var(--body-color);
   margin: 15% auto;
   padding: 20px;
   border: 1px solid var(--title-color);
   width: 80%;
-  max-width: 600px; /* Maximum width */
+  max-width: 600px;
   color: var(--first-color-alt);
   text-align: center;
   border-radius: 8px;
