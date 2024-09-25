@@ -579,8 +579,6 @@ img {
   text-align: center;
 }
 
-/* SERVICES */
-
 /* Active Modal */
 /* Styles for the modal background when it's active */
 .modal {
@@ -640,8 +638,10 @@ img {
   color: var(--first-color);
 }
 
+/* EXPERIENCE */
+
 /* PORTFOLIO */
-.portfolio__container {
+/*.portfolio__container {
   overflow: initial;
 }
 
@@ -698,7 +698,7 @@ img {
 .swiper-button-next,
 .swiper-pagination-bullet {
   outline: none;
-}
+}*/
 
 /* PROJECT IN MIND */
 /* TESTIMONIAL */
