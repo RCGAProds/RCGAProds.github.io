@@ -1224,7 +1224,7 @@ img {
 .footer__copy {
   font-size: var(--smaller-font-size);
   text-align: center;
-  color: #fff;
+  color: var(--title-color);
   margin-top: var(--mb-3);
 }
 
