@@ -440,6 +440,10 @@ img {
 }
 
 /* SKILLS */
+.skills {
+  padding: 2rem 0 4rem !important;
+}
+
 .skills__container {
   row-gap: 0;
 }
@@ -448,7 +452,14 @@ img {
   display: flex;
   align-items: center;
   margin-bottom: var(--mb-2-5);
+}
+
+.skills__header:hover {
   cursor: pointer;
+}
+
+.skills__header:hover .skills__title {
+  color: var(--first-color-lighter);
 }
 
 .skills__icon,
