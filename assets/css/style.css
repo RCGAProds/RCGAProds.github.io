@@ -959,10 +959,6 @@ img {
   .skills__title {
     font-size: var(--normal-font-size);
   }
-
-  .qualification__data {
-    gap: 0.5rem;
-  }
 }
 
 @media screen and (min-width: 350px) {
@@ -989,10 +985,6 @@ img {
 
   .skills__title {
     font-size: var(--normal-font-size);
-  }
-
-  .qualification__data {
-    gap: 0.5rem;
   }
 }
 
@@ -1025,12 +1017,6 @@ img {
 
   .about__description {
     text-align: left;
-  }
-
-  .qualification__sections {
-    display: grid;
-    grid-template-columns: 0.6fr;
-    justify-content: center;
   }
 }
 
@@ -1121,18 +1107,6 @@ img {
 
   .about__buttons {
     justify-content: initial;
-  }
-
-  .qualification__tabs {
-    justify-content: center;
-  }
-
-  .qualification__button {
-    margin: 0 var(--mb-1);
-  }
-
-  .qualification__sections {
-    grid-template-columns: 0.5fr;
   }
 
   .portfolio__img {
