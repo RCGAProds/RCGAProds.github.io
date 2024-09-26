@@ -11,7 +11,7 @@
   /* HSL color mode */
   --first-color: hsl(var(--hue-color), 69%, 61%);
   --first-color-second: hsl(var(--hue-color), 69%, 61%);
-  --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+  --first-color-alt: hsl(var(--hue-color), 57%, 43%);
   --first-color-lighter: hsl(var(--hue-color), 80%, 45%);
   --title-color: hsl(var(--hue-color), 8%, 15%);
   --text-color: hsl(var(--hue-color), 8%, 45%);
@@ -359,6 +359,19 @@ img {
 
 .home__scroll-arrow {
   font-size: 1.25rem;
+  animation: moveArrow 2s infinite ease-in-out;
+}
+
+@keyframes moveArrow {
+  0% {
+    transform: translateY(-2px); /* Posición inicial */
+  }
+  50% {
+    transform: translateY(2px); /* Mueve la flecha hacia arriba */
+  }
+  100% {
+    transform: translateY(-2px); /* Vuelve a la posición inicial */
+  }
 }
 
 /* BUTTONS */
@@ -449,7 +462,7 @@ img {
   --tooltip-height: 40px;
   --tooltip-width: 110px;
   --gap-between-tooltip-to-button: 18px;
-  --button-color: #000;
+  --button-color: var(--first-color);
   --tooltip-color: #fff;
   width: var(--width);
   height: var(--height);
@@ -525,7 +538,7 @@ img {
 }
 
 .btn-resume:hover {
-  background: #8f44fd;
+  background: var(--first-color-alt);
 }
 
 .btn-resume:hover .text {
