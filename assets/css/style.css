@@ -359,7 +359,7 @@ img {
 
 .home__scroll-arrow {
   font-size: 1.25rem;
-  animation: moveArrow 2s infinite ease-in-out;
+  animation: moveArrow 1.5s infinite ease-in-out;
 }
 
 @keyframes moveArrow {
@@ -782,67 +782,9 @@ img {
 /* EXPERIENCE */
 
 /* PORTFOLIO */
-/*.portfolio__container {
-  overflow: initial;
-}
-
-.portfolio__content {
-  padding: 0 1.5rem;
-}
-
-.portfolio__img {
-  width: 265px;
-  border-radius: 0.5rem;
-  justify-self: center;
-}
-
-.portfolio__title {
-  font-size: var(--h3-font-size);
-  margin-bottom: var(--mb-0-5);
-}
-
-.portfolio__description {
-  margin-bottom: var(--mb-0-75);
-}
-
-.portfolio__button:hover .button__icon {
-  transform: translateX(0.25rem);
-}
-
-.swiper-button-prev::after,
-.swiper-button-next::after {
-  content: '';
-}
-
-.swiper-portfolio-icon {
-  font-size: 2rem;
-  color: var(--first-color);
-}
-
-.swiper-button-prev {
-  left: -0.5rem;
-}
-
-.swiper-button-next {
-  right: -0.5rem;
-}
-
-.swiper-horizontal > .swiper-pagination-bullets {
-  bottom: -2.5rem;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: var(--first-color);
-}
-
-.swiper-button-prev,
-.swiper-button-next,
-.swiper-pagination-bullet {
-  outline: none;
-}*/
-
 /* PROJECT IN MIND */
 /* TESTIMONIAL */
+
 /* CONTACT ME */
 .contact__container {
   row-gap: 3rem;
@@ -910,7 +852,7 @@ img {
   transition: all 0.3s ease;
   min-width: 160px;
   padding: 0 20px;
-  height: 64px;
+  height: 70px;
   font-family: var(--body-font);
   font-style: normal;
   font-size: 1.5rem;
