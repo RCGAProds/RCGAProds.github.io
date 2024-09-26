@@ -364,13 +364,13 @@ img {
 
 @keyframes moveArrow {
   0% {
-    transform: translateY(-2px); /* Posición inicial */
+    transform: translateY(-2px);
   }
   50% {
-    transform: translateY(2px); /* Mueve la flecha hacia arriba */
+    transform: translateY(2px);
   }
   100% {
-    transform: translateY(-2px); /* Vuelve a la posición inicial */
+    transform: translateY(-2px);
   }
 }
 
@@ -392,15 +392,15 @@ img {
   display: inline-block;
   font-size: 1.25rem;
   margin-left: var(--mb-0-5);
-  transition: moveContactMeIcon 0.3s ease-in-out;
+  transition: moveContactMeIcon 0.3s ease-in;
 }
 
 @keyframes moveContactMeIcon {
   0% {
-    transform: translateX(0); /* Posición inicial */
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(5px); /* Mueve el icono a la derecha 5px */
+    transform: translateX(5px);
   }
 }
 
@@ -414,6 +414,7 @@ img {
 }
 
 /* ===================== ABOUT ===================== */
+
 .about__img {
   border-radius: 0.5rem;
   justify-self: center;
@@ -578,9 +579,6 @@ img {
 }
 
 /* SKILLS */
-.skills {
-  padding: 2rem 0 4rem !important;
-}
 
 .skills__container {
   row-gap: 0;
@@ -1535,6 +1533,10 @@ img {
 
   .home__scroll-button {
     margin-left: 3rem;
+  }
+
+  #about {
+    padding: 6rem 0 0;
   }
 
   .about__container {
