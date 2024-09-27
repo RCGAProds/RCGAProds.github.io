@@ -22,7 +22,7 @@
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
-  --nav-color: hsl(var(--hue-color), 69%, 45%);
+  --nav-color: hsla(var(--hue-color), 69%, 45%, 0.5);
   --cert-bg-color: hsla(var(--hue-color), 69%, 61%, 0.158);
   --wip-bg-color: hsla(48, 100%, 50%, 0.158);
   --wip-border-color: hsl(48, 100%, 50%);
@@ -126,6 +126,7 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
+  transition: background-color 0.5s;
 }
 
 h1,
@@ -193,7 +194,7 @@ img {
   bottom: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: var(--body-color);
+  background-color: inherit;
 }
 
 /* ===================== NAV ===================== */
@@ -1300,7 +1301,7 @@ img {
   width: 80%;
   transform: rotate(12deg) scale(1);
   transition: transform 0.5s ease-in-out;
-  color: #fff;
+  color: var(--title-color);
 }
 
 #copyCode.scale-up {
