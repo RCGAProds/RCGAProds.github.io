@@ -334,10 +334,6 @@ img {
   margin-bottom: var(--mb-2);
 }
 
-/*.home__scroll{
-	display: none;
-}*/
-
 .home__scroll-button {
   color: var(--first-color);
   transition: 0.3s;
@@ -360,18 +356,18 @@ img {
 
 .home__scroll-arrow {
   font-size: 1.25rem;
-  animation: moveArrow 1.5s infinite ease-in-out;
+  animation: moveArrow ease 1.5s infinite;
 }
 
 @keyframes moveArrow {
   0% {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
   }
-  50% {
-    transform: translateY(2px);
+  30% {
+    transform: translateY(5px);
   }
   100% {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
   }
 }
 
@@ -1436,10 +1432,6 @@ img {
   }
 
   .home__data {
-    text-align: unset;
-  }
-
-  .home__scroll {
     text-align: unset;
   }
 
