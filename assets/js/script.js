@@ -1,3 +1,4 @@
+//<!-- ===================== Modal System ===================== -->
 // Get DOM elements
 var modal = document.getElementById('myModal');
 var links = document.querySelectorAll('.openModalLink');

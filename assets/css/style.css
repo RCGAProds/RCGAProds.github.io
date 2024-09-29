@@ -609,11 +609,6 @@ img {
   font-size: var(--h3-font-size);
 }
 
-.skill__subtitle {
-  font-size: var(--small-font-size);
-  color: var(--text-color-light);
-}
-
 .skills__list {
   row-gap: 1.5rem;
   padding-left: 2.7rem;
