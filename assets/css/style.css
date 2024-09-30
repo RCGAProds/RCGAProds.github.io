@@ -198,7 +198,6 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   background-color: inherit;
-  transition: 0.5s;
 }
 
 /* ===================== NAV ===================== */
@@ -297,6 +296,7 @@ header.scroll-header .nav {
 .scroll-header {
   box-shadow: 0 -1px 5px var(--nav-border-color),
     0 1px 5px var(--nav-border-color);
+  transition: 0.5s;
 }
 
 /* ===================== HOME ===================== */
