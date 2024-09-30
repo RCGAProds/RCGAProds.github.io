@@ -22,7 +22,8 @@
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
-  --nav-color: hsla(var(--hue-color), 69%, 45%, 0.5);
+  --scroll-header-color: hsla(var(--hue-color), 60%, 99%, 0.1);
+  --nav-border-color: hsla(var(--hue-color), 69%, 45%, 0.5);
   --cert-bg-color: hsla(var(--hue-color), 69%, 61%, 0.158);
   --wip-bg-color: hsla(48, 100%, 50%, 0.158);
   --wip-border-color: hsl(48, 100%, 50%);
@@ -86,6 +87,7 @@ body.dark-theme {
   --input-color: hsl(var(--hue-color), 29%, 16%);
   --body-color: hsl(var(--hue-color), 28%, 12%);
   --container-color: hsl(var(--hue-color), 29%, 16%);
+  --scroll-header-color: hsla(var(--hue-color), 28%, 12%, 0.1);
   --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
   --wip-bg-color: hsl(48, 100%, 50%, 0.45);
@@ -195,6 +197,7 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   background-color: inherit;
+  transition: 0.5s;
 }
 
 /* ===================== NAV ===================== */
@@ -204,6 +207,11 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: 0.5s;
+}
+
+header.scroll-header .nav {
+  height: calc(var(--header-height) + 0.5rem);
 }
 
 .nav__logo,
@@ -233,7 +241,7 @@ img {
     width: 100%;
     background-color: var(--body-color);
     padding: 2rem 1.5rem 4rem;
-    box-shadow: 0 -1px 5px var(--nav-color);
+    box-shadow: 0 -1px 5px var(--nav-border-color);
     border-radius: 1.5rem 1.5rem 0 0;
     transition: 0.3s;
   }
@@ -284,9 +292,10 @@ img {
   color: var(--first-color);
 }
 
-/* Change Background Header */
+/* Change Scroll Header */
 .scroll-header {
-  box-shadow: 0 -1px 5px var(--nav-color), 0 1px 5px var(--nav-color);
+  box-shadow: 0 -1px 5px var(--nav-border-color),
+    0 1px 5px var(--nav-border-color);
 }
 
 /* ===================== HOME ===================== */
@@ -1474,6 +1483,12 @@ img {
   .header {
     top: 0;
     bottom: initial;
+    background-color: transparent;
+  }
+
+  header.scroll-header {
+    background-color: var(--scroll-header-color);
+    backdrop-filter: blur(20px);
   }
 
   .header,
