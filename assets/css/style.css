@@ -24,6 +24,7 @@
 
   --scroll-header-color: hsla(var(--hue-color), 60%, 99%, 0.1);
   --nav-border-color: hsla(var(--hue-color), 69%, 45%, 0.5);
+
   --cert-bg-color: hsla(var(--hue-color), 69%, 61%, 0.158);
   --wip-bg-color: hsla(48, 100%, 50%, 0.158);
   --wip-border-color: hsl(48, 100%, 50%);
@@ -1466,6 +1467,7 @@ header.scroll-header .nav {
   }
 }
 
+/*Mobile Landscape*/
 @media screen and (min-width: 768px) {
   .container {
     margin-left: auto;
@@ -1598,7 +1600,7 @@ header.scroll-header .nav {
   }
 }
 
-/* For large devices */
+/* Tablet Landscape */
 @media screen and (min-width: 1024px) {
   .header,
   .main,
