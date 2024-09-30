@@ -74,12 +74,11 @@ function scrollActive() {
 }
 window.addEventListener('scroll', scrollActive);
 
-/* ===================== CHANGE BACKGROUND HEADER ===================== */
+/* ===================== CHANGE SCROLL HEADER ===================== */
 function scrollHeader() {
   const nav = document.getElementById('header');
-  // When the scroll is greater than 80 viewport height, add the scroll-header class to the header tag
-  if (this.scrollY >= 80) nav.classList.add('scroll-header');
-  else nav.classList.remove('scroll-header');
+  // When the scroll is greater than 0 viewport height, add the scroll-header class to the header tag
+  nav.classList.toggle('scroll-header', this.scrollY > 0);
 }
 window.addEventListener('scroll', scrollHeader);
 
