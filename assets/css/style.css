@@ -707,24 +707,22 @@ header.scroll-header .nav {
 }
 
 .certificates__subtitle {
-  position: absolute; /* Posiciona el subtítulo de forma absoluta */
-  bottom: 5px; /* Ajusta la distancia desde el fondo */
-  left: 8px; /* Ajusta la distancia desde la izquierda */
-  font-size: var(--smaller-font-size); /* Tamaño de fuente */
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: var(--smaller-font-size);
   color: var(--text-color-light);
-  padding: 2px 4px; /* Espaciado alrededor del texto */
+  padding: 2px 4px;
 }
 
 .work-in-progress {
   cursor: default;
-  background-color: var(
-    --wip-bg-color
-  ); /* Color amarillo suave para indicar progreso */
-  border: 1px solid var(--wip-border-color); /* Borde amarillo */
+  background-color: var(--wip-bg-color);
+  border: 1px solid var(--wip-border-color);
 }
 
 .work-in-progress::before {
-  content: 'In Progress'; /* Texto que indica que está en progreso */
+  content: 'In Progress';
   display: block;
   color: var(--wip-color);
   font-weight: bold;
@@ -742,14 +740,14 @@ header.scroll-header .nav {
 /* Active Modal */
 /* Styles for the modal background when it's active */
 .modal {
-  display: none; /* Initially hidden */
-  position: fixed; /* Fixed position on the screen */
+  display: none;
+  position: fixed;
   z-index: var(--z-modal);
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.8);
   justify-content: center;
   align-items: center;
 }
@@ -852,7 +850,7 @@ header.scroll-header .nav {
   padding: 0.25rem 0.5rem 0.5rem 0;
 }
 
-/*Send Button*/
+/* Send Button */
 
 .btn-send {
   --primary: var(--first-color-lighter);
@@ -1279,14 +1277,12 @@ header.scroll-header .nav {
   padding: 2px 5px;
   font-size: var(--small-font-size);
 
-  /* Positioning */
   position: absolute;
   z-index: 1;
-  top: 5%; /* Position align with the link */
+  top: 5%;
   left: 50%;
-  margin-left: var(--mb-1); /* Half the width to center */
+  margin-left: var(--mb-1);
 
-  /* Fade-in effect */
   opacity: 0;
   transition: opacity 0.1s;
 }
