@@ -1485,7 +1485,6 @@ header.scroll-header .nav {
   .header {
     top: 0;
     bottom: initial;
-    background-color: transparent;
   }
 
   header.scroll-header {
