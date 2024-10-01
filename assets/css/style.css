@@ -19,8 +19,10 @@
   --input-color: hsl(var(--hue-color), 70%, 96%);
   --body-color: hsl(var(--hue-color), 60%, 99%);
   --container-color: hsl(var(--hue-color), 29%, 84%);
-  --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
-  --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+
+  --scroll-bar-color: hsl(var(--hue-color), 60%, 80%);
+  --scroll-thumb-color: hsl(var(--hue-color), 72%, 75%);
+  --scroll-thumb-hover-color: hsl(var(--hue-color), 75%, 70%);
 
   --scroll-header-color: hsla(var(--hue-color), 60%, 99%, 0.1);
   --nav-border-color: hsla(var(--hue-color), 69%, 45%, 0.5);
@@ -89,8 +91,11 @@ body.dark-theme {
   --body-color: hsl(var(--hue-color), 28%, 12%);
   --container-color: hsl(var(--hue-color), 29%, 16%);
   --scroll-header-color: hsla(var(--hue-color), 28%, 12%, 0.1);
-  --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
-  --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+
+  --scroll-bar-color: hsl(var(--hue-color), 32%, 50%);
+  --scroll-thumb-color: hsl(var(--hue-color), 45%, 45%);
+  --scroll-thumb-hover-color: hsl(var(--hue-color), 48%, 40%);
+
   --wip-bg-color: hsl(48, 100%, 50%, 0.45);
   --wip-color: hsl(48, 100%, 50%);
 }
@@ -1244,7 +1249,7 @@ header.scroll-header .nav {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: var(--text-color-light);
+  background-color: var(--scroll-thumb-hover-color);
 }
 
 /* =========== No Selectable =========== */
