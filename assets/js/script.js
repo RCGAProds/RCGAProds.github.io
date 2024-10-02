@@ -13,7 +13,7 @@ links.forEach(function (link) {
     // Forzar el reflow para reiniciar la animación
     void modal.querySelector('.modal-content').offsetWidth;
 
-    modal.querySelector('.modal-content').classList.add('show'); // Añadir clase para animación de apertura
+    modal.querySelector('.modal-content').classList.add('show');
   };
 });
 
@@ -32,12 +32,11 @@ window.onclick = function (event) {
 // Function to close the modal
 function closeModal() {
   var content = modal.querySelector('.modal-content');
-  content.classList.remove('show'); // Quitar clase para animación de cierre
+  content.classList.remove('show');
 
-  // Esperar a que termine la animación antes de ocultar el modal
   setTimeout(() => {
     modal.style.display = 'none';
-  }, 300); // El tiempo debe coincidir con la duración de la animación
+  }, 300); // The time must match the duration of the animation.
 }
 
 //<!-- ===================== CopyCode ===================== -->
@@ -63,7 +62,7 @@ textElement.addEventListener('click', function () {
 
       void messageElement.offsetWidth;
 
-      messageElement.classList.add('scale-up'); // Añadir clase de escalado
+      messageElement.classList.add('scale-up');
 
       clearTimeout(hideTimeout);
 
