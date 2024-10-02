@@ -682,12 +682,12 @@ header.scroll-header .nav {
   border-radius: 1rem;
   border: 1px solid var(--first-color);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
   position: relative;
 }
 
 .certificates__item:hover:not(.work-in-progress) {
+  cursor: pointer;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
   animation: moveUpDown 1s ease-in-out infinite;
 }
@@ -732,7 +732,6 @@ header.scroll-header .nav {
 }
 
 .work-in-progress {
-  cursor: default;
   background-color: var(--wip-bg-color);
   border: 1px solid var(--wip-border-color);
 }

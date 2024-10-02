@@ -75,3 +75,25 @@ textElement.addEventListener('click', function () {
       console.error('Error copying text: ', err);
     });
 });
+
+//<!-- ===================== Certificates Animation ===================== -->
+document
+  .querySelectorAll('.certificates__item:not(.work-in-progress)')
+  .forEach((item) => {
+    item.addEventListener('mouseenter', () => {
+      item.style.animation = 'moveUpDown 1s ease-in-out infinite';
+    });
+
+    item.addEventListener('mouseleave', () => {
+      const computedStyle = getComputedStyle(item);
+      const transformValue = computedStyle.transform;
+
+      item.style.animation = 'none';
+      item.style.transform = transformValue;
+
+      setTimeout(() => {
+        item.style.transition = 'transform 0.3s ease-in-out';
+        item.style.transform = 'translateY(0)';
+      }, 10);
+    });
+  });
