@@ -324,10 +324,14 @@ header.scroll-header .nav {
 .home__social-icon {
   font-size: 1.25rem;
   color: var(--first-color);
+  stroke: var(--first-color);
+  fill: var(--first-color);
 }
 
 .home__social-icon:hover {
   color: var(--first-color-alt);
+  stroke: var(--first-color-alt);
+  fill: var(--first-color-alt);
 }
 
 .home__data {
