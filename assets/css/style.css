@@ -689,7 +689,7 @@ header.scroll-header .nav {
 .certificates__item:hover:not(.work-in-progress) {
   cursor: pointer;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-  animation: moveUpDown 1s ease-in-out infinite;
+  /*animation: moveUpDown 1s ease-in-out infinite; INSIDE JS*/
 }
 
 @keyframes moveUpDown {
