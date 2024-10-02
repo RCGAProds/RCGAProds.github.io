@@ -687,9 +687,21 @@ header.scroll-header .nav {
   position: relative;
 }
 
-.certificates__item:hover {
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
-  transform: translateY(-0.5rem);
+.certificates__item:hover:not(.work-in-progress) {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  animation: moveUpDown 1s ease-in-out infinite;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-0.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .certificates__img {
