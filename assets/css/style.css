@@ -456,6 +456,13 @@ header.scroll-header .nav {
 
 /* ===================== ABOUT ===================== */
 
+.hl__cyber {
+  color: var(--first-color-lighter);
+}
+.hl__ai {
+  color: var(--first-color);
+}
+
 .about__img {
   border-radius: 0.5rem;
   justify-self: center;
