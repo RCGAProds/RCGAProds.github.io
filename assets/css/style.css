@@ -10,7 +10,7 @@
 
   /* HSL color mode */
   --first-color: hsl(var(--hue-color), 69%, 61%);
-  --first-color-second: hsl(var(--hue-color), 69%, 61%);
+  --first-color-second: hsl(var(--hue-color), 75%, 85%);
   --first-color-alt: hsl(var(--hue-color), 57%, 43%);
   --first-color-lighter: hsl(var(--hue-color), 80%, 45%);
   --title-color: hsl(var(--hue-color), 8%, 15%);
@@ -19,6 +19,7 @@
   --input-color: hsl(var(--hue-color), 70%, 96%);
   --body-color: hsl(var(--hue-color), 60%, 99%);
   --container-color: hsl(var(--hue-color), 29%, 84%);
+  --footer-color: hsl(var(--hue-color), 69%, 61%);
 
   --scroll-bar-color: hsl(var(--hue-color), 60%, 80%);
   --scroll-thumb-color: hsl(var(--hue-color), 72%, 75%);
@@ -91,7 +92,7 @@
 /* Variables Dark Theme */
 body.dark-theme {
   /* HSL color mode */
-  --first-color-second: hsl(var(--hue-color), 30%, 8%);
+  --first-color-second: hsl(var(--hue-color), 40%, 15%);
   --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
   --title-color: hsl(var(--hue-color), 8%, 95%);
   --text-color: hsl(var(--hue-color), 8%, 75%);
@@ -99,6 +100,7 @@ body.dark-theme {
   --body-color: hsl(var(--hue-color), 28%, 12%);
   --container-color: hsl(var(--hue-color), 29%, 16%);
   --scroll-header-color: hsla(var(--hue-color), 28%, 12%, 0.1);
+  --footer-color: hsl(var(--hue-color), 30%, 8%);
 
   --scroll-bar-color: hsl(var(--hue-color), 32%, 50%);
   --scroll-thumb-color: hsl(var(--hue-color), 45%, 45%);
@@ -848,17 +850,22 @@ header.scroll-header .nav {
 /* EXPERIENCE */
 
 .experience__grid {
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   justify-items: center;
 }
 
 .exp__card {
-  background: var(--first-color);
-  border-bottom: 3px solid var(--first-color-lighter);
+  background: var(--first-color-second);
+  border-bottom: 3px solid var(--first-color-alt);
   padding: 35px;
   border-radius: 6px;
-  box-shadow: var(--first-color-alt);
+  box-shadow: 0 0 3px var(--first-color-alt), 0 1px 1.5px var(--first-color-alt);
   transition: 0.3s ease;
+}
+
+.exp__card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px var(--first-color-alt);
 }
 
 .exp__card .upper {
@@ -866,28 +873,42 @@ header.scroll-header .nav {
 }
 
 .exp__card h3 {
-  font-size: var(--h1-font-size);
-  font-weight: var(--font-medium);
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-bold);
 }
 
 .exp__card h5 {
-  font-size: var(--h3-font-size);
-  font-weight: var(--font-semi-bold);
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
 }
 
-.exp__card span {
-  color: var(--first-color-alt);
+.exp__card span,
+.using {
+  color: var(--first-color-lighter);
 }
 
 .exp__card .hr {
   width: 100%;
   height: 2px;
-  background: var(--first-color-second);
+  background: var(--first-color-lighter);
   margin: 10px 0 22px;
 }
 
-.exp__card:hover {
-  transform: scale(1.02);
+.exp__card h4 {
+  margin-bottom: var(--mb-1-5);
+}
+
+.exp__card h4 label {
+  background: var(--first-color);
+  color: white;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.using {
+  margin-top: var(--mb-1);
 }
 
 /* PORTFOLIO */
@@ -1253,7 +1274,7 @@ header.scroll-header .nav {
 }
 
 .footer__bg {
-  background-color: var(--first-color-second);
+  background-color: var(--footer-color);
   padding: 2rem 0 3rem;
 }
 
@@ -1416,7 +1437,8 @@ header.scroll-header .nav {
 /* ===================== MEDIA QUERIES ===================== */
 /* For small devices */
 @media screen and (max-width: 350px) {
-  .container {
+  .container,
+  .expcontainer {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
@@ -1471,7 +1493,8 @@ header.scroll-header .nav {
 }
 
 @media screen and (min-width: 350px) {
-  .container {
+  .container,
+  .expcontainer {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
@@ -1563,7 +1586,8 @@ header.scroll-header .nav {
 
 /*Mobile Landscape*/
 @media screen and (min-width: 768px) {
-  .container {
+  .container,
+  .expcontainer {
     margin-left: auto;
     margin-right: auto;
   }
@@ -1699,6 +1723,12 @@ header.scroll-header .nav {
   .main,
   .footer__container {
     padding: 0;
+  }
+
+  .expcontainer {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .home__social {
