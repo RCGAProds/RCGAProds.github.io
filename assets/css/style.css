@@ -35,9 +35,11 @@
   /* Font & Typography */
   --body-font: 'Poppins', sans-serif;
 
-  /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px etc.. */
-  --huge-font-size: 3.5rem;
-  --big-font-size: 2rem;
+  /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px, 2rem = 32px, 2.5rem = 40px, 
+  3rem = 48px, 3.5rem = 56px, 4rem = 64px, 4.5rem = 72px, 5rem = 80px */
+  --giant-font-size: 4.5rem;
+  --huge-font-size: 3rem;
+  --big-font-size: 2.5rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1.125rem;
@@ -73,7 +75,8 @@
 /* Font size for Large Devices */
 @media screen and (min-width: 968px) {
   :root {
-    --huge-font-size: 4.5rem;
+    --giant-font-size: 5rem;
+    --huge-font-size: 3.5rem;
     --big-font-size: 3rem;
     --h1-font-size: 2.25rem;
     --h2-font-size: 1.5rem;
@@ -175,7 +178,7 @@ img {
 }
 
 .section__title_1 {
-  font-size: var(--huge-font-size);
+  font-size: var(--giant-font-size);
   font-weight: var(--font-ultra-bold);
   margin-bottom: var(--mb-1-5);
   background: linear-gradient(to top, transparent 10%, var(--first-color) 70%);
@@ -186,7 +189,7 @@ img {
 }
 
 .section__title_2 {
-  font-size: var(--big-font-size);
+  font-size: var(--huge-font-size);
   font-weight: var(--font-bold);
   transform: translateY(-80px);
 }
