@@ -847,6 +847,49 @@ header.scroll-header .nav {
 
 /* EXPERIENCE */
 
+.experience__grid {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-items: center;
+}
+
+.exp__card {
+  background: var(--first-color);
+  border-bottom: 3px solid var(--first-color-lighter);
+  padding: 35px;
+  border-radius: 6px;
+  box-shadow: var(--first-color-alt);
+  transition: 0.3s ease;
+}
+
+.exp__card .upper {
+  line-height: 30px;
+}
+
+.exp__card h3 {
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-medium);
+}
+
+.exp__card h5 {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+}
+
+.exp__card span {
+  color: var(--first-color-alt);
+}
+
+.exp__card .hr {
+  width: 100%;
+  height: 2px;
+  background: var(--first-color-second);
+  margin: 10px 0 22px;
+}
+
+.exp__card:hover {
+  transform: scale(1.02);
+}
+
 /* PORTFOLIO */
 
 /* PROJECT IN MIND */
