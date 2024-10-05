@@ -885,7 +885,7 @@ header.scroll-header .nav {
 
 .exp__card .hr {
   width: 100%;
-  height: 2px;
+  height: 0.1rem;
   background: var(--first-color-lighter);
   margin: 10px 0 22px;
 }
