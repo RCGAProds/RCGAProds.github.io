@@ -33,6 +33,9 @@
   --wip-border-color: hsl(48, 100%, 50%);
   --wip-color: hsl(48, 100%, 41%);
 
+  --white-color: hsl(var(--hue-color), 80%, 95%);
+  --black-color: hsl(var(--hue-color), 80%, 5%);
+
   /* Font & Typography */
   --body-font: 'Poppins', sans-serif;
 
@@ -1381,13 +1384,17 @@ header.scroll-header .nav {
   text-decoration: none; /* Optional: remove underline */
 }
 
+.tooltiptext {
+  pointer-events: none;
+}
+
 /* Tooltip text - hidden by default */
 .tooltip .tooltiptext {
   visibility: hidden;
-  background-color: rgb(29, 29, 29);
-  color: #fff;
+  background-color: var(--black-color);
+  color: var(--white-color);
   text-align: center;
-  border: 1px solid white;
+  border: 1px solid var(--white-color);
   border-radius: 5px;
   padding: 2px 5px;
   font-size: var(--small-font-size);
@@ -1399,7 +1406,7 @@ header.scroll-header .nav {
   margin-left: var(--mb-1);
 
   opacity: 0;
-  transition: opacity 0.1s;
+  transition: opacity 0.5s;
 }
 
 .tooltip .footerToolTipText {
