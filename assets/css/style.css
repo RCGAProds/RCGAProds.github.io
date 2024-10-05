@@ -1402,6 +1402,13 @@ header.scroll-header .nav {
   transition: opacity 0.1s;
 }
 
+.tooltip .footerToolTipText {
+  margin-left: 0;
+  top: -90%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 /* Show the tooltip when hovering over the link */
 .tooltip:hover .tooltiptext {
   visibility: visible;
