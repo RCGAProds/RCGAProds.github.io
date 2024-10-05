@@ -288,6 +288,7 @@ header.scroll-header .nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   font-size: var(--small-font-size);
   color: var(--title-color);
   font-weight: var(--font-medium);
@@ -824,11 +825,6 @@ header.scroll-header .nav {
 
 .modal-content.show {
   transform: scale(1);
-}
-
-.modal-content p:hover {
-  color: var(--first-color-lighter);
-  cursor: pointer;
 }
 
 /* Close button styles */
@@ -1412,20 +1408,22 @@ header.scroll-header .nav {
   opacity: 1;
 }
 
-/* =========== Code =========== */
+/* =========== CopyText =========== */
 
-#copyCode {
+.textToCopy:hover {
+  color: var(--first-color-lighter);
+  cursor: pointer;
+}
+
+.hideCopiedText {
   display: none;
   position: absolute;
-  bottom: 25%;
-  left: 40%;
-  width: 80%;
   transform: rotate(12deg) scale(1);
   transition: transform 0.5s ease-in-out;
   color: var(--title-color);
 }
 
-#copyCode.scale-up {
+.hideCopiedText.scale-up {
   animation: scaleAnimation 0.5s ease-in-out 2;
 }
 
@@ -1437,6 +1435,16 @@ header.scroll-header .nav {
   50% {
     transform: rotate(12deg) scale(1.2);
   }
+}
+
+#copyText1 {
+  margin-left: 15%;
+  margin-top: -7%;
+}
+
+#copyText3 {
+  margin-left: 0%;
+  margin-top: -0.8%;
 }
 
 /* ===================== MEDIA QUERIES ===================== */
@@ -1545,6 +1553,11 @@ header.scroll-header .nav {
     display: block;
     margin: 0 auto;
     width: fit-content;
+  }
+
+  #copyText2 {
+    margin-left: -25%;
+    margin-top: -10%;
   }
 }
 
@@ -1720,6 +1733,11 @@ header.scroll-header .nav {
   .footer__copy {
     margin-top: 4.5rem;
   }
+
+  #copyText2 {
+    margin-left: -9%;
+    margin-top: -3%;
+  }
 }
 
 /* Tablet Landscape */
@@ -1770,5 +1788,10 @@ header.scroll-header .nav {
 
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  #copyText2 {
+    margin-left: -7%;
+    margin-top: -2%;
   }
 }

@@ -38,8 +38,10 @@
         <span class="close">&times;</span>
         <h1 class="no-select">HackTheBox Academy</h1>
         <h3 class="no-select">Student ID:</h3>
-        <p id="codeToCopy">HTB-8717656FEC</p>
-        <span class="no-select" id="copyCode">Copied to clipboard!</span>
+        <p id="copy1" class="textToCopy">HTB-8717656FEC</p>
+        <span class="hideCopiedText no-select" id="copyText1"
+          >Copied to clipboard!</span
+        >
       </div>
     </div>
 
@@ -517,7 +519,15 @@
               <i class="uil uil-envelope contact__icon"></i>
               <div>
                 <h3 class="contact__title no-select">Email</h3>
-                <span class="contact__subtitle">rcgaproductions@gmail.com</span>
+                <a
+                  href="mailto:rcgaproductions@gmail.com"
+                  id="copy2"
+                  class="contact__subtitle textToCopy"
+                  >rcgaproductions@gmail.com</a
+                >
+                <span class="hideCopiedText no-select" id="copyText2"
+                  >Copied to clipboard!</span
+                >
               </div>
             </div>
             <div class="contact__information">
@@ -543,7 +553,12 @@
               </svg>
               <div>
                 <h3 class="contact__title no-select">Discord</h3>
-                <span class="contact__subtitle">carlosnoheq</span>
+                <span id="copy3" class="contact__subtitle textToCopy"
+                  >carlosnoheq</span
+                >
+                <span class="hideCopiedText no-select" id="copyText3"
+                  >Copied to clipboard!</span
+                >
               </div>
             </div>
           </div>

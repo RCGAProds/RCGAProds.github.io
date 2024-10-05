@@ -39,40 +39,45 @@ function closeModal() {
   }, 300); // The time must match the duration of the animation.
 }
 
-//<!-- ===================== CopyCode ===================== -->
+//<!-- ===================== CopyText ===================== -->
 // Get the paragraph element
-const textElement = document.getElementById('codeToCopy');
-const messageElement = document.getElementById('copyCode');
+const textElements = document.querySelectorAll('.textToCopy');
 
-let hideTimeout;
+textElements.forEach((textElement) => {
+  const messageElement = document.getElementById(
+    'copyText' + textElement.id.replace('copy', '')
+  );
 
-// Add event listener for clicks
-textElement.addEventListener('click', function () {
-  // Get the text content of the <p> element
-  const codeToCopy = textElement.textContent;
+  let hideTimeout;
 
-  // Copy the text to the clipboard using the Clipboard API
-  navigator.clipboard
-    .writeText(codeToCopy)
-    .then(function () {
-      // Show confirmation message
-      messageElement.style.display = 'block';
+  // Add event listener for clicks
+  textElement.addEventListener('click', function () {
+    // Get the text content of the <p> element
+    const textToCopy = textElement.textContent;
 
-      messageElement.classList.remove('scale-up');
+    // Copy the text to the clipboard using the Clipboard API
+    navigator.clipboard
+      .writeText(textToCopy)
+      .then(function () {
+        // Show confirmation message
+        messageElement.style.display = 'inline-block';
 
-      void messageElement.offsetWidth;
+        messageElement.classList.remove('scale-up');
 
-      messageElement.classList.add('scale-up');
+        void messageElement.offsetWidth;
 
-      clearTimeout(hideTimeout);
+        messageElement.classList.add('scale-up');
 
-      hideTimeout = setTimeout(() => {
-        messageElement.style.display = 'none';
-      }, 2500);
-    })
-    .catch(function (err) {
-      console.error('Error copying text: ', err);
-    });
+        clearTimeout(hideTimeout);
+
+        hideTimeout = setTimeout(() => {
+          messageElement.style.display = 'none';
+        }, 2500);
+      })
+      .catch(function (err) {
+        console.error('Error copying text: ', err);
+      });
+  });
 });
 
 //<!-- ===================== Certificates Animation ===================== -->
