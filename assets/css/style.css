@@ -932,6 +932,11 @@ header.scroll-header .nav {
   margin-right: var(--mb-0-75);
 }
 
+.discord_icon {
+  width: 2rem;
+  fill: var(--first-color);
+}
+
 .contact__title {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
