@@ -28,7 +28,7 @@
   --scroll-header-color: hsla(var(--hue-color), 60%, 99%, 0.1);
   --nav-border-color: hsla(var(--hue-color), 69%, 45%, 0.5);
 
-  --cert-bg-color: hsla(var(--hue-color), 69%, 61%, 0.158);
+  --cert-bg-color: hsla(var(--hue-color), 69%, 61%, 0.16);
   --wip-bg-color: hsla(48, 100%, 50%, 0.158);
   --wip-border-color: hsl(48, 100%, 50%);
   --wip-color: hsl(48, 100%, 41%);
