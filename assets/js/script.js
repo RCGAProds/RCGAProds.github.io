@@ -141,6 +141,7 @@ window.onclick = function (event) {
 window.addEventListener('keydown', function (event) {
   if (event.key === 'Escape') {
     closePortModal();
+    closeModal();
   }
 });
 
