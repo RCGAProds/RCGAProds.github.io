@@ -35,7 +35,7 @@
     <!-- Modal -->
     <div id="myModal" class="modal">
       <div class="modal-content">
-        <span class="close">&times;</span>
+        <span class="close no-select">&times;</span>
         <h1 class="no-select">HackTheBox Academy</h1>
         <h3 class="no-select">Student ID:</h3>
         <p id="copy1" class="textToCopy">HTB-8717656FEC</p>
@@ -46,44 +46,44 @@
     </div>
 
     <!-- ===================== HEADER ===================== -->
-    <header class="header" id="header">
+    <header class="header no-select" id="header">
       <nav class="nav container">
-        <a href="#" class="nav__logo no-select">RCGA Prods</a>
+        <a href="#" class="nav__logo">RCGA Prods</a>
 
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
-              <a href="#home" class="nav__link active-link no-select">
+              <a href="#home" class="nav__link active-link">
                 <i class="uil uil-estate nav__icon"></i>Home
               </a>
             </li>
             <li class="nav__item">
-              <a href="#certificates" class="nav__link no-select">
+              <a href="#certificates" class="nav__link">
                 <i class="uil uil-award nav__icon"></i>Certificates
               </a>
             </li>
             <li class="nav__item">
-              <a href="#about" class="nav__link no-select">
+              <a href="#about" class="nav__link">
                 <i class="uil uil-user nav__icon"></i>About Me
               </a>
             </li>
             <li class="nav__item">
-              <a href="#skills" class="nav__link no-select">
+              <a href="#skills" class="nav__link">
                 <i class="uil uil-briefcase-alt nav__icon"></i>Skills
               </a>
             </li>
             <li class="nav__item">
-              <a href="#experience" class="nav__link no-select">
+              <a href="#experience" class="nav__link">
                 <i class="uil uil-briefcase-alt nav__icon"></i>Experience
               </a>
             </li>
             <li class="nav__item">
-              <a href="#portfolio" class="nav__link no-select">
+              <a href="#portfolio" class="nav__link">
                 <i class="uil uil-folder-open nav__icon"></i>Portfolio
               </a>
             </li>
             <li class="nav__item">
-              <a href="#contact" class="nav__link no-select">
+              <a href="#contact" class="nav__link">
                 <i class="uil uil-envelope nav__icon"></i>Contact me
               </a>
             </li>
@@ -105,7 +105,7 @@
     <!-- ===================== MAIN ===================== -->
     <main class="main">
       <!-- ===================== HOME ===================== -->
-      <section class="home section" id="home">
+      <section class="home section no-select" id="home">
         <div class="home__container container grid">
           <div class="home__content grid">
             <div class="home__social">
@@ -167,15 +167,14 @@
             </div>
 
             <div class="home__data">
-              <h1 class="home__title no-select">Hi, I am Carlos</h1>
-              <h3 class="home__subtitle no-select">
-                Junior Cybersecurity Analyst
-              </h3>
-              <p class="home__description no-select">
+              <h1 class="home__title">Hi, I am Carlos</h1>
+              <h3 class="home__subtitle">Junior Cybersecurity Analyst</h3>
+              <p class="home__description">
                 Entry level of knowledge of Cybersecurity
               </p>
-              <a href="#contact" class="button button--flex no-select">
-                Contact Me <i class="uil uil-message button__icon"></i>
+              <a href="#contact" class="button button--flex">
+                Contact Me
+                <i class="uil uil-message button__icon"></i>
               </a>
             </div>
           </div>
@@ -183,7 +182,7 @@
           <div class="home__scroll">
             <a href="#certificates" class="home__scroll-button button--flex">
               <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-              <span class="home__scroll-name no-select">Scroll Down</span>
+              <span class="home__scroll-name">Scroll Down</span>
               <i class="uil uil-arrow-down home__scroll-arrow"></i>
             </a>
           </div>
@@ -257,8 +256,10 @@
           <h1 class="section__title_1">About Me</h1>
           <h2 class="section__title_2">About Me</h2>
           <p class="about__title">
-            <span class="hl__cyber">Cybersecurity</span> and
-            <span class="hl__ai">Artificial Intelligence</span> are my passions
+            <span class="hl__cyber">Cybersecurity</span>
+            and
+            <span class="hl__ai">Artificial Intelligence</span>
+            are my passions
           </p>
         </div>
         <div class="about__container container grid">
@@ -449,7 +450,7 @@
                 <span>Oct. 2021 - Present | 3 years</span>
               </div>
               <div class="hr"></div>
-              <h4><label>Various Clients</label></h4>
+              <div class="clients"><h4>Various Clients</h4></div>
               <p>
                 Such as Freepik, ForistaMeri, CTRN.. Thumbnail Design, Logo
                 Design, Video Editing, Cinematic Editing of Intros, and 2D
@@ -466,7 +467,7 @@
                 <span>Mar. 2021 - May. 2021 | 3 months</span>
               </div>
               <div class="hr"></div>
-              <h4><label>KRILL AUDIO</label></h4>
+              <div class="clients"><h4>KRILL AUDIO</h4></div>
               <p>
                 Development of applications by implementing interactive audio
                 along with its documentation. Testing various functionalities of
@@ -483,7 +484,7 @@
                 <span>Apr. 2019 - Sep. 2019 | 6 months</span>
               </div>
               <div class="hr"></div>
-              <h4><label>Galaxy Gaming UK</label></h4>
+              <div class="clients"><h4>Galaxy Gaming UK</h4></div>
               <p>
                 Updated the company's website, redesigned the logo + variants
                 for merchandising, and over 10 web-optimized banners.
@@ -641,42 +642,59 @@
           >
             <div class="contact__inputs grid">
               <div class="contact__content">
-                <label for="" class="contact__label no-select">Name</label>
+                <label for="name" class="contact__label no-select">Name</label>
                 <input
                   type="text"
+                  id="name"
                   name="name"
                   class="contact__input"
                   required
+                  placeholder="Enter your name"
+                  autocomplete="off"
                 />
               </div>
               <div class="contact__content">
-                <label for="" class="contact__label no-select">Email</label>
+                <label for="email" class="contact__label no-select"
+                  >Email</label
+                >
                 <input
                   type="email"
+                  id="email"
                   name="email"
                   class="contact__input"
                   required
+                  placeholder="Enter your email"
+                  autocomplete="off"
                 />
               </div>
             </div>
             <div class="contact__content">
-              <label for="" class="contact__label no-select">Subject</label>
+              <label for="subject" class="contact__label no-select"
+                >Subject</label
+              >
               <input
                 type="text"
+                id="subject"
                 name="subject"
                 class="contact__input"
                 required
+                placeholder="Enter the subject"
+                autocomplete="off"
               />
             </div>
             <div class="contact__content">
-              <label for="" class="contact__label no-select">Message</label>
+              <label for="message" class="contact__label no-select"
+                >Message</label
+              >
               <textarea
                 name="message"
-                id=""
+                id="message"
                 cols="0"
                 rows="7"
                 class="contact__input"
                 required
+                placeholder="Enter your message"
+                autocomplete="off"
               ></textarea>
             </div>
             <button type="submit" class="btn-send no-select">
