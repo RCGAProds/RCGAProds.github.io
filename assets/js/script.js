@@ -108,6 +108,7 @@ const portfolioCloseBtns = document.querySelectorAll(".portfolio__close_btn")
 
 var portfolioModal = function (modalClick) {
   portfolioModals[modalClick].classList.add("active")
+  portfolioModals[modalClick].style.pointerEvents = "auto"
 }
 
 imgCards.forEach((imgCard, i) => {
@@ -148,5 +149,6 @@ window.addEventListener("keydown", function (event) {
 function closePortModal() {
   portfolioModals.forEach(portfolioModalView => {
     portfolioModalView.classList.remove("active")
+    portfolioModalView.style.pointerEvents = "none"
   })
 }
