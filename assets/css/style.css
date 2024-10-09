@@ -1,4 +1,4 @@
-/* GOOGLE FONTS */
+/* GOOGLE FONTS */ /* Could be highly optimized */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 /* VARIABLES CSS */
@@ -184,6 +184,7 @@ img {
 }
 
 .section__title_1 {
+  white-space: nowrap;
   font-size: var(--giant-font-size);
   font-weight: var(--font-ultra-bold);
   margin-bottom: var(--mb-1-5);
@@ -837,7 +838,7 @@ header.scroll-header .nav {
   top: var(--mb-0-25);
   right: var(--mb-1);
   color: var(--title-color);
-  font-size: 28px;
+  font-size: 1.5rem;
   font-weight: bold;
   cursor: pointer;
 }
@@ -988,6 +989,7 @@ header.scroll-header .nav {
   top: 0;
   left: 0;
   background: var(--cert-bg-color);
+  -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   visibility: hidden;
   opacity: 0;
@@ -1801,6 +1803,7 @@ header.scroll-header .nav {
 
   header.scroll-header {
     background-color: var(--scroll-header-color);
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
   }
 
