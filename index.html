@@ -68,11 +68,6 @@
               </a>
             </li>
             <li class="nav__item">
-              <a href="#skills" class="nav__link">
-                <i class="uil uil-briefcase-alt nav__icon"></i>Skills
-              </a>
-            </li>
-            <li class="nav__item">
               <a href="#experience" class="nav__link">
                 <i class="uil uil-briefcase-alt nav__icon"></i>Experience
               </a>
@@ -112,13 +107,18 @@
               <a
                 href="https://github.com/RCGAProds"
                 target="_blank"
+                aria-label="Github"
                 class="home__social-icon tooltip"
               >
                 <span class="tooltiptext">Github</span>
                 <i class="uil uil-github-alt"></i>
                 <!-- Github -->
               </a>
-              <a href="#" class="home__social-icon openModalLink tooltip">
+              <a
+                href="#"
+                aria-label="HackTheBox"
+                class="home__social-icon openModalLink tooltip"
+              >
                 <span class="tooltiptext">HackTheBox</span>
                 <i class="uil uil-cube"></i>
                 <!-- HackTheBox -->
@@ -126,6 +126,7 @@
               <a
                 href="https://tryhackme.com/p/rcgaproductions"
                 target="_blank"
+                aria-label="TryHackMe"
                 class="home__social-icon tooltip"
               >
                 <span class="tooltiptext">TryHackMe</span>
@@ -145,6 +146,7 @@
               <a
                 href="https://www.linkedin.com/in/rcgaprods/"
                 target="_blank"
+                aria-label="Linkedin"
                 class="home__social-icon tooltip"
               >
                 <span class="tooltiptext">Linkedin</span>
@@ -154,6 +156,7 @@
               <a
                 href="https://www.credly.com/users/carlos-garcia.aa88ba38"
                 target="_blank"
+                aria-label="Credly"
                 class="home__social-icon tooltip"
               >
                 <span class="tooltiptext">Credly</span>
@@ -203,7 +206,7 @@
             <a
               href="https://www.credly.com/badges/8cec9745-85e4-4492-ae21-9d6eda31157f"
               target="_blank"
-              title="Introduction to Cybersecurity by Cisco"
+              aria-label="Introduction to Cybersecurity by Cisco"
               class="certificates__item sweet_anim"
               data-before="Sep 2024"
             >
@@ -216,7 +219,7 @@
               <p class="certificates__subtitle">Cisco</p>
             </a>
             <a
-              title="CompTIA Security+ by Udemy"
+              aria-label="CompTIA Security+ by Udemy"
               class="certificates__item work-in-progress"
               data-before="WIP"
             >
@@ -231,7 +234,7 @@
               <p class="certificates__subtitle">Udemy</p>
             </a>
             <a
-              title="Google Professional Certificate Cybersecurity by Coursera"
+              aria-label="Google Professional Certificate Cybersecurity by Coursera"
               class="certificates__item work-in-progress"
               data-before="WIP"
             >
@@ -341,6 +344,7 @@
               <a
                 download
                 href="/assets/pdf/RCGA-CV.pdf"
+                aria-label="Download Resume"
                 class="btn-resume"
                 data-tooltip="Size: 1.41MB"
               >
@@ -371,10 +375,8 @@
             </div>
           </div>
         </div>
-      </section>
 
-      <!-- ===================== SKILLS ===================== -->
-      <section class="skills section no-select" id="skills">
+        <!-- ===================== SKILLS ===================== -->
         <div class="section__title">
           <h1 class="section__title_1">Skills</h1>
           <h2 class="section__title_2">Skills</h2>
@@ -519,12 +521,12 @@
               </div>
               <div class="portfolio__model flex_center">
                 <div class="portfolio__model_body">
-                  <i class="portfolio__close_btn">&times;</i>
+                  <span class="close">&times;</span>
                   <h3>MonkeyType Clone</h3>
                   <a
                     href="https://rcgaprods.github.io/typing-test-web/"
                     target="_blank"
-                    title=""
+                    aria-label="MonkeyType Clone"
                     class="portfolio__img"
                     ><img
                       src="/assets/img/portfolio/MonkeyTypeClone.webp"
@@ -543,12 +545,14 @@
                   <div class="portfolio__buttons">
                     <a
                       href="https://rcgaprods.github.io/typing-test-web/"
+                      aria-label="MonkeyType Clone Website"
                       class="portfolio__button"
                       target="_blank"
                       >Visit Website</a
                     >
                     <a
                       href="https://github.com/RCGAProds/typing-test-web"
+                      aria-label="MonkeyType Clone Repository"
                       class="portfolio__button"
                       target="_blank"
                       >See on GitHub</a
@@ -572,12 +576,12 @@
               </div>
               <div class="portfolio__model flex_center">
                 <div class="portfolio__model_body">
-                  <i class="portfolio__close_btn">&times;</i>
+                  <span class="close">&times;</span>
                   <h3>Audiovisual Mix</h3>
                   <a
                     href="https://drive.google.com/drive/folders/1aUc9cJUqQYQEA6biTl-L2u5bHCKQyqU4?usp=sharing"
                     target="_blank"
-                    title=""
+                    aria-label="Audiovisual Portfolio"
                     class="portfolio__img"
                     ><img
                       src="/assets/img/portfolio/Audiovisual.webp"
@@ -594,6 +598,7 @@
                   <div class="portfolio__buttons">
                     <a
                       href="https://drive.google.com/drive/folders/1aUc9cJUqQYQEA6biTl-L2u5bHCKQyqU4?usp=sharing"
+                      aria-label="Audiovisual Portfolio in Google Drive"
                       class="portfolio__button"
                       target="_blank"
                       >Visit Google Drive</a
@@ -843,13 +848,18 @@
             <a
               href="https://github.com/RCGAProds"
               target="_blank"
+              aria-label="Github"
               class="footer__social tooltip"
             >
               <span class="tooltiptext footerToolTipText">Github</span>
               <i class="uil uil-github"></i>
               <!-- Github -->
             </a>
-            <a href="#" class="footer__social openModalLink tooltip">
+            <a
+              href="#"
+              aria-label="HackTheBox"
+              class="footer__social openModalLink tooltip"
+            >
               <span class="tooltiptext footerToolTipText">HackTheBox</span>
               <i class="uil uil-cube"></i>
               <!-- HackTheBox -->
@@ -857,6 +867,7 @@
             <a
               href="https://tryhackme.com/p/rcgaproductions"
               target="_blank"
+              aria-label="TryHackMe"
               class="footer__social tooltip"
             >
               <span class="tooltiptext footerToolTipText">TryHackMe</span>
@@ -866,6 +877,7 @@
             <a
               href="https://www.linkedin.com/in/rcgaprods/"
               target="_blank"
+              aria-label="Linkedin"
               class="footer__social tooltip"
             >
               <span class="tooltiptext footerToolTipText">Linkedin</span>
@@ -875,6 +887,7 @@
             <a
               href="https://www.credly.com/users/carlos-garcia.aa88ba38"
               target="_blank"
+              aria-label="Credly"
               class="footer__social tooltip"
             >
               <span class="tooltiptext footerToolTipText">Credly</span>
@@ -889,16 +902,24 @@
     </footer>
 
     <!-- ===================== SCROLL TOP ===================== -->
-    <a href="#" class="scrollup" id="scroll-up">
+    <a href="#" aria-label="ScrollUp" class="scrollup" id="scroll-up">
       <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
 
     <!-- ===================== MAIN JS & More ===================== -->
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
 
     <!-- ===================== COOKIES JS ===================== -->
-    <script src="assets/js/cookieconsent.min.js" data-cfasync="false"></script>
-    <script src="assets/js/cookie-consent.js" data-cfasync="false"></script>
+    <script
+      src="assets/js/cookieconsent.min.js"
+      data-cfasync="false"
+      defer
+    ></script>
+    <script
+      src="assets/js/cookie-consent.js"
+      data-cfasync="false"
+      defer
+    ></script>
   </body>
 </html>
