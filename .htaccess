@@ -3,3 +3,21 @@ ErrorDocument 404 /404.html
 RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+
+# For CSS
+AddType "text/css; charset=utf-8" .css
+
+# For JavaScript
+AddType "application/javascript; charset=utf-8" .js
+
+<IfModule mod_headers.c>
+  # Cache archivos de imagen, fuentes y otros recursos estáticos por 1 mes
+  <FilesMatch "\.(jpg|jpeg|png|gif|ico|svg|webp|css|js|woff|woff2|ttf|otf)$">
+    Header set Cache-Control "max-age=2592000, public"
+  </FilesMatch>
+
+  # Cache archivos HTML por 1 día
+  <FilesMatch "\.(html|htm)$">
+    Header set Cache-Control "max-age=86400, public"
+  </FilesMatch>
+</IfModule>
