@@ -2,7 +2,6 @@
 // Get DOM elements
 var modal = document.getElementById("myModal")
 var links = document.querySelectorAll(".openModalLink")
-var span = document.getElementsByClassName("close")[0]
 
 // Open the modal when any link is clicked
 links.forEach(function (link) {
@@ -17,11 +16,7 @@ links.forEach(function (link) {
   }
 })
 
-// Close the modal when the X is clicked
-span.onclick = function () {
-  closeModal()
-}
-
+// Close the modal when clicking in the X
 // Close the modal when clicking outside the modal content
 //Functions in the Portfolio JS
 
@@ -104,7 +99,7 @@ document.querySelectorAll(".sweet_anim").forEach(item => {
 
 const portfolioModals = document.querySelectorAll(".portfolio__model")
 const imgCards = document.querySelectorAll(".img__card")
-const portfolioCloseBtns = document.querySelectorAll(".portfolio__close_btn")
+const closeBtns = document.querySelectorAll(".close")
 
 var portfolioModal = function (modalClick) {
   portfolioModals[modalClick].classList.add("active")
@@ -117,9 +112,10 @@ imgCards.forEach((imgCard, i) => {
   })
 })
 
-portfolioCloseBtns.forEach(portfolioCloseBtn => {
-  portfolioCloseBtn.onclick = function () {
+closeBtns.forEach(closeBtn => {
+  closeBtn.onclick = function () {
     closePortModal()
+    closeModal()
   }
 })
 
