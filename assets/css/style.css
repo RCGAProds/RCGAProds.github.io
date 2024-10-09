@@ -334,7 +334,7 @@ header.scroll-header .nav {
 .scroll-header {
   box-shadow: 0 -1px 5px var(--nav-border-color),
     0 1px 5px var(--nav-border-color);
-  transition: 0.5s;
+  transition: box-shadow 0.5s;
 }
 
 /* ===================== HOME ===================== */
