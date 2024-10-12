@@ -1941,6 +1941,16 @@ header.scroll-header .nav {
     align-items: center;
   }
 
+  .portfolio__model_body {
+    max-width: 600px;
+    height: auto;
+  }
+
+  .portfolio__img {
+    width: 520px;
+    height: 100%;
+  }
+
   .footer__container {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -1996,26 +2006,6 @@ header.scroll-header .nav {
 
   .portfolio__content {
     column-gap: 5rem;
-  }
-
-  .portfolio__img {
-    width: 520px;
-  }
-
-  .swiper-portfolio-icon {
-    font-size: 3.5rem;
-  }
-
-  .swiper-button-prev {
-    left: -3.5rem;
-  }
-
-  .swiper-button-next {
-    right: -3.5rem;
-  }
-
-  .swiper-horizontal > .swiper-pagination-bullets {
-    bottom: -4.5rem;
   }
 
   .contact__form {
