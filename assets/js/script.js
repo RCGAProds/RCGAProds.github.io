@@ -3,16 +3,20 @@
 var modal = document.getElementById("myModal")
 var links = document.querySelectorAll(".openModalLink")
 
+let isModalClosing = false
+
 // Open the modal when any link is clicked
 links.forEach(function (link) {
   link.onclick = function (event) {
-    event.preventDefault() // Prevent the default behavior of the link
-    modal.style.display = "flex"
+    if (!isModalClosing) {
+      event.preventDefault() // Prevent the default behavior of the link
+      modal.style.display = "flex"
 
-    // Forzar el reflow para reiniciar la animación
-    void modal.querySelector(".modal-content").offsetWidth
+      // Forzar el reflow para reiniciar la animación
+      void modal.querySelector(".modal-content").offsetWidth
 
-    modal.querySelector(".modal-content").classList.add("show")
+      modal.querySelector(".modal-content").classList.add("show")
+    }
   }
 })
 
@@ -27,7 +31,7 @@ function closeModal() {
 
   setTimeout(() => {
     modal.style.display = "none"
-  }, 300) // The time must match the duration of the animation.
+  }, 500) // The time must match the duration of the animation.
 }
 
 //<!-- ===================== CopyText ===================== -->
@@ -102,8 +106,10 @@ const imgCards = document.querySelectorAll(".img__card")
 const closeBtns = document.querySelectorAll(".close")
 
 var portfolioModal = function (modalClick) {
-  portfolioModals[modalClick].classList.add("active")
-  portfolioModals[modalClick].style.pointerEvents = "auto"
+  if (!isModalClosing) {
+    portfolioModals[modalClick].classList.add("active")
+    portfolioModals[modalClick].style.pointerEvents = "auto"
+  }
 }
 
 imgCards.forEach((imgCard, i) => {
@@ -123,6 +129,10 @@ window.onclick = function (event) {
   // Close the modal when clicking outside the modal content
   if (event.target == modal) {
     closeModal()
+    isModalClosing = true
+    setTimeout(() => {
+      isModalClosing = false
+    }, 300)
   }
   // Close the portfolioModals when clicking outside the modal content
   portfolioModals.forEach(portfolioModalView => {
@@ -131,9 +141,36 @@ window.onclick = function (event) {
       portfolioModalView.classList.contains("active")
     ) {
       closePortModal()
+      isModalClosing = true
+      setTimeout(() => {
+        isModalClosing = false
+      }, 300)
     }
   })
 }
+
+window.addEventListener("touchstart", function (event) {
+  if (event.target == modal) {
+    closeModal()
+    isModalClosing = true
+    setTimeout(() => {
+      isModalClosing = false
+    }, 300)
+  }
+
+  portfolioModals.forEach(portfolioModalView => {
+    if (
+      event.target === portfolioModalView &&
+      portfolioModalView.classList.contains("active")
+    ) {
+      closePortModal()
+      isModalClosing = true
+      setTimeout(() => {
+        isModalClosing = false
+      }, 300)
+    }
+  })
+})
 
 window.addEventListener("keydown", function (event) {
   if (event.key === "Escape") {
