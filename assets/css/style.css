@@ -148,6 +148,11 @@ body {
   background-color: var(--body-color);
   color: var(--text-color);
   transition: background-color 0.5s;
+
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
 }
 
 h1,
@@ -184,7 +189,6 @@ img {
 }
 
 .section__title_1 {
-  white-space: nowrap;
   font-size: var(--giant-font-size);
   font-weight: var(--font-ultra-bold);
   margin-bottom: var(--mb-1-5);
@@ -199,6 +203,15 @@ img {
   font-size: var(--huge-font-size);
   font-weight: var(--font-bold);
   transform: translateY(-80px);
+}
+
+.section__title_1,
+.section__title_2 {
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .section__subtitle {
@@ -490,6 +503,7 @@ header.scroll-header .nav {
 .about__title {
   text-align: center;
   margin-bottom: var(--mb-1-5);
+  padding: 0 1.5rem;
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
 }
@@ -1004,14 +1018,15 @@ header.scroll-header .nav {
 .portfolio__model_body {
   position: relative;
   background: var(--body-color);
-  max-width: 600px;
-  height: auto;
-  margin: 20px;
+  max-width: 80%;
+  max-height: 90vh;
+  margin: 2rem auto;
   padding: 40px;
   border-radius: 10px;
   box-shadow: 0 3px 6px var(--first-color-alt);
   transform: translateY(-50px);
   transition: 0.5s ease;
+  overflow: hidden;
 }
 
 .portfolio__model.active .portfolio__model_body {
@@ -1037,9 +1052,12 @@ header.scroll-header .nav {
 
 .portfolio__img img {
   display: block;
-  height: 100%;
+  width: auto;
+  height: auto;
   max-width: 100%;
+  max-height: 80vh;
   border-radius: 10px;
+  object-fit: contain;
 }
 
 .portfolio__buttons {
