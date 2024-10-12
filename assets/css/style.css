@@ -250,6 +250,44 @@ img {
   background-color: inherit;
 }
 
+/* 404 Error Styles */
+
+.main_error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.home__container_error {
+  margin-top: -25%;
+}
+
+.home_error {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.bg_image {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.overlay {
+  position: relative;
+  z-index: 0;
+}
+
+.base_img {
+  width: 100%;
+}
+
 /* ===================== NAV ===================== */
 .nav {
   max-width: 968px;
