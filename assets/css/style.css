@@ -884,6 +884,10 @@ header.scroll-header .nav {
   transform: scale(1);
 }
 
+.modal-content p:hover {
+  font-weight: var(--font-bold);
+}
+
 /* Close button styles */
 .close {
   position: absolute;
@@ -895,8 +899,7 @@ header.scroll-header .nav {
   cursor: pointer;
 }
 
-.close:hover,
-.close:focus {
+.close:hover {
   color: var(--first-color);
 }
 
