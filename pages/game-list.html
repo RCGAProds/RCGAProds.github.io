@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>Mi Lista de Juegos</title>
+    <title>lista de Recomendaciones</title>
     <style>
       body {
         font-family: Arial, sans-serif;
@@ -107,104 +107,104 @@
         {
           name: "Senua's Saga: Hellblade 2",
           description: "Secuela del aclamado Hellblade: Senua's Sacrifice",
-          genre: 'Acción, Aventura',
-          platform: 'Steam',
+          genre: "Acción, Aventura",
+          platform: "Steam",
           steamAppId: 2461850,
-          price: '49.99€',
+          price: "49.99€",
         },
         {
-          name: 'Choo-Choo Charles',
-          description: 'Juego de terror y supervivencia con un tren demoníaco',
-          genre: 'Terror, Supervivencia',
-          platform: 'Steam',
+          name: "Choo-Choo Charles",
+          description: "Juego de terror y supervivencia con un tren demoníaco",
+          genre: "Terror, Supervivencia",
+          platform: "Steam",
           steamAppId: 1766740,
-          price: '19.50€',
+          price: "19.50€",
         },
         {
-          name: 'Fears To Fathom',
-          description: 'Serie episódica de juegos de terror psicológico',
-          genre: 'Terror, Aventura',
-          platform: 'Steam',
+          name: "Fears To Fathom",
+          description: "Serie episódica de juegos de terror psicológico",
+          genre: "Terror, Aventura",
+          platform: "Steam",
           steamAppId: 1671340,
           price:
-            'Gratuito (Episodio 1), 4,99€ (Episodio 2 y 3), 9,75€ (Episodio 4 y 5)',
+            "Gratuito (Episodio 1), 4,99€ (Episodio 2 y 3), 9,75€ (Episodio 4 y 5)",
         },
         {
-          name: 'Bring Me...',
+          name: "Bring Me...",
           description:
-            'Juega como una joven que ha estado cuidando de su padre enfermo. Observa tu entorno en busca de anomalías para encontrar una salida de esta pesadilla.',
-          genre: 'Terror, Aventura',
-          platform: 'Steam',
+            "Juega como una joven que ha estado cuidando de su padre enfermo. Observa tu entorno en busca de anomalías para encontrar una salida de esta pesadilla.",
+          genre: "Terror, Aventura",
+          platform: "Steam",
           steamAppId: 3168370,
-          price: '3.99€',
+          price: "3.99€",
         },
         {
-          name: 'Bad Parenting 1: Mr. Red Face',
+          name: "Bad Parenting 1: Mr. Red Face",
           description:
-            'Mr. Red Face, a fictional character created by adults to teach their children, suddenly becomes real..',
-          genre: 'Terror, Supervivencia',
-          platform: 'Steam',
+            "Mr. Red Face, a fictional character created by adults to teach their children, suddenly becomes real..",
+          genre: "Terror, Supervivencia",
+          platform: "Steam",
           steamAppId: 3205080,
-          price: '1.99€',
+          price: "1.99€",
         },
         {
           name: "[Chilla's Art] Parasocial | パラソーシャル",
-          description: 'Juego de terror psicológico donde eres una streamer.',
-          genre: 'Terror, Aventura',
-          platform: 'Steam',
+          description: "Juego de terror psicológico donde eres una streamer.",
+          genre: "Terror, Aventura",
+          platform: "Steam",
           steamAppId: 2314720,
-          price: '7.79€',
+          price: "7.79€",
         },
         {
-          name: 'The Bathhouse | 地獄銭湯 Restored Edition',
+          name: "The Bathhouse | 地獄銭湯 Restored Edition",
           description:
-            'Juego de terror psicológico ambientado en un baño público',
-          genre: 'Terror, Aventura',
-          platform: 'Steam',
+            "Juego de terror psicológico ambientado en un baño público",
+          genre: "Terror, Aventura",
+          platform: "Steam",
           steamAppId: 2989950,
-          price: '7.79€',
+          price: "7.79€",
         },
         {
           name: "[Chilla's Art] The Kidnap | 誘拐事件",
-          description: 'Juego de terror psicológico basado en un secuestro',
-          genre: 'Terror, Aventura',
-          platform: 'Steam',
+          description: "Juego de terror psicológico basado en un secuestro",
+          genre: "Terror, Aventura",
+          platform: "Steam",
           steamAppId: 2593900,
-          price: '9.75€',
+          price: "9.75€",
         },
         {
           name: "[Chilla's Art] The Karaoke | ヒトカラ🎤",
-          description: 'Juego de terror psicológico ambientado en un karaoke',
-          genre: 'Terror, Aventura',
-          platform: 'Steam',
+          description: "Juego de terror psicológico ambientado en un karaoke",
+          genre: "Terror, Aventura",
+          platform: "Steam",
           steamAppId: 2200190,
-          price: '5.89€',
+          price: "5.89€",
         },
-      ];
+      ]
 
       function displayGames() {
-        const gameGrid = document.getElementById('game-grid');
-        gameGrid.innerHTML = ''; // Limpiar grid anterior
+        const gameGrid = document.getElementById("game-grid")
+        gameGrid.innerHTML = "" // Limpiar grid anterior
 
         for (const game of games) {
           // Crear tarjeta de juego
-          const gameCard = document.createElement('div');
-          gameCard.className = 'game-card';
+          const gameCard = document.createElement("div")
+          gameCard.className = "game-card"
 
           // Crear enlace que redirige a la página del juego en Steam
-          const gameLink = document.createElement('a');
-          gameLink.href = `https://store.steampowered.com/app/${game.steamAppId}/`;
-          gameLink.target = '_blank'; // Abre en nueva pestaña
-          gameLink.className = 'game-link';
+          const gameLink = document.createElement("a")
+          gameLink.href = `https://store.steampowered.com/app/${game.steamAppId}/`
+          gameLink.target = "_blank" // Abre en nueva pestaña
+          gameLink.className = "game-link"
 
           // Imagen del juego
-          const gameImage = document.createElement('img');
-          gameImage.src = `https://cdn.cloudflare.steamstatic.com/steam/apps/${game.steamAppId}/header.jpg`;
-          gameImage.alt = game.name;
+          const gameImage = document.createElement("img")
+          gameImage.src = `https://cdn.cloudflare.steamstatic.com/steam/apps/${game.steamAppId}/header.jpg`
+          gameImage.alt = game.name
 
           // Información del juego
-          const gameInfo = document.createElement('div');
-          gameInfo.className = 'game-info';
+          const gameInfo = document.createElement("div")
+          gameInfo.className = "game-info"
 
           gameInfo.innerHTML = `
             <h2>${game.name}</h2>
@@ -212,23 +212,23 @@
             <p><strong>Género:</strong> ${game.genre}</p>
             <p><strong>Plataforma:</strong> ${game.platform}</p>
             <p class="game-price"><strong>Precio:</strong> ${game.price}</p>
-          `;
+          `
 
-          gameLink.appendChild(gameImage);
-          gameLink.appendChild(gameInfo);
-          gameCard.appendChild(gameLink);
-          gameGrid.appendChild(gameCard);
+          gameLink.appendChild(gameImage)
+          gameLink.appendChild(gameInfo)
+          gameCard.appendChild(gameLink)
+          gameGrid.appendChild(gameCard)
         }
       }
 
       // Mostrar juegos al iniciar
-      displayGames();
+      displayGames()
 
       // Modo oscuro / claro
-      const modeToggle = document.getElementById('mode-toggle');
-      modeToggle.addEventListener('click', () => {
-        document.body.classList.toggle('dark-mode');
-      });
+      const modeToggle = document.getElementById("mode-toggle")
+      modeToggle.addEventListener("click", () => {
+        document.body.classList.toggle("dark-mode")
+      })
     </script>
   </body>
 </html>
