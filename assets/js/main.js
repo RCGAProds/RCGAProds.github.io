@@ -48,8 +48,14 @@ skillsHeader.forEach(el => {
   el.addEventListener("click", toggleSkills)
 })
 
-/* ===================== QUALIFICATION TABS ===================== */
-/* ===================== TESTIMONIAL ===================== */
+/* ===================== TryHackMe Badge ===================== */
+
+window.addEventListener("DOMContentLoaded", () => {
+  const img = document.getElementById("THM_Badge")
+  const baseUrl = img.dataset.src
+  img.src = `${baseUrl}?v=${Date.now()}`
+})
+
 /* ===================== SCROLL SECTIONS ACTIVE LINK ===================== */
 const sections = document.querySelectorAll("section[id]")
 

@@ -1740,6 +1740,11 @@ header.scroll-header .nav {
     align-content: center;
     text-align: center;
   }
+
+  #THM_Badge {
+    width: 329px;
+    height: auto;
+  }
 }
 
 @media screen and (min-width: 350px) {
@@ -1796,6 +1801,11 @@ header.scroll-header .nav {
   #copyText2 {
     margin-left: -25%;
     margin-top: -10%;
+  }
+
+  #THM_Badge {
+    width: auto;
+    height: 88px;
   }
 }
 
