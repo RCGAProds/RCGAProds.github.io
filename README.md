@@ -22,7 +22,8 @@ Hello! I'm **Carlos**, a passionate **Junior Cybersecurity Analyst** focused on 
   - **Vulnerability & Penetration:** OpenVAS, BurpSuite
   - **Forensics & Analysis:** Volatility, CAPA, REMnux
   - **Threat Intelligence:** MITRE, SIEM, CyberChef
-  - **Additional Tools:** Metasploit, Kali Linux
+  - **Additional Tools:** Metasploit, FlareVM..
+- **Operative Systems:** Kali Linux, Windows
 
 ## 📫 How to Contact Me
 
