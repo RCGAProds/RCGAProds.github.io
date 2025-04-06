@@ -21,7 +21,7 @@ Hello! I'm **Carlos**, a passionate **Junior Cybersecurity Analyst** focused on 
   - **Network Analysis:** Wireshark, Nmap, Snort
   - **Vulnerability & Penetration:** OpenVAS, BurpSuite
   - **Forensics & Analysis:** Volatility, CAPA, REMnux
-  - **Threat Intelligence & SIEM:** MITRE, SIEM, CyberChef
+  - **Threat Intelligence:** MITRE, SIEM, CyberChef
   - **Additional Tools:** Metasploit, Kali Linux
 
 ## 📫 How to Contact Me
