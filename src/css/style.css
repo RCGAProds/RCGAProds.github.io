@@ -321,7 +321,12 @@ header.scroll-header .nav {
   color: var(--first-color);
 }
 
+.empty__item {
+  display: none;
+}
+
 @media screen and (max-width: 767px) {
+  /*TODO: Responsive Issue?*/
   .nav__menu {
     position: fixed;
     bottom: -100%;
@@ -332,6 +337,10 @@ header.scroll-header .nav {
     box-shadow: 0 -1px 5px var(--nav-border-color);
     border-radius: 1.5rem 1.5rem 0 0;
     transition: 0.3s;
+  }
+
+  .empty__item {
+    display: block;
   }
 }
 
@@ -371,17 +380,14 @@ header.scroll-header .nav {
   color: var(--first-color-alt);
 }
 
-/* Show Menu */
 .show-menu {
   bottom: 0;
 }
 
-/* Active Link */
 .active-link {
   color: var(--first-color);
 }
 
-/* Change Scroll Header */
 .scroll-header {
   box-shadow: 0 -1px 5px var(--nav-border-color),
     0 1px 5px var(--nav-border-color);
