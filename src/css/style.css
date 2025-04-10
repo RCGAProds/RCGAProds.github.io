@@ -1531,8 +1531,8 @@ header.scroll-header .nav {
 
 .footer__social {
   font-size: 1.25rem;
-  margin-right: var(--mb-0-75);
-  margin-left: var(--mb-0-75);
+  margin-right: var(--mb-0-25);
+  margin-left: var(--mb-0-25);
 }
 
 .footer__social:hover {
@@ -1802,6 +1802,11 @@ header.scroll-header .nav {
     display: block;
     margin: 0 auto;
     width: fit-content;
+  }
+
+  .footer__socials {
+    align-content: center;
+    text-align: center;
   }
 
   #copyText2 {
