@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cybersecurity Terms Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- ===================== META ===================== -->
+    <meta
+      name="keywords"
+      content="RCGA Prods, Cybersecurity, Security, BlueTeam, Quiz, Cybersecurity Quiz, Cybersecurity Terms, Cybersecurity Glossary, Cybersecurity Definitions"
+    />
+    <meta name="description" content="RCGA Prods Cybersecurity Quiz" />
+    <meta name="author" content="Carlos García" />
+    <meta
+      name="copyright"
+      content="&#169; 2025 RCGA Prods All rights reserved"
+    />
+
+    <!-- ===================== Open Graph Meta Tags ===================== -->
+    <meta property="og:title" content="RCGA Prods" />
+    <meta
+      property="og:description"
+      content="An interactive app to learn Cybersecurity Terms"
+    />
+    <meta
+      property="og:url"
+      content="https://rcgaprods.github.io/pages/cybersecurity-quiz"
+    />
+    <meta
+      property="og:image"
+      content="https://rcgaprods.github.io/pages/cybersecurity-quiz/preview.webp"
+    />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <div class="app-container">
+      <div class="quiz-container">
+        <div class="header">
+          <h1 id="title">Cybersecurity Terms Quiz</h1>
+          <div class="language-selector">
+            <span id="langLabel">Language:</span>
+            <select id="languageSelect">
+              <option value="en">English</option>
+              <option value="es">Español</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="quizContent" class="content">
+          <div id="termContainer" class="term-container">
+            <h2 id="currentTerm"></h2>
+          </div>
+
+          <div class="options-container">
+            <p id="selectAnswerText" class="instructions">
+              Select the correct description:
+            </p>
+            <div id="optionsContainer" class="options-list"></div>
+          </div>
+
+          <div id="feedbackContainer" class="feedback-container hidden"></div>
+
+          <div class="button-container">
+            <button id="checkButton" class="primary-button disabled">
+              Check Answer
+            </button>
+            <button id="nextButton" class="primary-button hidden">
+              Next Term
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
