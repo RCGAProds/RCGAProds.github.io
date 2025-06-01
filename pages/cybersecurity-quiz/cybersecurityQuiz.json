@@ -1,0 +1,190 @@
+[
+  {
+    "quiz": "Jane, a database administrator, wants to ensure that a file has not changed since the last time she uploaded it to her cloud storage. She has created a SHA-256 hash digest of the file and wants to compare the stored file's hash digest against the one she calculated when she initially uploaded the file. Which of the following pillars of the CIANA pentagon is she focused on?",
+    "correctDescriptions": ["Integrity"],
+    "wrongDescriptions": ["Confidentiality", "Availability", "Non-repudiation"]
+  },
+  {
+    "quiz": "Vikas, a developer, just digitally signed the company's new app before releasing it in the App Store. Before the app is installed, the user's device will validate the digital signature to ensure that it was actually developed and uploaded. Which of the following pillars of the CIANA pentagon is she focused on?",
+    "correctDescriptions": ["Non-repudiation"],
+    "wrongDescriptions": ["Confidentiality", "Authentication", "Availability"]
+  },
+  {
+    "quiz": "Jason, an instructor, is logging into the company's exam application to write some new questions for the CompTIA Security+ exam. He enters his username/password at the login prompt and then receives a one-time code on his smartphone that he enters to validate his identity. Which of the following pillars of security was the focus when performing these actions?",
+    "correctDescriptions": ["Authentication"],
+    "wrongDescriptions": ["Authorization", "Availability", "Accounting"]
+  },
+  {
+    "quiz": "David, the CTO, just sent out a new policy that will require all of the company's users to reset their password every 60 days using a long, strong, and complex password. Which of the following type of security controls best classifies this policy?",
+    "correctDescriptions": ["Directive"],
+    "wrongDescriptions": ["Detective", "Compensating", "Corrective"]
+  },
+  {
+    "quiz": "Christle, a student support manager, is logging into the company's exam voucher application to help a student schedule their CompTIA Security+ exam. Even though she is already connected to the corporate network, the application asks her to validate her identity by sending her a one-time code on her smartphone that she enters to validate her identity. Which of the following security concepts is being utilized by the company's architecture?",
+    "correctDescriptions": ["Zero Trust"],
+    "wrongDescriptions": ["Root of trust", "Gap analysis", "Side loading"]
+  },
+  {
+    "quiz": "Which of the following is a primary motivation for a hacktivist threat actor?",
+    "correctDescriptions": ["Ideological beliefs"],
+    "wrongDescriptions": ["Financial gain", "Espionage", "Service disruption"]
+  },
+  {
+    "quiz": "Which attribute of a threat actor indicates the amount of financial, technological, and human resources they can use for their operations?",
+    "correctDescriptions": ["Their resource level"],
+    "wrongDescriptions": [
+      "Their sophistication level",
+      "Their motivations",
+      "Their intent"
+    ]
+  },
+  {
+    "quiz": "Which of the following threat actors primarily operates based primarily on financial motivations and is considered to be highly structured and sophisticated in their attacks?",
+    "correctDescriptions": ["Organized crime"],
+    "wrongDescriptions": [
+      "Script kiddies",
+      "Hacktivists",
+      "Nation-state actors"
+    ]
+  },
+  {
+    "quiz": "Which type of threat actor would BEST describe a disgruntled employee who may exploit their legitimate access for malicious purposes?",
+    "correctDescriptions": ["Insider threat"],
+    "wrongDescriptions": [
+      "Unskilled attacker",
+      "Hacktivist",
+      "Nation-state actor"
+    ]
+  },
+  {
+    "quiz": "Which deceptive technology is a piece of data or a system entity that exists solely to alert the organization when someone accesses it?",
+    "correctDescriptions": ["Honeytoken"],
+    "wrongDescriptions": ["Honeypot", "Honeynet", "Honeyfile"]
+  },
+  {
+    "quiz": "Jennifer, a facilities manager, wants to prevent unauthorized vehicles from getting too close to the building and ramming into it. Which of the following physical security control measures should they utilize to achieve this?",
+    "correctDescriptions": ["Bollards"],
+    "wrongDescriptions": [
+      "Fences",
+      "Access control vestibules",
+      "Video surveillance"
+    ]
+  },
+  {
+    "quiz": "Jacob, a security manager, wants to protect a sensitive server room against unauthorized physical access without relying on electronic locking mechanisms. Which of the following door locks should they utilize to achieve this?",
+    "correctDescriptions": ["Cipher lock"],
+    "wrongDescriptions": ["Biometric lock", "RFID lock", "PIN lock"]
+  },
+  {
+    "quiz": "Jonni, a security manager, wants to implement a physical security control measure at the main entrance of their new corporate headquarters. Their primary objective is to authenticate individuals in a space between two sets of doors to help prevent tailgating by ensuring that unauthorized persons don't follow authorized individuals inside. Which of the following security controls should he implement to best achieve this?",
+    "correctDescriptions": ["Access control vestibule"],
+    "wrongDescriptions": [
+      "Perimeter fencing",
+      "Motion detection sensors",
+      "Video surveillance"
+    ]
+  },
+  {
+    "quiz": "Sheryl, a penetration tester, wants to break into the RFID-protected server room. She sees Mazen sitting in a coffee shop, so she briefly places her purse near Mazen's backpack. Later, she uses a device from her purse to access the server room. She receives a message stating, 'Welcome, Mazen' when she authenticates with the RFID-based lock using the device. Which of the following types of attacks did she utilize to gain access to the server room?",
+    "correctDescriptions": ["Access badge cloning"],
+    "wrongDescriptions": [
+      "Lock picking",
+      "Password cracking",
+      "Brute force attack"
+    ]
+  },
+  {
+    "quiz": "Which of the following sensors is used to detect changes in environmental heat that is typically emitted by warm bodies such as humans or animals?",
+    "correctDescriptions": ["Infrared sensor"],
+    "wrongDescriptions": [
+      "Microwave sensors",
+      "Pressure sensors",
+      "Ultrasonic sensors"
+    ]
+  },
+  {
+    "quiz": "Which of the following types of phishing attacks is used to specifically target high-level executives or important officials within an organization?",
+    "correctDescriptions": ["Whaling"],
+    "wrongDescriptions": ["Phishing", "Spear phishing", "Impersonation"]
+  },
+  {
+    "quiz": "During an anti-phishing campaign, what primary action should a company take after simulating a successful phishing attack on its employees?",
+    "correctDescriptions": [
+      "Provide immediate remedial training to employees who fell for the attack"
+    ],
+    "wrongDescriptions": [
+      "Terminate employees who fall for the simulated attack",
+      "Send a warning email to all of the organizations employees so they will be aware of phishing as a problem",
+      "Increase the organization's network security measures to prevent phishing attacks in the first place"
+    ]
+  },
+  {
+    "quiz": "Which social engineering technique involves searching through a target's trash or discarded items to obtain sensitive or valuable information?",
+    "correctDescriptions": ["Dumpster diving"],
+    "wrongDescriptions": [
+      "Diversion theft",
+      "Shoulder surfing",
+      "Eavesdropping"
+    ]
+  },
+  {
+    "quiz": "Which social engineering attack involves an attacker creating a fabricated scenario to manipulate or deceive someone into divulging confidential information?",
+    "correctDescriptions": ["Pretexting"],
+    "wrongDescriptions": [
+      "Dumpster diving",
+      "Shoulder surfing",
+      "Eavesdropping"
+    ]
+  },
+  {
+    "quiz": "Which of the following is a common motivational trigger used in social engineering attacks to manipulate victims to act or respond without taking time to think about the consequences?",
+    "correctDescriptions": ["Urgency"],
+    "wrongDescriptions": ["Likability", "Authority", "Social proof"]
+  },
+  {
+    "quiz": "Which of the following best describes a Trojan?",
+    "correctDescriptions": [
+      "A malicious program disguised as a legitimate software"
+    ],
+    "wrongDescriptions": [
+      "A program that replicates itself and spreads to other computers",
+      "A software that displays unwanted ads without the user's permission",
+      "A program that logs keystrokes without the user's knowledge"
+    ]
+  },
+  {
+    "quiz": "Which of the following is designed to give cybercriminals access to a system that can carry out malicious tasks, such as distributed denial-of-service (DDoS) attacks or to spread malware, without the user's knowledge?",
+    "correctDescriptions": ["Zombie"],
+    "wrongDescriptions": ["Keylogger", "Bloatware", "Ransomware"]
+  },
+  {
+    "quiz": "Which of the following is a type of malware that operates behind the scenes and can activate recording devices and track activities on a user's device?",
+    "correctDescriptions": ["Spyware"],
+    "wrongDescriptions": ["Virus", "Logic Bomb", "Worm"]
+  },
+  {
+    "quiz": "Which of the following BEST describes what a rootkit is used for?",
+    "correctDescriptions": [
+      "Hiding malware activities and maintaining privileged access to a system"
+    ],
+    "wrongDescriptions": [
+      "Encryption of user files and demanding payment for decryption",
+      "Logging a user's keystrokes to steal their credentials",
+      "Replicating itself across networks without human intervention"
+    ]
+  },
+  {
+    "quiz": "Which of these is a common indication of a malware attack?",
+    "correctDescriptions": ["Fewer logs than usual during peak hours"],
+    "wrongDescriptions": [
+      "Decreased resource consumption",
+      "Reduced number of account lockouts",
+      "Appearance of unknown software on the user's system"
+    ]
+  },
+  {
+    "_quiz": "",
+    "_correctDescriptions": [""],
+    "_wrongDescriptions": ["", "", ""]
+  }
+]
