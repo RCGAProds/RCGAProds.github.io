@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cybersecurity Terms Quiz</title>
+    <title>Cybersecurity Quiz</title>
     <link rel="stylesheet" href="styles.css" />
 
     <!-- ===================== META ===================== -->
@@ -22,7 +22,7 @@
     <meta property="og:title" content="RCGA Prods" />
     <meta
       property="og:description"
-      content="An interactive app to learn Cybersecurity Terms"
+      content="An interactive app to learn Cybersecurity Concepts"
     />
     <meta
       property="og:url"
@@ -38,7 +38,7 @@
     <div class="app-container">
       <div class="quiz-container">
         <div class="header">
-          <h1 id="title">Cybersecurity Terms Quiz</h1>
+          <h1 id="title">Cybersecurity Quiz</h1>
           <div class="language-selector">
             <span id="langLabel">Language:</span>
             <select id="languageSelect">
@@ -49,8 +49,8 @@
         </div>
 
         <div id="quizContent" class="content">
-          <div id="termContainer" class="term-container">
-            <h2 id="currentTerm"></h2>
+          <div id="quizContainer" class="currentQuiz-container">
+            <h2 id="currentQuiz"></h2>
           </div>
 
           <div class="options-container">
@@ -66,9 +66,7 @@
             <button id="checkButton" class="primary-button disabled">
               Check Answer
             </button>
-            <button id="nextButton" class="primary-button hidden">
-              Next Term
-            </button>
+            <button id="nextButton" class="primary-button hidden">Next</button>
           </div>
         </div>
       </div>
