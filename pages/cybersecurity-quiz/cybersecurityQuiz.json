@@ -183,6 +183,41 @@
     ]
   },
   {
+    "quiz": "Which of the following data classifications is typically accessible by anyone and is not harmful if disclosed?",
+    "correctDescriptions": ["Public"],
+    "wrongDescriptions": ["Sensitive", "Confidential", "Restricted"]
+  },
+  {
+    "quiz": "The company is revising its data governance approach to align with GDPR and other regulatory standards. They have designated Samantha, the Vice President of Operations, to determine data classification and access control. David, the Compliance Officer, ensures all data processing complies with legal standards. Rachel, an IT Services Partner, handles the processing of client data on cloud servers. Lastly, Mike, the Head of the IT Department, is in charge of data storage, transportation, and security policy enforcement. Based on these details, identify who among them fills the roles of data owner, data controller, data processor, and data custodian.",
+    "correctDescriptions": [
+      "Samantha is the data owner, David is the data controller, Rachel is the data processor, and Mike is the data custodian."
+    ],
+    "wrongDescriptions": [
+      "David is the data owner, Samantha is the data controller, Mike is the data processor, and Rachel is the data custodian.",
+      "Rachel is the data owner, Mike is the data controller, Samantha is the data processor, and David is the data custodian.",
+      "Mike is the data owner, Rachel is the data controller, David is the data processor, and Samantha is the data custodian."
+    ]
+  },
+  {
+    "quiz": "Which of the following is NOT a recognized state of data in the context of data security?",
+    "correctDescriptions": ["Data in flux"],
+    "wrongDescriptions": ["Data at rest", "Data in use", "Data in transit"]
+  },
+  {
+    "quiz": "Which type of data refers to any information about health status, provision of healthcare, or payment for healthcare that can be linked to a specific individual?",
+    "correctDescriptions": ["Protected Health Information (PHI)"],
+    "wrongDescriptions": [
+      "Personal Identifiable Information (PII)",
+      "Trade Secret",
+      "Intellectual Property"
+    ]
+  },
+  {
+    "quiz": "The company is exploring Data Loss Prevention (DLP) systems. They want a system that will protect data while it's at rest on their on-premises server, using encryption or a watermark. What would be the type of DLP system they are looking to implement?",
+    "correctDescriptions": ["Storage DLP"],
+    "wrongDescriptions": ["Endpoint DLP", "Network DLP", "Cloud-based DLP"]
+  },
+  {
     "_quiz": "",
     "_correctDescriptions": [""],
     "_wrongDescriptions": ["", "", ""]
