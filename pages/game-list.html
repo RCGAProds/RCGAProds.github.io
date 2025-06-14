@@ -105,6 +105,16 @@
       // Lista de juegos con URLs de imágenes y IDs de Steam
       const games = [
         {
+          name: "The Elder Scrolls IV: Oblivion Remastered",
+          description:
+            "Explora Cyrodiil como nunca con unos gráficos impresionantes y una jugabilidad mejorada en The Elder Scrolls IV: Oblivion™ Remastered.",
+          genre: "Rol, Mundo abierto, Fantasía",
+          platform: "Steam",
+          steamAppId: 2623190,
+          urlExtension: "/a7cee9165bb1bfc092c390c5cff215ce0e381dfc",
+          price: "54.99€",
+        },
+        {
           name: "Assassin’s Creed Shadows",
           description:
             "¡Sumérgete en una épica historia de acción y aventura ambientada en el Japón feudal!",
@@ -114,13 +124,13 @@
           price: "69.99€",
         },
         {
-          name: "Schedule I",
+          name: "Pieces of me",
           description:
-            "From small-time dope pusher to kingpin - manufacture and distribute a range of drugs throughout the grungy city of Hyland Point. Expand your empire with properties, businesses, employees and more.",
-          genre: "Simulación, Crimen",
+            "'Pieces of Me' es un drama de suspenso psicológico en el género de 'walking simulator', que es un spin-off del juego 'September 7th'",
+          genre: "Suspense, Drama, Terror psicológico",
           platform: "Steam",
-          steamAppId: 3164500,
-          price: "19.50€",
+          steamAppId: 2479740,
+          price: "8.79€",
         },
         {
           name: "Choo-Choo Charles",
@@ -197,19 +207,23 @@
         gameGrid.innerHTML = "" // Limpiar grid anterior
 
         for (const game of games) {
+          const steamPath = `${game.steamAppId}${
+            game.urlExtension ? game.urlExtension : ""
+          }`
+
           // Crear tarjeta de juego
           const gameCard = document.createElement("div")
           gameCard.className = "game-card"
 
           // Crear enlace que redirige a la página del juego en Steam
           const gameLink = document.createElement("a")
-          gameLink.href = `https://store.steampowered.com/app/${game.steamAppId}/`
+          gameLink.href = `https://store.steampowered.com/app/${steamPath}/`
           gameLink.target = "_blank" // Abre en nueva pestaña
           gameLink.className = "game-link"
 
           // Imagen del juego
           const gameImage = document.createElement("img")
-          gameImage.src = `https://cdn.cloudflare.steamstatic.com/steam/apps/${game.steamAppId}/header.jpg`
+          gameImage.src = `https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/${steamPath}/header.jpg`
           gameImage.alt = game.name
 
           // Información del juego
