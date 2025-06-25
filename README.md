@@ -1,6 +1,6 @@
 # Welcome to My Portfolio!
 
-Hello! I'm **Carlos**, a passionate **Junior Cybersecurity Analyst** focused on monitoring and all things related to it. This repository hosts my web curriculum, where I share my experience, skills, and projects in the field.
+Hello! I'm **Carlos**, a passionate **Cybersecurity Analyst** focused on monitoring and all things related to it. This repository hosts my web curriculum, where I share my experience, skills, and projects in the field.
 
 ## 🔗 Visit My Website
 
