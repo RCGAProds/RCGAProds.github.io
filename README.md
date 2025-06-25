@@ -1,6 +1,6 @@
 # Welcome to My Portfolio!
 
-Hello! I'm **Carlos**, a passionate **Junior Cybersecurity Analyst** focused on monitoring and all things related to it. This repository hosts my web curriculum, where I share my experience, skills, and projects in the field.
+Hello! I'm **Carlos**, a passionate **Cybersecurity Analyst** focused on monitoring and all things related to it. This repository hosts my web curriculum, where I share my experience, skills, and projects in the field.
 
 ## 🔗 Visit My Website
 
@@ -9,7 +9,7 @@ Hello! I'm **Carlos**, a passionate **Junior Cybersecurity Analyst** focused on 
 ## 📌 About Me
 
 - **Name:** Carlos
-- **Role:** Junior Cybersecurity Analyst
+- **Role:** Cybersecurity Analyst
 - **Interests:** Network and system monitoring, threat analysis, incident response, and overall cybersecurity.
 - **Certifications:** Currently studying for CompTIA Security+
 
