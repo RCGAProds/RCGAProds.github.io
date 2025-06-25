@@ -9,7 +9,7 @@ Hello! I'm **Carlos**, a passionate **Cybersecurity Analyst** focused on monitor
 ## 📌 About Me
 
 - **Name:** Carlos
-- **Role:** Junior Cybersecurity Analyst
+- **Role:** Cybersecurity Analyst
 - **Interests:** Network and system monitoring, threat analysis, incident response, and overall cybersecurity.
 - **Certifications:** Currently studying for CompTIA Security+
 
