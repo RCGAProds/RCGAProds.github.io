@@ -218,6 +218,78 @@
     "wrongDescriptions": ["Endpoint DLP", "Network DLP", "Cloud-based DLP"]
   },
   {
+    "quiz": "Jennifer, a network administrator at the company, wants to ensure that a secret communication between two servers remains confidential using a single key for both encryption and decryption processes. Which of the following should they utilize?",
+    "correctDescriptions": ["AES"],
+    "wrongDescriptions": ["RSA", "ECC", "Diffie-Hellman"]
+  },
+  {
+    "quiz": "Robert, a system engineer at the company, wants to securely exchange cryptographic keys over a public channel to initiate encrypted communications with another department. Which of the following should they utilize?",
+    "correctDescriptions": ["Diffie-Hellman"],
+    "wrongDescriptions": ["AES", "ECC", "RSA"]
+  },
+  {
+    "quiz": "Samantha, a cybersecurity analyst at the company, wants to use the most secure hashing algorithm for ensuring the integrity of sensitive documents. Which of the following should she utilize?",
+    "correctDescriptions": ["SHA-256"],
+    "wrongDescriptions": ["MD5", "RIPEMD", "HMAC"]
+  },
+  {
+    "quiz": "Rebecca, a digital forensics expert at the company, wants to discreetly embed a message within an image file without noticeably altering its apparent appearance or structure. Which of the following techniques should she utilize?",
+    "correctDescriptions": ["Steganography"],
+    "wrongDescriptions": ["Tokenization", "Data Masking", "Encryption"]
+  },
+  {
+    "quiz": "Miguel, a cybersecurity specialist at the company, is concerned about the potential threats that the evolving technologies, like qubit-powered computers, might pose to the company's current encryption algorithms and cryptographic implementation methods. Which of the following solutions should he explore to ensure future cryptographic resilience?",
+    "correctDescriptions": ["Post-quantum Cryptographic Algorithm"],
+    "wrongDescriptions": [
+      "Distributed Blockchain System",
+      "Secure Public Ledger",
+      "Advanced Data Tokenization"
+    ]
+  },
+  {
+    "quiz": "John is the owner of a small construction company who recently signed a contract for a new project. The contract includes a clause stating that his company will be responsible for any damages that occur during the construction process. As a result, John has decided to purchase insurance that will cover the cost of any damage that might occur during the construction process. Which risk management strategy is John using?",
+    "correctDescriptions": ["Risk Tranference"],
+    "wrongDescriptions": [
+      "Risk Acceptance",
+      "Risk Avoidance",
+      "Risk Mitigation"
+    ]
+  },
+  {
+    "quiz": "Solarflare, an energy company, has identified a risk that, if it occurs, could halt their production line. They have determined that they can tolerate a disruption of up to 3 hours before it severely impacts their operations. Which of the following metrics does this scenario represent?",
+    "correctDescriptions": ["Recovery Time Objective (RTO)"],
+    "wrongDescriptions": [
+      "Mean Time Between Failures (MTBF)",
+      "Recovery Point Objective (RPO)",
+      "Mean Time to Repair (MTTR)"
+    ]
+  },
+  {
+    "quiz": "What does the term 'Risk Appetite' refer to?",
+    "correctDescriptions": [
+      "The amount of residual risk an organization is willing to accept"
+    ],
+    "wrongDescriptions": [
+      "The risk an organization is prepared to accept without taking any countermeasures",
+      "The steps taken to reduce the impact or likelihood of a risk",
+      "The risk that remains after mitigation has taken place"
+    ]
+  },
+  {
+    "quiz": "You are managing a construction project and have identified a potential risk which could delay the delivery of critical materials. The likelihood of this risk is high and the impact is also high. What would be an appropriate mitigation strategy based on Qualitative Risk Analysis?",
+    "correctDescriptions": ["Secure multiple vendors"],
+    "wrongDescriptions": [
+      "Ignore the risk",
+      "Stop the project",
+      "Increase the project budget"
+    ]
+  },
+  {
+    "quiz": "You are managing a company's IT infrastructure. One of your servers, valued at $20,000, has an Exposure Factor (EF) of 60% in the event of a crash. The server crashes once every five years. What is the Annualized Loss Expectancy (ALE) for this server?",
+    "correctDescriptions": ["$2,400"],
+    "wrongDescriptions": ["$4,000", "$6,000", "$12,000"]
+  },
+  {
     "_quiz": "",
     "_correctDescriptions": [""],
     "_wrongDescriptions": ["", "", ""]
