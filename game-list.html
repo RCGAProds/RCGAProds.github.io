@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lista de Recomendaciones</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f4f4f4;
+        transition: background-color 0.3s, color 0.3s;
+      }
+      body.dark-mode {
+        background-color: #121212;
+        color: #ffffff;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .game-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+      }
+      .game-card {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s ease;
+      }
+      body.dark-mode .game-card {
+        background-color: #1e1e1e;
+      }
+      .game-card:hover {
+        transform: scale(1.05);
+      }
+      .game-card img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+      }
+      .game-info {
+        padding: 15px;
+      }
+      .game-price {
+        color: green;
+        font-weight: bold;
+        text-decoration: none;
+        margin-top: 10px;
+      }
+      body.dark-mode .game-price {
+        color: #90ee90;
+      }
+      #last-update {
+        text-align: center;
+        margin-top: 20px;
+        color: #666;
+      }
+      body.dark-mode #last-update {
+        color: #aaaaaa;
+      }
+      .game-link {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+      }
+      #mode-toggle {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 24px;
+        transition: color 0.3s;
+        padding: 10px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+      #mode-toggle .sun {
+        display: none;
+      }
+      body.dark-mode #mode-toggle .sun {
+        display: inline;
+      }
+      body.dark-mode #mode-toggle .moon {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Lista de Recomendaciones</h1>
+      <button id="mode-toggle">
+        <span class="sun">☀️</span>
+        <span class="moon">🌙</span>
+      </button>
+    </div>
+    <div id="game-grid" class="game-grid"></div>
+    <div id="last-update"></div>
+
+    <script>
+      // Lista de juegos con URLs de imágenes y IDs de Steam
+      const games = [
+        {
+          name: "The Elder Scrolls IV: Oblivion Remastered",
+          description:
+            "Explora Cyrodiil como nunca con unos gráficos impresionantes y una jugabilidad mejorada en The Elder Scrolls IV: Oblivion™ Remastered.",
+          genre: "Rol, Mundo abierto, Fantasía",
+          platform: "Steam",
+          steamAppId: 2623190,
+          urlExtension: "/a7cee9165bb1bfc092c390c5cff215ce0e381dfc",
+          price: "54.99€",
+        },
+        {
+          name: "Assassin’s Creed Shadows",
+          description:
+            "¡Sumérgete en una épica historia de acción y aventura ambientada en el Japón feudal!",
+          genre: "Acción, Aventura",
+          platform: "Steam",
+          steamAppId: 3159330,
+          price: "69.99€",
+        },
+        {
+          name: "Pieces of me",
+          description:
+            "'Pieces of Me' es un drama de suspenso psicológico en el género de 'walking simulator', que es un spin-off del juego 'September 7th'",
+          genre: "Suspense, Drama, Terror psicológico",
+          platform: "Steam",
+          steamAppId: 2479740,
+          price: "8.79€",
+        },
+        {
+          name: "Choo-Choo Charles",
+          description: "Juego de terror y supervivencia con un tren demoníaco",
+          genre: "Terror, Supervivencia",
+          platform: "Steam",
+          steamAppId: 1766740,
+          price: "19.50€",
+        },
+        {
+          name: "Fears To Fathom",
+          description: "Serie episódica de juegos de terror psicológico",
+          genre: "Terror, Aventura",
+          platform: "Steam",
+          steamAppId: 1671340,
+          price:
+            "Gratuito (Episodio 1), 4,99€ (Episodio 2 y 3), 9,75€ (Episodio 4 y 5)",
+        },
+        {
+          name: "Bring Me...",
+          description:
+            "Juega como una joven que ha estado cuidando de su padre enfermo. Observa tu entorno en busca de anomalías para encontrar una salida de esta pesadilla.",
+          genre: "Terror, Aventura",
+          platform: "Steam",
+          steamAppId: 3168370,
+          price: "3.99€",
+        },
+        {
+          name: "Bad Parenting 1: Mr. Red Face",
+          description:
+            "Mr. Red Face, a fictional character created by adults to teach their children, suddenly becomes real..",
+          genre: "Terror, Supervivencia",
+          platform: "Steam",
+          steamAppId: 3205080,
+          price: "1.99€",
+        },
+        {
+          name: "[Chilla's Art] Parasocial | パラソーシャル",
+          description: "Juego de terror psicológico donde eres una streamer.",
+          genre: "Terror, Aventura",
+          platform: "Steam",
+          steamAppId: 2314720,
+          price: "7.79€",
+        },
+        {
+          name: "The Bathhouse | 地獄銭湯 Restored Edition",
+          description:
+            "Juego de terror psicológico ambientado en un baño público",
+          genre: "Terror, Aventura",
+          platform: "Steam",
+          steamAppId: 2989950,
+          price: "7.79€",
+        },
+        {
+          name: "[Chilla's Art] The Kidnap | 誘拐事件",
+          description: "Juego de terror psicológico basado en un secuestro",
+          genre: "Terror, Aventura",
+          platform: "Steam",
+          steamAppId: 2593900,
+          price: "9.75€",
+        },
+        {
+          name: "[Chilla's Art] The Karaoke | ヒトカラ🎤",
+          description: "Juego de terror psicológico ambientado en un karaoke",
+          genre: "Terror, Aventura",
+          platform: "Steam",
+          steamAppId: 2200190,
+          price: "5.89€",
+        },
+      ]
+
+      function displayGames() {
+        const gameGrid = document.getElementById("game-grid")
+        gameGrid.innerHTML = "" // Limpiar grid anterior
+
+        for (const game of games) {
+          const steamPath = `${game.steamAppId}${
+            game.urlExtension ? game.urlExtension : ""
+          }`
+
+          // Crear tarjeta de juego
+          const gameCard = document.createElement("div")
+          gameCard.className = "game-card"
+
+          // Crear enlace que redirige a la página del juego en Steam
+          const gameLink = document.createElement("a")
+          gameLink.href = `https://store.steampowered.com/app/${steamPath}/`
+          gameLink.target = "_blank" // Abre en nueva pestaña
+          gameLink.className = "game-link"
+
+          // Imagen del juego
+          const gameImage = document.createElement("img")
+          gameImage.src = `https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/${steamPath}/header.jpg`
+          gameImage.alt = game.name
+
+          // Información del juego
+          const gameInfo = document.createElement("div")
+          gameInfo.className = "game-info"
+
+          gameInfo.innerHTML = `
+            <h2>${game.name}</h2>
+            <p><strong>Descripción:</strong> ${game.description}</p>
+            <p><strong>Género:</strong> ${game.genre}</p>
+            <p><strong>Plataforma:</strong> ${game.platform}</p>
+            <p class="game-price"><strong>Precio:</strong> ${game.price}</p>
+          `
+
+          gameLink.appendChild(gameImage)
+          gameLink.appendChild(gameInfo)
+          gameCard.appendChild(gameLink)
+          gameGrid.appendChild(gameCard)
+        }
+      }
+
+      // Mostrar juegos al iniciar
+      displayGames()
+
+      // Modo oscuro / claro
+      const modeToggle = document.getElementById("mode-toggle")
+      modeToggle.addEventListener("click", () => {
+        document.body.classList.toggle("dark-mode")
+      })
+    </script>
+  </body>
+</html>
