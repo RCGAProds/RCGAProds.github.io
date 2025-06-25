@@ -2,12 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-body {
-  background-color: #f9fafb;
 }
 
 .app-container {
@@ -16,6 +10,8 @@ body {
   justify-content: center;
   min-height: 100vh;
   padding: 2rem 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .quiz-container {
@@ -27,7 +23,7 @@ body {
   overflow: hidden;
 }
 
-.header {
+.quiz-header {
   background-color: #1e40af;
   color: white;
   padding: 1rem;
@@ -36,9 +32,10 @@ body {
   align-items: center;
 }
 
-.header h1 {
+.quiz-header h1 {
   font-size: 1.5rem;
   font-weight: bold;
+  color: white;
 }
 
 .language-selector {
@@ -62,6 +59,7 @@ body {
 
 .content {
   padding: 1.5rem;
+  color: black;
 }
 
 .currentQuiz-container {
@@ -75,6 +73,7 @@ body {
 .currentQuiz-container h2 {
   font-size: 1.25rem;
   font-weight: bold;
+  color: #1e40af;
 }
 
 .instructions {

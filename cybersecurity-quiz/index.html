@@ -4,7 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cybersecurity Quiz</title>
+
+    <!-- ===================== UNICONS ===================== -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!-- ===================== CSS ===================== -->
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../src/css/style.css" />
 
     <!-- ===================== META ===================== -->
     <meta
@@ -35,9 +44,41 @@
     <meta property="og:type" content="website" />
   </head>
   <body>
+    <!-- ===================== HEADER ===================== -->
+    <header class="header no-select" id="header">
+      <nav class="nav container">
+        <a href="../index.html" class="nav__logo">RCGA Prods</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="../index.html#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>About Me
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="../index.html#contact" class="nav__link">
+                <i class="uil uil-envelope nav__icon"></i>Contact me
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
     <div class="app-container">
       <div class="quiz-container">
-        <div class="header">
+        <div class="quiz-header">
           <h1 id="title">Cybersecurity Quiz</h1>
           <div class="language-selector">
             <span id="langLabel">Language:</span>
@@ -72,5 +113,7 @@
       </div>
     </div>
     <script src="script.js"></script>
+    <!-- ===================== MAIN JS & More ===================== -->
+    <script src="../src/js/main.js" defer></script>
   </body>
 </html>
