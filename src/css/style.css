@@ -185,7 +185,7 @@ img {
 }
 
 .section {
-  padding: 2rem 0 4rem;
+  padding: 1rem 0 4rem;
 }
 
 .section__title_1 {
@@ -326,7 +326,6 @@ header.scroll-header .nav {
 }
 
 @media screen and (max-width: 767px) {
-  /*TODO: Responsive Issue?*/
   .nav__menu {
     position: fixed;
     bottom: -100%;
@@ -695,6 +694,10 @@ header.scroll-header .nav {
 }
 
 /* SKILLS */
+
+#skills {
+  padding: 4rem 0 0;
+}
 
 .skills__container {
   row-gap: 0;
@@ -1875,7 +1878,7 @@ header.scroll-header .nav {
   }
 
   .section {
-    padding: 6rem 0 2rem;
+    padding: 3.5rem 0 4rem;
   }
 
   .header {
@@ -1934,10 +1937,6 @@ header.scroll-header .nav {
 
   .home__scroll-button {
     margin-left: 3rem;
-  }
-
-  #about {
-    padding: 6rem 0 0;
   }
 
   .about__container {
