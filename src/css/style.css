@@ -1805,6 +1805,7 @@ header.scroll-header .nav {
     display: block;
     margin: 0 auto;
     width: fit-content;
+    text-align: center;
   }
 
   .footer__socials {
