@@ -493,6 +493,12 @@ header.scroll-header .nav {
   background-color: var(--first-color-alt);
 }
 
+#contact__button {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+}
+
 .button__icon {
   display: inline-block;
   font-size: 1.25rem;
