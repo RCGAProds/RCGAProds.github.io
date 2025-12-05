@@ -1041,16 +1041,16 @@ header.scroll-header .nav {
 
 /**/
 
-/* PORTFOLIO */
+/* PROJECTS */
 
-.portfolio__list {
+.projects__list {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-items: center;
   max-width: 100%;
   margin: 0 auto;
 }
 
-.portfolio__list .img__card {
+.projects__list .img__card {
   position: relative;
   max-width: 100%;
   height: auto;
@@ -1060,15 +1060,15 @@ header.scroll-header .nav {
   cursor: pointer;
 }
 
-.portfolio__list .img__card:hover {
+.projects__list .img__card:hover {
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
-.portfolio__list .img__card .portfolio__overlay {
+.projects__list .img__card .projects__overlay {
   transition: 0.5s ease;
 }
 
-.portfolio__list .img__card:hover .portfolio__overlay {
+.projects__list .img__card:hover .projects__overlay {
   z-index: var(--z-fixed);
   position: absolute;
   width: 100%;
@@ -1076,7 +1076,7 @@ header.scroll-header .nav {
   background: rgba(0, 0, 0, 0.5);
 }
 
-.portfolio__list .img__card .portfolio__info {
+.projects__list .img__card .projects__info {
   z-index: var(--z-fixed);
   position: absolute;
   bottom: 0;
@@ -1086,29 +1086,29 @@ header.scroll-header .nav {
   opacity: 0;
   transition: 0.5s ease;
 }
-.portfolio__list .img__card:hover .portfolio__info {
+.projects__list .img__card:hover .projects__info {
   transform: translateY(0);
   opacity: 1;
 }
 
-.portfolio__info h3 {
+.projects__info h3 {
   color: var(--white-color);
   font-size: 1.5em;
 }
 
-.portfolio__info span {
+.projects__info span {
   color: var(--white-color);
   font-size: 1.2em;
 }
 
-.portfolio__list .img__card img {
+.projects__list .img__card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: inherit;
 }
 
-.portfolio__model {
+.projects__model {
   z-index: var(--z-modal);
   position: fixed;
   width: 100%;
@@ -1123,12 +1123,12 @@ header.scroll-header .nav {
   transition: 0.3s ease;
 }
 
-.portfolio__model.active {
+.projects__model.active {
   visibility: visible;
   opacity: 1;
 }
 
-.portfolio__model_body {
+.projects__model_body {
   position: relative;
   background: var(--body-color);
   max-width: 80%;
@@ -1142,11 +1142,11 @@ header.scroll-header .nav {
   overflow: hidden;
 }
 
-.portfolio__model.active .portfolio__model_body {
+.projects__model.active .projects__model_body {
   transform: translateY(0px);
 }
 
-.portfolio__close_btn {
+.projects__close_btn {
   position: absolute;
   top: 0;
   right: 0;
@@ -1154,16 +1154,16 @@ header.scroll-header .nav {
   cursor: pointer;
 }
 
-.portfolio__model_body h3 {
+.projects__model_body h3 {
   font-size: 1.5em;
 }
 
-.portfolio__img {
+.projects__img {
   display: block;
   margin: 20px 0;
 }
 
-.portfolio__img img {
+.projects__img img {
   display: block;
   width: auto;
   height: auto;
@@ -1173,7 +1173,7 @@ header.scroll-header .nav {
   object-fit: contain;
 }
 
-.portfolio__buttons {
+.projects__buttons {
   display: flex;
   justify-content: space-between;
   gap: 15px;
@@ -1181,7 +1181,7 @@ header.scroll-header .nav {
   flex-wrap: wrap;
 }
 
-.portfolio__button {
+.projects__button {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -1196,18 +1196,17 @@ header.scroll-header .nav {
   text-align: center;
 }
 
-.portfolio__button:hover {
+.projects__button:hover {
   background-color: var(--first-color-alt);
 }
 
-.portfolio__button a {
+.projects__button a {
   text-align: center;
 }
 
-/* PROJECT IN MIND */
 /* TESTIMONIAL */
-
 /* CONTACT ME */
+
 .contact__container {
   row-gap: 3rem;
 }
@@ -1758,7 +1757,7 @@ header.scroll-header .nav {
 @media screen and (max-width: 350px) {
   .container,
   .expcontainer,
-  .portfolio_content {
+  .projects_content {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
@@ -1820,7 +1819,7 @@ header.scroll-header .nav {
 @media screen and (min-width: 350px) {
   .container,
   .expcontainer,
-  .portfolio_content {
+  .projects_content {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
@@ -1910,7 +1909,7 @@ header.scroll-header .nav {
 
   .about__container,
   .skills__container,
-  .portfolio__content,
+  .projects__content,
   .contact__container,
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
@@ -1930,7 +1929,7 @@ header.scroll-header .nav {
 @media screen and (min-width: 768px) {
   .container,
   .expcontainer,
-  .portfolio_content {
+  .projects_content {
     margin-left: auto;
     margin-right: auto;
   }
@@ -2024,16 +2023,16 @@ header.scroll-header .nav {
     justify-content: initial;
   }
 
-  .portfolio__content {
+  .projects__content {
     align-items: center;
   }
 
-  .portfolio__model_body {
+  .projects__model_body {
     max-width: 600px;
     height: auto;
   }
 
-  .portfolio__img {
+  .projects__img {
     width: 520px;
     height: 100%;
   }
@@ -2077,7 +2076,7 @@ header.scroll-header .nav {
   }
 
   .expcontainer,
-  .portfolio_content {
+  .projects_content {
     max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
@@ -2096,7 +2095,7 @@ header.scroll-header .nav {
     width: 380px;
   }
 
-  .portfolio__content {
+  .projects__content {
     column-gap: 5rem;
   }
 

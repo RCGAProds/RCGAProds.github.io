@@ -22,7 +22,7 @@ links.forEach(function (link) {
 
 // Close the modal when clicking in the X
 // Close the modal when clicking outside the modal content
-//Functions in the Portfolio JS
+//Functions in the Projects JS
 
 // Function to close the modal
 function closeModal() {
@@ -99,16 +99,16 @@ document.querySelectorAll(".sweet_anim").forEach(item => {
   })
 })
 
-//<!-- ===================== Modal Portfolio ===================== -->
+//<!-- ===================== Modal Projects ===================== -->
 
-const portfolioModals = document.querySelectorAll(".portfolio__model")
+const projectsModals = document.querySelectorAll(".projects__model")
 const imgCards = document.querySelectorAll(".img__card")
 const closeBtns = document.querySelectorAll(".close")
 
-var portfolioModal = function (modalClick) {
+var projectsModal = function (modalClick) {
   if (!isModalClosing) {
-    portfolioModals[modalClick].classList.add("active")
-    portfolioModals[modalClick].style.pointerEvents = "auto"
+    projectsModals[modalClick].classList.add("active")
+    projectsModals[modalClick].style.pointerEvents = "auto"
 
     document.body.style.overflow = "hidden"
   }
@@ -116,7 +116,7 @@ var portfolioModal = function (modalClick) {
 
 imgCards.forEach((imgCard, i) => {
   imgCard.addEventListener("click", () => {
-    portfolioModal(i)
+    projectsModal(i)
   })
 })
 
@@ -136,11 +136,11 @@ window.onclick = function (event) {
       isModalClosing = false
     }, 300)
   }
-  // Close the portfolioModals when clicking outside the modal content
-  portfolioModals.forEach(portfolioModalView => {
+  // Close the projectsModals when clicking outside the modal content
+  projectsModals.forEach(projectsModalView => {
     if (
-      event.target === portfolioModalView &&
-      portfolioModalView.classList.contains("active")
+      event.target === projectsModalView &&
+      projectsModalView.classList.contains("active")
     ) {
       closePortModal()
       isModalClosing = true
@@ -160,10 +160,10 @@ window.addEventListener("touchstart", function (event) {
     }, 300)
   }
 
-  portfolioModals.forEach(portfolioModalView => {
+  projectsModals.forEach(projectsModalView => {
     if (
-      event.target === portfolioModalView &&
-      portfolioModalView.classList.contains("active")
+      event.target === projectsModalView &&
+      projectsModalView.classList.contains("active")
     ) {
       closePortModal()
       isModalClosing = true
@@ -182,9 +182,9 @@ window.addEventListener("keydown", function (event) {
 })
 
 function closePortModal() {
-  portfolioModals.forEach(portfolioModalView => {
-    portfolioModalView.classList.remove("active")
-    portfolioModalView.style.pointerEvents = "none"
+  projectsModals.forEach(projectsModalView => {
+    projectsModalView.classList.remove("active")
+    projectsModalView.style.pointerEvents = "none"
   })
 
   document.body.style.overflow = "auto"
