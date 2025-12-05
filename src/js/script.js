@@ -109,6 +109,8 @@ var portfolioModal = function (modalClick) {
   if (!isModalClosing) {
     portfolioModals[modalClick].classList.add("active")
     portfolioModals[modalClick].style.pointerEvents = "auto"
+
+    document.body.style.overflow = "hidden"
   }
 }
 
@@ -184,4 +186,6 @@ function closePortModal() {
     portfolioModalView.classList.remove("active")
     portfolioModalView.style.pointerEvents = "none"
   })
+
+  document.body.style.overflow = "auto"
 }
