@@ -60,27 +60,34 @@
               </a>
             </li>
             <li class="nav__item">
-              <a href="#certificates" class="nav__link">
-                <i class="uil uil-award nav__icon"></i>Certificates
-              </a>
-            </li>
-            <li class="nav__item">
               <a href="#about" class="nav__link">
                 <i class="uil uil-user nav__icon"></i>About Me
               </a>
             </li>
-            <li class="nav__item">
-              <a href="#experience" class="nav__link">
-                <i class="uil uil-briefcase-alt nav__icon"></i>Experience
-              </a>
-            </li>
-            <!--
+            <!-- Move this section below 'Experience' once I have more experience
             <li class="nav__item">
               <a href="#portfolio" class="nav__link">
                 <i class="uil uil-folder-open nav__icon"></i>Portfolio
               </a>
             </li>
             -->
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="uil uil-briefcase-alt nav__icon"></i>Experience
+              </a>
+            </li>
+            <!-- Write-ups
+            <li class="nav__item">
+              <a href="blog/index.html" class="nav__link">
+                <i class="uil uil-award nav__icon"></i>Blog
+              </a>
+            </li>
+            -->
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link">
+                <i class="uil uil-award nav__icon"></i>Certificates
+              </a>
+            </li>
             <li class="nav__item">
               <a href="#contact" class="nav__link">
                 <i class="uil uil-envelope nav__icon"></i>Contact me
@@ -109,8 +116,8 @@
         <h3 class="no-select">Student ID:</h3>
         <p id="copy1" class="textToCopy">HTB-8717656FEC</p>
         <span class="hideCopiedText no-select" id="copyText1"
-          >Copied to clipboard!</span
-        >
+          >Copied to clipboard!
+        </span>
       </div>
     </div>
 
@@ -192,7 +199,44 @@
               <p class="home__description">
                 Threat Hunting, Malware Analysis & more!
               </p>
-              <a href="#contact" class="button button--flex">
+              <!-- Certifications Thumbnails -->
+              <div class="home__certs" aria-label="Certifications">
+                <a
+                  href="https://www.credly.com/badges/7150fd61-1d49-406c-a885-b33acab2c1c3/public_url"
+                  target="_blank"
+                  rel="noopener"
+                  class="cert-thumb"
+                  title="CCST - Cisco Certified Support Technician (Oct 2025)"
+                  aria-label="CCST Certificate"
+                >
+                  <img
+                    src="src/assets/img/badges/CCST.webp"
+                    alt="CCST badge"
+                    loading="lazy"
+                  />
+                </a>
+
+                <a
+                  href="https://www.credly.com/badges/041c7cfd-41d2-4804-a5d9-8248e5bfa129/public_url"
+                  target="_blank"
+                  rel="noopener"
+                  class="cert-thumb"
+                  title="IT Specialist - Cybersecurity (Nov 2025)"
+                  aria-label="IT Specialist Certificate"
+                >
+                  <img
+                    src="src/assets/img/badges/IT Specialist - Cybersecurity.webp"
+                    alt="IT Specialist badge"
+                    loading="lazy"
+                  />
+                </a>
+              </div>
+              <!-- /Certifications Thumbnails -->
+              <a
+                href="#contact"
+                class="button button--flex"
+                id="contact__button"
+              >
                 Contact Me
                 <i class="uil uil-message button__icon"></i>
               </a>
@@ -200,128 +244,11 @@
           </div>
 
           <div class="home__scroll">
-            <a href="#certificates" class="home__scroll-button button--flex">
+            <a href="#about" class="home__scroll-button button--flex">
               <i class="uil uil-mouse-alt home__scroll-mouse"></i>
               <span class="home__scroll-name">Scroll Down</span>
               <i class="uil uil-arrow-down home__scroll-arrow"></i>
             </a>
-          </div>
-        </div>
-      </section>
-
-      <!-- ===================== Certifications ===================== -->
-      <section class="certificates section no-select" id="certificates">
-        <div class="section__title">
-          <h1 class="section__title_1">Certificates</h1>
-          <h2 class="section__title_2">Certificates</h2>
-          <p class="section__subtitle">
-            Showcasing my achievements and continuous learning.
-          </p>
-          <a
-            href="https://tryhackme.com/r/p/RCGAProds"
-            target="_blank"
-            aria-label="RCGA Prods TryHackMe"
-            style="display: inline-block; margin-bottom: 2%"
-          >
-            <img
-              id="THM_Badge"
-              data-src="https://tryhackme-badges.s3.amazonaws.com/RCGAProds.png"
-              alt="RCGA Prods Badge"
-              style="display: block"
-              loading="lazy"
-            />
-          </a>
-        </div>
-
-        <div class="container grid">
-          <div class="certificates__grid grid">
-            <!-- SOC Level 1 -->
-            <a
-              href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-4Q5RPNZB1V.pdf"
-              target="_blank"
-              aria-label="SOC Level 1 by TryHackMe"
-              class="certificates__item sweet_anim"
-              data-before="June 2025"
-            >
-              <img
-                src="src/assets/img/badges/SOCLevel1.webp"
-                alt="SOC Level 1 by TryHackMe"
-                class="certificates__img"
-              />
-              <h3 class="certificates__title" style="font-size: 0.82rem">
-                SOC Level 1 Learning Path
-              </h3>
-              <p class="certificates__subtitle">TryHackMe</p>
-            </a>
-            <!-- CCST -->
-            <a
-              href="https://www.credly.com/badges/7150fd61-1d49-406c-a885-b33acab2c1c3/public_url"
-              target="_blank"
-              aria-label="Cisco Certified Support Technician Cybersecurity"
-              class="certificates__item sweet_anim"
-              data-before="Oct 2025"
-            >
-              <img
-                src="src/assets/img/badges/CCST.webp"
-                alt="Cisco Certified Support Technician Cybersecurity"
-                class="certificates__img"
-              />
-              <h3 class="certificates__title" style="font-size: 0.82rem">
-                CCST - Cisco Certified Support Technician Cybersecurity
-              </h3>
-              <p class="certificates__subtitle">Cisco</p>
-            </a>
-            <!-- IT Specialist - Cybersecurity -->
-            <a
-              href="https://www.credly.com/badges/041c7cfd-41d2-4804-a5d9-8248e5bfa129/public_url"
-              target="_blank"
-              aria-label="IT Specialist - Cybersecurity"
-              class="certificates__item sweet_anim"
-              data-before="Nov 2025"
-            >
-              <img
-                src="src/assets/img/badges/IT Specialist - Cybersecurity.webp"
-                alt="IT Specialist - Cybersecurity"
-                class="certificates__img"
-              />
-              <h3 class="certificates__title" style="font-size: 0.82rem">
-                IT Specialist - Cybersecurity
-              </h3>
-              <p class="certificates__subtitle">Pearson</p>
-            </a>
-            <!-- CompTIA Security+ -->
-            <a
-              aria-label="CompTIA Security+ by Udemy"
-              class="certificates__item work-in-progress"
-              data-before="WIP"
-            >
-              <img
-                src="src/assets/img/badges/CompTIA_Security.webp"
-                alt="CompTIA Security+ by Udemy"
-                class="certificates__img"
-              />
-              <h3 class="certificates__title" style="font-size: 0.82rem">
-                CompTIA Security+
-              </h3>
-              <p class="certificates__subtitle">Udemy</p>
-            </a>
-            <!-- Google Professional Certificate -->
-            <a
-              aria-label="Google Professional Certificate Cybersecurity by Coursera"
-              class="certificates__item work-in-progress"
-              data-before="WIP"
-            >
-              <img
-                src="src/assets/img/badges/Google Professional Certificate Cybersecurity.webp"
-                alt="Google Professional Certificate Cybersecurity by Coursera"
-                class="certificates__img"
-              />
-              <h3 class="certificates__title">
-                Google Professional Cybersecurity
-              </h3>
-              <p class="certificates__subtitle">Coursera</p>
-            </a>
-            <!-- Add more certificates as needed -->
           </div>
         </div>
       </section>
@@ -394,24 +321,24 @@
                 <span class="about__info-title">00+</span>
                 <span class="about__info-name"
                   >Years of<br />
-                  experience</span
-                >
+                  experience
+                </span>
               </div>
 
               <div>
                 <span class="about__info-title">00+</span>
                 <span class="about__info-name"
                   >Completed <br />
-                  projects</span
-                >
+                  projects
+                </span>
               </div>
 
               <div>
                 <span class="about__info-title">00+</span>
                 <span class="about__info-name"
                   >Companies <br />
-                  worked for</span
-                >
+                  worked for
+                </span>
               </div>
             </div> -->
 
@@ -776,6 +703,123 @@
         </div>
       </section>
 
+      <!-- ===================== Certifications ===================== -->
+      <section class="certificates section no-select" id="certificates">
+        <div class="section__title">
+          <h1 class="section__title_1">Certificates</h1>
+          <h2 class="section__title_2">Certificates</h2>
+          <p class="section__subtitle">
+            Showcasing my achievements and continuous learning.
+          </p>
+          <a
+            href="https://tryhackme.com/r/p/RCGAProds"
+            target="_blank"
+            aria-label="RCGA Prods TryHackMe"
+            style="display: inline-block; margin-bottom: 2%"
+          >
+            <img
+              id="THM_Badge"
+              data-src="https://tryhackme-badges.s3.amazonaws.com/RCGAProds.png"
+              alt="RCGA Prods Badge"
+              style="display: block"
+              loading="lazy"
+            />
+          </a>
+        </div>
+
+        <div class="container grid">
+          <div class="certificates__grid grid">
+            <!-- SOC Level 1 -->
+            <a
+              href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-4Q5RPNZB1V.pdf"
+              target="_blank"
+              aria-label="SOC Level 1 by TryHackMe"
+              class="certificates__item sweet_anim"
+              data-before="June 2025"
+            >
+              <img
+                src="src/assets/img/badges/SOCLevel1.webp"
+                alt="SOC Level 1 by TryHackMe"
+                class="certificates__img"
+              />
+              <h3 class="certificates__title" style="font-size: 0.82rem">
+                SOC Level 1 Learning Path
+              </h3>
+              <p class="certificates__subtitle">TryHackMe</p>
+            </a>
+            <!-- CCST -->
+            <a
+              href="https://www.credly.com/badges/7150fd61-1d49-406c-a885-b33acab2c1c3/public_url"
+              target="_blank"
+              aria-label="Cisco Certified Support Technician Cybersecurity"
+              class="certificates__item sweet_anim"
+              data-before="Oct 2025"
+            >
+              <img
+                src="src/assets/img/badges/CCST.webp"
+                alt="Cisco Certified Support Technician Cybersecurity"
+                class="certificates__img"
+              />
+              <h3 class="certificates__title" style="font-size: 0.82rem">
+                CCST - Cisco Certified Support Technician Cybersecurity
+              </h3>
+              <p class="certificates__subtitle">Cisco</p>
+            </a>
+            <!-- IT Specialist - Cybersecurity -->
+            <a
+              href="https://www.credly.com/badges/041c7cfd-41d2-4804-a5d9-8248e5bfa129/public_url"
+              target="_blank"
+              aria-label="IT Specialist - Cybersecurity"
+              class="certificates__item sweet_anim"
+              data-before="Nov 2025"
+            >
+              <img
+                src="src/assets/img/badges/IT Specialist - Cybersecurity.webp"
+                alt="IT Specialist - Cybersecurity"
+                class="certificates__img"
+              />
+              <h3 class="certificates__title" style="font-size: 0.82rem">
+                IT Specialist - Cybersecurity
+              </h3>
+              <p class="certificates__subtitle">Pearson</p>
+            </a>
+            <!-- CompTIA Security+ -->
+            <a
+              aria-label="CompTIA Security+ by Udemy"
+              class="certificates__item work-in-progress"
+              data-before="WIP"
+            >
+              <img
+                src="src/assets/img/badges/CompTIA_Security.webp"
+                alt="CompTIA Security+ by Udemy"
+                class="certificates__img"
+              />
+              <h3 class="certificates__title" style="font-size: 0.82rem">
+                CompTIA Security+
+              </h3>
+              <p class="certificates__subtitle">Udemy</p>
+            </a>
+            <!-- Google Professional Certificate -->
+            <a
+              aria-label="Google Professional Certificate Cybersecurity by Coursera"
+              class="certificates__item work-in-progress"
+              data-before="WIP"
+            >
+              <img
+                src="src/assets/img/badges/Google Professional Certificate Cybersecurity.webp"
+                alt="Google Professional Certificate Cybersecurity by Coursera"
+                class="certificates__img"
+              />
+              <h3 class="certificates__title">
+                Google Professional Cybersecurity
+              </h3>
+              <p class="certificates__subtitle">Coursera</p>
+            </a>
+            <!-- Add more certificates as needed -->
+          </div>
+        </div>
+      </section>
+
       <!-- CONTACT ME -->
       <section class="contact section" id="contact">
         <div class="section__title no-select">
@@ -797,8 +841,8 @@
                   >rcgaproductions@gmail.com</a
                 >
                 <span class="hideCopiedText no-select" id="copyText2"
-                  >Copied to clipboard!</span
-                >
+                  >Copied to clipboard!
+                </span>
               </div>
             </div>
             <div class="contact__information">
@@ -825,11 +869,11 @@
               <div>
                 <h3 class="contact__title no-select">Discord</h3>
                 <span id="copy3" class="contact__subtitle textToCopy"
-                  >carlosnoheq</span
-                >
+                  >carlosnoheq
+                </span>
                 <span class="hideCopiedText no-select" id="copyText3"
-                  >Copied to clipboard!</span
-                >
+                  >Copied to clipboard!
+                </span>
               </div>
             </div>
           </div>
@@ -989,7 +1033,20 @@
           </div>
 
           <ul class="footer__links">
-            <!--
+            <li>
+              <a href="#about" class="footer__link" style="white-space: nowrap"
+                >About Me</a
+              >
+            </li>
+            <!-- Move this section below 'Experience' once I have more experience
+            <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+            -->
+            <li>
+              <a href="#experience" class="footer__link">Experience</a>
+            </li>
+            <!-- Write-ups
             <li>
               <a href="blog/index.html" class="footer__link">Blog</a>
             </li>
@@ -997,19 +1054,6 @@
             <li>
               <a href="#certificates" class="footer__link">Certificates</a>
             </li>
-            <li>
-              <a href="#about" class="footer__link" style="white-space: nowrap"
-                >About Me</a
-              >
-            </li>
-            <li>
-              <a href="#experience" class="footer__link">Experience</a>
-            </li>
-            <!--
-            <li>
-              <a href="#portfolio" class="footer__link">Portfolio</a>
-            </li>
-            -->
             <li>
               <a
                 href="#contact"
