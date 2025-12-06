@@ -76,27 +76,39 @@ textElements.forEach(textElement => {
 })
 
 //<!-- ===================== Sweet Animations ===================== -->
-document.querySelectorAll(".sweet_anim").forEach(item => {
-  item.addEventListener("mouseenter", () => {
-    if (item.classList.contains("certificates__item")) {
-      item.style.animation = "moveUpDown 1s ease-in-out infinite"
-    }
-  })
-
-  item.addEventListener("mouseleave", () => {
-    const computedStyle = getComputedStyle(item)
-    const transformValue = computedStyle.transform
-
-    item.style.animation = "none"
-    item.style.transform = transformValue
-
-    setTimeout(() => {
+function setupSweetAnimations() {
+  document.querySelectorAll(".sweet_anim").forEach(item => {
+    item.addEventListener("mouseenter", () => {
       if (item.classList.contains("certificates__item")) {
-        item.style.transition = "transform 0.3s ease-in-out"
-        item.style.transform = "translateY(0)"
+        item.style.animation = "moveUpDown 1s ease-in-out infinite"
       }
-    }, 10)
+    })
+
+    item.addEventListener("mouseleave", () => {
+      const computedStyle = getComputedStyle(item)
+      const transformValue = computedStyle.transform
+
+      item.style.animation = "none"
+      item.style.transform = transformValue
+
+      setTimeout(() => {
+        if (item.classList.contains("certificates__item")) {
+          item.style.transition = "transform 0.3s ease-in-out"
+          item.style.transform = "translateY(0)"
+        }
+      }, 10)
+    })
   })
+}
+
+// Initial Call
+setupSweetAnimations()
+
+// Call back after the carousel clones the items
+document.addEventListener("DOMContentLoaded", () => {
+  setTimeout(() => {
+    setupSweetAnimations()
+  }, 100)
 })
 
 //<!-- ===================== Modal Portfolio ===================== -->
@@ -185,3 +197,173 @@ function closePortModal() {
     portfolioModalView.style.pointerEvents = "none"
   })
 }
+
+//<!-- ===================== Infinite Carousel ===================== -->
+class InfiniteCarousel {
+  constructor(
+    carouselSelector,
+    prevBtnSelector,
+    nextBtnSelector,
+    itemsPerView = 4,
+  ) {
+    this.carousel = document.querySelector(carouselSelector)
+    this.prevBtn = document.querySelector(prevBtnSelector)
+    this.nextBtn = document.querySelector(nextBtnSelector)
+    this.originalItems = Array.from(
+      this.carousel.querySelectorAll(".carousel__item"),
+    )
+    this.itemsPerView = itemsPerView
+    this.currentIndex = 0
+    this.itemWidth = 0
+    this.gap = 0
+    this.isAnimating = false
+
+    this.init()
+  }
+
+  init() {
+    this.duplicateItems()
+    this.updateDimensions()
+    this.attachEventListeners()
+    this.setInitialPosition()
+
+    window.addEventListener("resize", () => {
+      this.updateDimensions()
+      this.setInitialPosition()
+    })
+  }
+
+  duplicateItems() {
+    // Clean up previous clones if they exist
+    const allItems = Array.from(this.carousel.children)
+    allItems.forEach(item => {
+      if (item.dataset.clone) {
+        item.remove()
+      }
+    })
+
+    // Save original items
+    this.originalItems = Array.from(
+      this.carousel.querySelectorAll(".carousel__item:not([data-clone])"),
+    )
+
+    // Add clones at the end
+    this.originalItems.forEach(item => {
+      const clone = item.cloneNode(true)
+      clone.dataset.clone = "end"
+      this.carousel.appendChild(clone)
+    })
+
+    // Add clones at the beginning
+    for (let i = this.originalItems.length - 1; i >= 0; i--) {
+      const clone = this.originalItems[i].cloneNode(true)
+      clone.dataset.clone = "start"
+      this.carousel.insertBefore(clone, this.carousel.firstChild)
+    }
+  }
+
+  updateDimensions() {
+    // Update items per view based on screen size
+    if (window.innerWidth <= 568) {
+      this.itemsPerView = 2
+    } else if (window.innerWidth <= 767) {
+      this.itemsPerView = 3
+    } else {
+      this.itemsPerView = 4
+    }
+
+    // Get the actual CSS gap (1rem)
+    const computedStyle = getComputedStyle(this.carousel)
+    this.gap = parseFloat(computedStyle.gap) || 16
+
+    // Calculate item width based on the first actual item
+    const firstItem = this.carousel.querySelector(
+      ".carousel__item:not([data-clone])",
+    )
+    if (firstItem) {
+      const itemRect = firstItem.getBoundingClientRect()
+      this.itemWidth = itemRect.width
+    }
+  }
+
+  setInitialPosition() {
+    // Disable transition for initial positioning
+    this.carousel.style.transition = "none"
+
+    // Start from the first original item (after the initial clones)
+    this.currentIndex = this.originalItems.length
+
+    // Calculate and apply position
+    const offsetX = this.currentIndex * (this.itemWidth + this.gap)
+    this.carousel.style.transform = `translateX(-${offsetX}px)`
+
+    // Force reflow to ensure it is applied before reactivating transitions
+    void this.carousel.offsetWidth
+  }
+
+  move(direction) {
+    if (this.isAnimating) return
+
+    this.isAnimating = true
+    const totalOriginalItems = this.originalItems.length
+
+    this.currentIndex += direction
+
+    // Apply motion with transition
+    const offsetX = this.currentIndex * (this.itemWidth + this.gap)
+    this.carousel.style.transition =
+      "transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1)"
+    this.carousel.style.transform = `translateX(-${offsetX}px)`
+
+    // Handling infinite loop after animation
+    setTimeout(() => {
+      // If we reach the end of the clones (moving forward)
+      if (this.currentIndex >= totalOriginalItems * 2) {
+        this.resetToPosition(totalOriginalItems)
+      }
+      // If we go back to the beginning of the clones (going backwards)
+      else if (this.currentIndex < totalOriginalItems) {
+        this.resetToPosition(totalOriginalItems + this.currentIndex)
+      }
+
+      this.isAnimating = false
+    }, 500)
+  }
+
+  resetToPosition(newIndex) {
+    this.carousel.style.transition = "none"
+
+    this.currentIndex = newIndex
+
+    const offsetX = this.currentIndex * (this.itemWidth + this.gap)
+    this.carousel.style.transform = `translateX(-${offsetX}px)`
+
+    void this.carousel.offsetWidth
+  }
+
+  attachEventListeners() {
+    this.prevBtn.addEventListener("click", () => this.move(-1))
+    this.nextBtn.addEventListener("click", () => this.move(1))
+
+    // Prevent clicks during animation
+    const preventClick = e => {
+      if (this.isAnimating) {
+        e.preventDefault()
+        e.stopPropagation()
+      }
+    }
+
+    this.prevBtn.addEventListener("click", preventClick, true)
+    this.nextBtn.addEventListener("click", preventClick, true)
+  }
+}
+
+// Initialize carousel when DOM is ready
+document.addEventListener("DOMContentLoaded", () => {
+  const carousel = new InfiniteCarousel(
+    "#certificatesCarousel",
+    ".carousel__button--prev",
+    ".carousel__button--next",
+    4,
+  )
+})
