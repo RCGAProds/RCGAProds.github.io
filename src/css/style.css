@@ -1058,6 +1058,7 @@ header.scroll-header .nav {
   transition: box-shadow 0.3s ease-in-out;
   overflow: hidden;
   cursor: pointer;
+  aspect-ratio: 4 / 3;
 }
 
 .projects__list .img__card:hover {
@@ -1131,10 +1132,10 @@ header.scroll-header .nav {
 .projects__model_body {
   position: relative;
   background: var(--body-color);
-  max-width: 80%;
-  max-height: 90dvh;
+  max-width: 75%;
+  max-height: 85dvh;
   margin: 2rem auto;
-  padding: 40px;
+  padding: 30px;
   border-radius: 10px;
   box-shadow: 0 3px 6px var(--first-color-alt);
   transform: translateY(-50px);
@@ -1159,8 +1160,9 @@ header.scroll-header .nav {
 }
 
 .projects__img {
-  display: block;
-  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
 }
 
 .projects__img img {
@@ -1168,7 +1170,7 @@ header.scroll-header .nav {
   width: auto;
   height: auto;
   max-width: 100%;
-  max-height: 80vh;
+  max-height: 45vh;
   border-radius: 10px;
   object-fit: contain;
 }
@@ -1176,7 +1178,7 @@ header.scroll-header .nav {
 .projects__buttons {
   display: flex;
   justify-content: space-between;
-  gap: 15px;
+  gap: 1rem;
   margin-top: 20px;
   flex-wrap: wrap;
 }
@@ -1186,7 +1188,7 @@ header.scroll-header .nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 20px;
+  padding: 8px 15px;
   color: var(--white-color);
   background-color: var(--first-color);
   border-radius: 5px;
