@@ -12,7 +12,7 @@ links.forEach(function (link) {
       event.preventDefault() // Prevent the default behavior of the link
       modal.style.display = "flex"
 
-      // Forzar el reflow para reiniciar la animación
+      // Force reflow to restart the animation
       void modal.querySelector(".modal-content").offsetWidth
 
       modal.querySelector(".modal-content").classList.add("show")
@@ -20,9 +20,9 @@ links.forEach(function (link) {
   }
 })
 
-// Close the modal when clicking in the X
+// Close the modal when clicking the X
 // Close the modal when clicking outside the modal content
-//Functions in the Portfolio JS
+// Functions in the Portfolio JS
 
 // Function to close the modal
 function closeModal() {
@@ -101,7 +101,7 @@ function setupSweetAnimations() {
   })
 }
 
-// Initial Call
+// Initial call
 setupSweetAnimations()
 
 // Call back after the carousel clones the items
@@ -146,7 +146,7 @@ window.onclick = function (event) {
       isModalClosing = false
     }, 300)
   }
-  // Close the portfolioModals when clicking outside the modal content
+  // Close the portfolio modals when clicking outside the modal content
   portfolioModals.forEach(portfolioModalView => {
     if (
       event.target === portfolioModalView &&
@@ -315,7 +315,7 @@ class InfiniteCarousel {
       "transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1)"
     this.carousel.style.transform = `translateX(-${offsetX}px)`
 
-    // Handling infinite loop after animation
+    // Handle infinite loop after animation
     setTimeout(() => {
       // If we reach the end of the clones (moving forward)
       if (this.currentIndex >= totalOriginalItems * 2) {
