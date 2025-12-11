@@ -730,95 +730,25 @@
           </a>
         </div>
 
-        <div class="container grid">
-          <div class="certificates__grid grid">
-            <!-- SOC Level 1 -->
-            <a
-              href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-4Q5RPNZB1V.pdf"
-              target="_blank"
-              aria-label="SOC Level 1 by TryHackMe"
-              class="certificates__item sweet_anim"
-              data-before="June 2025"
+        <div class="container">
+          <div class="carousel-wrapper">
+            <button
+              class="carousel__button carousel__button--prev"
+              aria-label="Previous certificates"
             >
-              <img
-                src="src/assets/img/badges/SOCLevel1.webp"
-                alt="SOC Level 1 by TryHackMe"
-                class="certificates__img"
-              />
-              <h3 class="certificates__title" style="font-size: 0.82rem">
-                SOC Level 1 Learning Path
-              </h3>
-              <p class="certificates__subtitle">TryHackMe</p>
-            </a>
-            <!-- CCST -->
-            <a
-              href="https://www.credly.com/badges/7150fd61-1d49-406c-a885-b33acab2c1c3/public_url"
-              target="_blank"
-              aria-label="Cisco Certified Support Technician Cybersecurity"
-              class="certificates__item sweet_anim"
-              data-before="Oct 2025"
+              <i class="uil uil-chevron-left"></i>
+            </button>
+
+            <div class="carousel__container">
+              <div class="carousel__track" id="certificatesCarousel"></div>
+            </div>
+
+            <button
+              class="carousel__button carousel__button--next"
+              aria-label="Next certificates"
             >
-              <img
-                src="src/assets/img/badges/CCST.webp"
-                alt="Cisco Certified Support Technician Cybersecurity"
-                class="certificates__img"
-              />
-              <h3 class="certificates__title" style="font-size: 0.82rem">
-                CCST - Cisco Certified Support Technician Cybersecurity
-              </h3>
-              <p class="certificates__subtitle">Cisco</p>
-            </a>
-            <!-- IT Specialist - Cybersecurity -->
-            <a
-              href="https://www.credly.com/badges/041c7cfd-41d2-4804-a5d9-8248e5bfa129/public_url"
-              target="_blank"
-              aria-label="IT Specialist - Cybersecurity"
-              class="certificates__item sweet_anim"
-              data-before="Nov 2025"
-            >
-              <img
-                src="src/assets/img/badges/IT Specialist - Cybersecurity.webp"
-                alt="IT Specialist - Cybersecurity"
-                class="certificates__img"
-              />
-              <h3 class="certificates__title" style="font-size: 0.82rem">
-                IT Specialist - Cybersecurity
-              </h3>
-              <p class="certificates__subtitle">Pearson</p>
-            </a>
-            <!-- CompTIA Security+ -->
-            <a
-              aria-label="CompTIA Security+ by Udemy"
-              class="certificates__item work-in-progress"
-              data-before="WIP"
-            >
-              <img
-                src="src/assets/img/badges/CompTIA_Security.webp"
-                alt="CompTIA Security+ by Udemy"
-                class="certificates__img"
-              />
-              <h3 class="certificates__title" style="font-size: 0.82rem">
-                CompTIA Security+
-              </h3>
-              <p class="certificates__subtitle">Udemy</p>
-            </a>
-            <!-- Google Professional Certificate -->
-            <a
-              aria-label="Google Professional Certificate Cybersecurity by Coursera"
-              class="certificates__item work-in-progress"
-              data-before="WIP"
-            >
-              <img
-                src="src/assets/img/badges/Google Professional Certificate Cybersecurity.webp"
-                alt="Google Professional Certificate Cybersecurity by Coursera"
-                class="certificates__img"
-              />
-              <h3 class="certificates__title">
-                Google Professional Cybersecurity
-              </h3>
-              <p class="certificates__subtitle">Coursera</p>
-            </a>
-            <!-- Add more certificates as needed -->
+              <i class="uil uil-chevron-right"></i>
+            </button>
           </div>
         </div>
       </section>
@@ -1087,6 +1017,7 @@
               <i class="uil uil-cube"></i>
             </a>
             <!-- TryHackMe -->
+
             <a
               href="https://tryhackme.com/p/RCGAProds"
               target="_blank"
@@ -1130,6 +1061,7 @@
 
     <!-- ===================== MAIN JS & More ===================== -->
     <script src="src/js/main.js" defer></script>
+    <script src="src/js/certificates-db.js" defer></script>
     <script src="src/js/script.js" defer></script>
 
     <!-- ===================== COOKIES JS ===================== -->
