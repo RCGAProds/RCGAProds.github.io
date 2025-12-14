@@ -145,7 +145,7 @@ function openProjectModal(project) {
       ${
         project.liveUrl
           ? `
-        <a href="${project.liveUrl}" target="_blank" rel="noopener noreferrer" class="project-modal__button project-modal__button--primary">
+        <a href="${project.liveUrl}" target="_blank" rel="noopener noreferrer" class="project-modal__button project-modal__button--primary no-select">
           <i class="uil uil-eye"></i> View Live
         </a>
       `
@@ -154,7 +154,7 @@ function openProjectModal(project) {
       ${
         project.repoUrl
           ? `
-        <a href="${project.repoUrl}" target="_blank" rel="noopener noreferrer" class="project-modal__button project-modal__button--secondary">
+        <a href="${project.repoUrl}" target="_blank" rel="noopener noreferrer" class="project-modal__button project-modal__button--secondary no-select">
           <i class="uil uil-github"></i> Repository
         </a>
       `
@@ -166,10 +166,10 @@ function openProjectModal(project) {
   const imageUrl = project.liveUrl || project.repoUrl
 
   const imageHtml = imageUrl
-    ? `<a href="${imageUrl}" target="_blank" rel="noopener noreferrer" class="project-modal__image-link">
+    ? `<a href="${imageUrl}" target="_blank" rel="noopener noreferrer" class="project-modal__image-link no-select">
          <img src="${project.image}" alt="${project.title}" class="project-modal__image" />
        </a>`
-    : `<img src="${project.image}" alt="${project.title}" class="project-modal__image" />`
+    : `<img src="${project.image}" alt="${project.title}" class="project-modal__image no-select" />`
 
   modalContent.innerHTML = `
     <span class="project-modal__close">&times;</span>
