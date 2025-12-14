@@ -138,6 +138,8 @@ function openProjectModal(project) {
   const modal = document.getElementById("projectModal")
   const modalContent = modal.querySelector(".project-modal__content")
 
+  document.body.style.overflow = "hidden"
+
   const buttonsHtml = `
     <div class="project-modal__buttons">
       ${
@@ -204,6 +206,8 @@ function closeProjectModal() {
   setTimeout(() => {
     modal.style.display = "none"
   }, 300)
+
+  document.body.style.overflow = "auto"
 }
 
 // Close modal on outside click
@@ -230,11 +234,11 @@ document.addEventListener("DOMContentLoaded", () => {
     "#projectsCarousel",
     ".carousel__button--prev-projects",
     ".carousel__button--next-projects",
-    3, // Default items per view
+    4, // Default items per view
     {
       mobile: 1, // 1 item on mobile
       tablet: 2, // 2 items on tablet
-      desktop: 3, // 3 items on desktop
+      desktop: 4, // 4 items on desktop
     },
   )
 })
