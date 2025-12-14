@@ -155,7 +155,7 @@ function openProjectModal(project) {
         project.repoUrl
           ? `
         <a href="${project.repoUrl}" target="_blank" rel="noopener noreferrer" class="project-modal__button project-modal__button--secondary">
-          <i class="uil uil-github"></i> View Code
+          <i class="uil uil-github"></i> Repository
         </a>
       `
           : ""
@@ -163,15 +163,21 @@ function openProjectModal(project) {
     </div>
   `
 
+  const imageUrl = project.liveUrl || project.repoUrl
+
+  const imageHtml = imageUrl
+    ? `<a href="${imageUrl}" target="_blank" rel="noopener noreferrer" class="project-modal__image-link">
+         <img src="${project.image}" alt="${project.title}" class="project-modal__image" />
+       </a>`
+    : `<img src="${project.image}" alt="${project.title}" class="project-modal__image" />`
+
   modalContent.innerHTML = `
     <span class="project-modal__close">&times;</span>
     <div class="project-modal__header">
       <h2 class="project-modal__title">${project.title}</h2>
     </div>
     <div class="project-modal__body">
-      <img src="${project.image}" alt="${
-    project.title
-  }" class="project-modal__image" />
+      ${imageHtml}
       <p class="project-modal__description">${project.description}</p>
       <div class="project-modal__tech">
         <h4>Technologies Used:</h4>
