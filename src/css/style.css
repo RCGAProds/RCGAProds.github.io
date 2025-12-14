@@ -219,7 +219,6 @@ img {
 .section__subtitle {
   display: block;
   font-size: var(--small-font-size);
-  margin-bottom: var(--mb-4);
   position: relative;
   top: -4rem;
 }
@@ -1393,7 +1392,7 @@ header.scroll-header .nav {
   }
 }
 
-/* ===================== CAROUSEL ===================== */
+/* ===================== CERTIFICATES CAROUSEL ===================== */
 .carousel-wrapper {
   display: flex;
   align-items: center;
