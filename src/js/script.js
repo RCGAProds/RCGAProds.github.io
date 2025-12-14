@@ -2,6 +2,7 @@
 // Get DOM elements
 var modal = document.getElementById("myModal")
 var links = document.querySelectorAll(".openModalLink")
+var closeBtns = document.querySelectorAll(".close")
 
 let isModalClosing = false
 
@@ -16,12 +17,13 @@ links.forEach(function (link) {
       void modal.querySelector(".modal-content").offsetWidth
 
       modal.querySelector(".modal-content").classList.add("show")
+
+      document.body.style.overflow = "hidden"
     }
   }
 })
 
-// Close the modal when clicking the X
-// Close the modal when clicking outside the modal content
+// Close the modal when clicking the X & clicking outside the modal content
 // Functions in the Projects JS
 
 // Function to close the modal
@@ -31,8 +33,42 @@ function closeModal() {
 
   setTimeout(() => {
     modal.style.display = "none"
+    document.body.style.overflow = "auto"
   }, 500) // The time must match the duration of the animation.
 }
+
+closeBtns.forEach(closeBtn => {
+  closeBtn.onclick = function () {
+    closeModal()
+  }
+})
+
+window.onclick = function (event) {
+  // Close the modal when clicking outside the modal content
+  if (event.target == modal) {
+    closeModal()
+    isModalClosing = true
+    setTimeout(() => {
+      isModalClosing = false
+    }, 300)
+  }
+}
+
+window.addEventListener("touchstart", function (event) {
+  if (event.target == modal) {
+    closeModal()
+    isModalClosing = true
+    setTimeout(() => {
+      isModalClosing = false
+    }, 300)
+  }
+})
+
+window.addEventListener("keydown", function (event) {
+  if (event.key === "Escape") {
+    closeModal()
+  }
+})
 
 //<!-- ===================== CopyText ===================== -->
 // Get the paragraph element
