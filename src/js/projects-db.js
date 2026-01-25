@@ -6,6 +6,17 @@
  */
 const projectsData = [
   {
+    id: "sysrevive",
+    title: "SysRevive",
+    description:
+      "Windows system repair toolkit for recovering from power outages and file corruption.",
+    technologies: ["PowerShell", "Bash", "Windows"],
+    image: "src/assets/img/projects/SysRevive.webp",
+    liveUrl: null,
+    repoUrl: "https://github.com/RCGAProds/SysRevive",
+    status: "completed",
+  },
+  {
     id: "monkeytype-clone",
     title: "MonkeyType Clone",
     description:
