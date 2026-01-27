@@ -1,4 +1,5 @@
-
-Anotaciones.txt
+*.txt
 .prettierrc
-cybersecurity-quiz/cybersecurityQuiz.json
+cybersecurity-quiz/*.json
+*.code-workspace
+.vscode
