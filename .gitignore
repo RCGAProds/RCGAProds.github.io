@@ -3,4 +3,3 @@
 .prettierrc
 cybersecurity-quiz/*.json
 *.code-workspace
-.vscode/
