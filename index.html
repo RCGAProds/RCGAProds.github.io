@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -12,6 +12,7 @@
 
     <!-- ===================== CSS ===================== -->
     <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/projects-styles.css" />
 
     <title>RCGA Prods</title>
     <link rel="icon" type="image/png" href="src/assets/img/icon.png" />
@@ -19,7 +20,7 @@
     <!-- ===================== META ===================== -->
     <meta
       name="keywords"
-      content="RCGA Prods, Cybersecurity, Security, BlueTeam, Portfolio, Resume"
+      content="RCGA Prods, Cybersecurity, Security, BlueTeam, Projects, Resume"
     />
     <meta name="description" content="RCGA Prods Cybersecurity Website" />
     <meta name="author" content="Carlos García" />
@@ -64,13 +65,12 @@
                 <i class="uil uil-user nav__icon"></i>About Me
               </a>
             </li>
-            <!-- Move this section below 'Experience' once I have more experience
+            <!-- Move 'Projects' section below 'Experience' once I have more experience -->
             <li class="nav__item">
-              <a href="#portfolio" class="nav__link">
-                <i class="uil uil-folder-open nav__icon"></i>Portfolio
+              <a href="#projects" class="nav__link">
+                <i class="uil uil-folder-open nav__icon"></i>Projects
               </a>
             </li>
-            -->
             <li class="nav__item">
               <a href="#experience" class="nav__link">
                 <i class="uil uil-briefcase-alt nav__icon"></i>Experience
@@ -535,6 +535,48 @@
         </div>
       </section>
 
+      <!-- ===================== PROJECTS ===================== -->
+      <section class="projects section no-select" id="projects">
+        <div class="section__title">
+          <h1 class="section__title_1">Projects</h1>
+          <h2 class="section__title_2">Projects</h2>
+          <p class="section__subtitle">
+            Featured work showcasing my technical skills and creativity
+          </p>
+        </div>
+
+        <div class="container">
+          <div class="projects__carousel-wrapper">
+            <button
+              class="carousel__button carousel__button--prev-projects"
+              aria-label="Previous projects"
+            >
+              <i class="uil uil-chevron-left"></i>
+            </button>
+
+            <div class="projects__carousel-container">
+              <div class="projects__carousel-track" id="projectsCarousel">
+                <!-- Projects will be dynamically loaded here -->
+              </div>
+            </div>
+
+            <button
+              class="carousel__button carousel__button--next-projects"
+              aria-label="Next projects"
+            >
+              <i class="uil uil-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Project Modal -->
+      <div id="projectModal" class="project-modal">
+        <div class="project-modal__content">
+          <!-- Modal content dynamically loaded -->
+        </div>
+      </div>
+
       <!-- ===================== Experience ===================== -->
       <section class="experiences section no-select" id="experience">
         <div class="section__title">
@@ -617,117 +659,6 @@
           </div>
         </div>
       </section>
-
-      <!-- ===================== Portfolio ===================== 
-      <section class="portfolio section no-select" id="portfolio">
-        <div class="section__title">
-          <h1 class="section__title_1">Portfolio</h1>
-          <h2 class="section__title_2">Portfolio</h2>
-        </div>
-        <div class="portfolio_content">
-          <div class="portfolio__list grid">
-            <div class="img__card_container">
-              <div class="img__card">
-                <div class="portfolio__overlay"></div>
-                <div class="portfolio__info">
-                  <h3>MonkeyType Clone</h3>
-                  <span>Github</span>
-                </div>
-                <img
-                  src="src/assets/img/portfolio/MonkeyTypeClone.webp"
-                  loading="lazy"
-                  alt="MonkeyType Clone Image"
-                />
-              </div>
-              <div class="portfolio__model flex_center">
-                <div class="portfolio__model_body">
-                  <span class="close">&times;</span>
-                  <h3>MonkeyType Clone</h3>
-                  <a
-                    href="https://rcgaprods.github.io/typing-test-web/"
-                    target="_blank"
-                    aria-label="MonkeyType Clone"
-                    class="portfolio__img"
-                    ><img
-                      src="src/assets/img/portfolio/MonkeyTypeClone.webp"
-                      loading="lazy"
-                      alt="MonkeyType Clone Image"
-                  /></a>
-                  <p>
-                    Tracks typing speed and accuracy. Users can test their
-                    typing skills, such as words per minute (WPM) and error
-                    rates.
-                    <br /><br />Technologies used include HTML, CSS, and
-                    JavaScript.
-                  </p>
-                  <div class="portfolio__buttons">
-                    <a
-                      href="https://rcgaprods.github.io/typing-test-web/"
-                      aria-label="MonkeyType Clone Website"
-                      class="portfolio__button"
-                      target="_blank"
-                      >Visit Website</a
-                    >
-                    <a
-                      href="https://github.com/RCGAProds/typing-test-web"
-                      aria-label="MonkeyType Clone Repository"
-                      class="portfolio__button"
-                      target="_blank"
-                      >See on GitHub</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="img__card_container">
-              <div class="img__card">
-                <div class="portfolio__overlay"></div>
-                <div class="portfolio__info">
-                  <h3>Audiovisual Mix</h3>
-                  <span>Google Drive</span>
-                </div>
-                <img
-                  src="src/assets/img/portfolio/Audiovisual.webp"
-                  loading="lazy"
-                  alt=""
-                />
-              </div>
-              <div class="portfolio__model flex_center">
-                <div class="portfolio__model_body">
-                  <span class="close">&times;</span>
-                  <h3>Audiovisual Mix</h3>
-                  <a
-                    href="https://drive.google.com/drive/folders/1aUc9cJUqQYQEA6biTl-L2u5bHCKQyqU4?usp=sharing"
-                    target="_blank"
-                    aria-label="Audiovisual Portfolio"
-                    class="portfolio__img"
-                    ><img
-                      src="src/assets/img/portfolio/Audiovisual.webp"
-                      loading="lazy"
-                      alt="Audiovisual Collage Picture"
-                  /></a>
-                  <p>
-                    A range of audiovisual projects that I have developed.
-                    <br /><br />
-                    Tools used include Photoshop, Premiere Pro, After Effects,
-                    3ds Max and Unity3D.
-                  </p>
-                  <div class="portfolio__buttons">
-                    <a
-                      href="https://drive.google.com/drive/folders/1aUc9cJUqQYQEA6biTl-L2u5bHCKQyqU4?usp=sharing"
-                      aria-label="Audiovisual Portfolio in Google Drive"
-                      class="portfolio__button"
-                      target="_blank"
-                      >Visit Google Drive</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      -->
 
       <!-- ===================== Certifications ===================== -->
       <section class="certificates section no-select" id="certificates">
@@ -994,11 +925,10 @@
                 >About Me</a
               >
             </li>
-            <!-- Move this section below 'Experience' once I have more experience
+            <!-- Move 'Projects' section below 'Experience' once I have more experience -->
             <li>
-              <a href="#portfolio" class="footer__link">Portfolio</a>
+              <a href="#projects" class="footer__link">Projects</a>
             </li>
-            -->
             <li>
               <a href="#experience" class="footer__link">Experience</a>
             </li>
@@ -1041,7 +971,6 @@
               <i class="uil uil-cube"></i>
             </a>
             <!-- TryHackMe -->
-
             <a
               href="https://tryhackme.com/p/RCGAProds"
               target="_blank"
@@ -1085,8 +1014,9 @@
 
     <!-- ===================== MAIN JS & More ===================== -->
     <script src="src/js/main.js" defer></script>
-    <script src="src/js/certificates-db.js" defer></script>
     <script src="src/js/script.js" defer></script>
+    <script src="src/data/certificates-db.js" defer></script>
+    <script src="src/data/projects-db.js" defer></script>
 
     <!-- ===================== COOKIES JS ===================== -->
     <script

@@ -2,6 +2,7 @@
 // Get DOM elements
 var modal = document.getElementById("myModal")
 var links = document.querySelectorAll(".openModalLink")
+var closeBtns = document.querySelectorAll(".close")
 
 let isModalClosing = false
 
@@ -16,13 +17,14 @@ links.forEach(function (link) {
       void modal.querySelector(".modal-content").offsetWidth
 
       modal.querySelector(".modal-content").classList.add("show")
+
+      document.body.style.overflow = "hidden"
     }
   }
 })
 
-// Close the modal when clicking the X
-// Close the modal when clicking outside the modal content
-// Functions in the Portfolio JS
+// Close the modal when clicking the X & clicking outside the modal content
+// Functions in the Projects JS
 
 // Function to close the modal
 function closeModal() {
@@ -31,8 +33,42 @@ function closeModal() {
 
   setTimeout(() => {
     modal.style.display = "none"
+    document.body.style.overflow = "auto"
   }, 500) // The time must match the duration of the animation.
 }
+
+closeBtns.forEach(closeBtn => {
+  closeBtn.onclick = function () {
+    closeModal()
+  }
+})
+
+window.onclick = function (event) {
+  // Close the modal when clicking outside the modal content
+  if (event.target == modal) {
+    closeModal()
+    isModalClosing = true
+    setTimeout(() => {
+      isModalClosing = false
+    }, 300)
+  }
+}
+
+window.addEventListener("touchstart", function (event) {
+  if (event.target == modal) {
+    closeModal()
+    isModalClosing = true
+    setTimeout(() => {
+      isModalClosing = false
+    }, 300)
+  }
+})
+
+window.addEventListener("keydown", function (event) {
+  if (event.key === "Escape") {
+    closeModal()
+  }
+})
 
 //<!-- ===================== CopyText ===================== -->
 // Get the paragraph element
@@ -111,108 +147,35 @@ document.addEventListener("DOMContentLoaded", () => {
   }, 100)
 })
 
-//<!-- ===================== Modal Portfolio ===================== -->
-
-const portfolioModals = document.querySelectorAll(".portfolio__model")
-const imgCards = document.querySelectorAll(".img__card")
-const closeBtns = document.querySelectorAll(".close")
-
-var portfolioModal = function (modalClick) {
-  if (!isModalClosing) {
-    portfolioModals[modalClick].classList.add("active")
-    portfolioModals[modalClick].style.pointerEvents = "auto"
-  }
-}
-
-imgCards.forEach((imgCard, i) => {
-  imgCard.addEventListener("click", () => {
-    portfolioModal(i)
-  })
-})
-
-closeBtns.forEach(closeBtn => {
-  closeBtn.onclick = function () {
-    closePortModal()
-    closeModal()
-  }
-})
-
-window.onclick = function (event) {
-  // Close the modal when clicking outside the modal content
-  if (event.target == modal) {
-    closeModal()
-    isModalClosing = true
-    setTimeout(() => {
-      isModalClosing = false
-    }, 300)
-  }
-  // Close the portfolio modals when clicking outside the modal content
-  portfolioModals.forEach(portfolioModalView => {
-    if (
-      event.target === portfolioModalView &&
-      portfolioModalView.classList.contains("active")
-    ) {
-      closePortModal()
-      isModalClosing = true
-      setTimeout(() => {
-        isModalClosing = false
-      }, 300)
-    }
-  })
-}
-
-window.addEventListener("touchstart", function (event) {
-  if (event.target == modal) {
-    closeModal()
-    isModalClosing = true
-    setTimeout(() => {
-      isModalClosing = false
-    }, 300)
-  }
-
-  portfolioModals.forEach(portfolioModalView => {
-    if (
-      event.target === portfolioModalView &&
-      portfolioModalView.classList.contains("active")
-    ) {
-      closePortModal()
-      isModalClosing = true
-      setTimeout(() => {
-        isModalClosing = false
-      }, 300)
-    }
-  })
-})
-
-window.addEventListener("keydown", function (event) {
-  if (event.key === "Escape") {
-    closePortModal()
-    closeModal()
-  }
-})
-
-function closePortModal() {
-  portfolioModals.forEach(portfolioModalView => {
-    portfolioModalView.classList.remove("active")
-    portfolioModalView.style.pointerEvents = "none"
-  })
-}
-
-//<!-- ===================== Infinite Carousel ===================== -->
+//<!-- ===================== Enhanced Infinite Carousel ===================== -->
+/**
+ * Enhanced InfiniteCarousel class with responsive breakpoints
+ */
 class InfiniteCarousel {
   constructor(
     carouselSelector,
     prevBtnSelector,
     nextBtnSelector,
-    itemsPerView = 4,
+    defaultItemsPerView = 4,
+    breakpoints = null,
   ) {
     this.carousel = document.querySelector(carouselSelector)
     this.prevBtn = document.querySelector(prevBtnSelector)
     this.nextBtn = document.querySelector(nextBtnSelector)
+
+    // Exit if carousel doesn't exist (e.g., not on that page)
+    if (!this.carousel || !this.prevBtn || !this.nextBtn) return
+
     this.originalItems = Array.from(
       this.carousel.querySelectorAll(".carousel__item"),
     )
-    this.itemsPerView = itemsPerView
+    this.defaultItemsPerView = defaultItemsPerView
+    this.breakpoints = breakpoints || {
+      mobile: 2,
+      tablet: 3,
+      desktop: 4,
+    }
+    this.itemsPerView = defaultItemsPerView
     this.currentIndex = 0
     this.itemWidth = 0
     this.gap = 0
@@ -227,10 +190,12 @@ class InfiniteCarousel {
     this.attachEventListeners()
     this.setInitialPosition()
 
-    window.addEventListener("resize", () => {
+    const resizeHandler = () => {
       this.updateDimensions()
       this.setInitialPosition()
-    })
+    }
+
+    window.addEventListener("resize", resizeHandler)
   }
 
   duplicateItems() {
@@ -263,16 +228,18 @@ class InfiniteCarousel {
   }
 
   updateDimensions() {
-    // Update items per view based on screen size
-    if (window.innerWidth <= 568) {
-      this.itemsPerView = 2
-    } else if (window.innerWidth <= 767) {
-      this.itemsPerView = 3
+    // Update items per view based on screen size with custom breakpoints
+    const width = window.innerWidth
+
+    if (width <= 568) {
+      this.itemsPerView = this.breakpoints.mobile
+    } else if (width <= 767) {
+      this.itemsPerView = this.breakpoints.tablet
     } else {
-      this.itemsPerView = 4
+      this.itemsPerView = this.breakpoints.desktop
     }
 
-    // Get the actual CSS gap (1rem)
+    // Get the actual CSS gap
     const computedStyle = getComputedStyle(this.carousel)
     this.gap = parseFloat(computedStyle.gap) || 16
 
@@ -358,12 +325,6 @@ class InfiniteCarousel {
   }
 }
 
-// Initialize carousel when DOM is ready
-document.addEventListener("DOMContentLoaded", () => {
-  const carousel = new InfiniteCarousel(
-    "#certificatesCarousel",
-    ".carousel__button--prev",
-    ".carousel__button--next",
-    4,
-  )
-})
+// NOTE: The initialization for certificates will be in certificates-db.js
+// The initialization for projects will be in projects-db.js
+// This keeps each carousel configuration with its respective data
