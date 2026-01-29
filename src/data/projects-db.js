@@ -12,6 +12,7 @@ const projectsData = [
       "Windows system repair toolkit for recovering from power outages and file corruption.",
     technologies: ["PowerShell", "Bash", "Windows"],
     image: "src/assets/img/projects/SysRevive.webp",
+    backgroundColor: "#0e0f13",
     liveUrl: null,
     repoUrl: "https://github.com/RCGAProds/SysRevive",
     status: "completed",
@@ -23,6 +24,7 @@ const projectsData = [
       "A typing speed test application that tracks WPM and accuracy. Built with vanilla JavaScript for optimal performance.",
     technologies: ["HTML", "CSS", "JavaScript"],
     image: "src/assets/img/projects/MonkeyTypeClone.webp",
+    backgroundColor: "#222222",
     liveUrl: "https://rcgaprods.github.io/typing-test-web/",
     repoUrl: "https://github.com/RCGAProds/typing-test-web",
     status: "completed",
@@ -40,6 +42,7 @@ const projectsData = [
       "Unity3D",
     ],
     image: "src/assets/img/projects/Audiovisual.webp",
+    backgroundColor: "white",
     liveUrl: null,
     repoUrl:
       "https://drive.google.com/drive/folders/1aUc9cJUqQYQEA6biTl-L2u5bHCKQyqU4?usp=sharing",
@@ -75,6 +78,22 @@ const projectsData = [
 ]
 
 /**
+ * Get background color for project based on status
+ * @param {Object} project
+ * @returns {string} Background color (hex or CSS variable)
+ */
+
+function getProjectBackgroundColor(project) {
+  const isInProgress = project.status === "in-progress"
+
+  const bgColor = isInProgress
+    ? "#ffffff"
+    : project.backgroundColor || "var(--body-color)"
+
+  return bgColor
+}
+
+/**
  * Render projects into the carousel
  */
 function renderProjects() {
@@ -90,13 +109,13 @@ function renderProjects() {
     const classes = `project__item carousel__item ${
       isInProgress ? "work-in-progress" : ""
     }`
-
     const techStack = project.technologies.join(" · ")
-    const statusLabel = isInProgress ? "In Development" : "View Project"
+
+    const bgColor = getProjectBackgroundColor(project)
 
     const html = `
       <div class="${classes}" data-project-id="${project.id}">
-        <div class="project__image-wrapper">
+        <div class="project__image-wrapper" style="background-color: ${bgColor};">
           <img
             src="${project.image}"
             alt="${project.title}"
@@ -180,12 +199,15 @@ function openProjectModal(project) {
   `
 
   const imageUrl = project.liveUrl || project.repoUrl
+  const bgColor = getProjectBackgroundColor(project)
 
   const imageHtml = imageUrl
-    ? `<a href="${imageUrl}" target="_blank" rel="noopener noreferrer" class="project-modal__image-link no-select">
+    ? `<a href="${imageUrl}" target="_blank" rel="noopener noreferrer" class="project-modal__image-link no-select" style="background-color: ${bgColor};">
          <img src="${project.image}" alt="${project.title}" class="project-modal__image" />
        </a>`
-    : `<img src="${project.image}" alt="${project.title}" class="project-modal__image no-select" />`
+    : `<div class="project-modal__image-wrapper" style="background-color: ${bgColor};">
+         <img src="${project.image}" alt="${project.title}" class="project-modal__image no-select" />
+       </div>`
 
   modalContent.innerHTML = `
     <span class="project-modal__close">&times;</span>

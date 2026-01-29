@@ -75,7 +75,7 @@
 .project__img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   transition: transform 0.3s ease;
 }
 
@@ -223,24 +223,25 @@
 }
 
 .project-modal__image {
+  display: block;
   width: 100%;
   height: auto;
   max-height: 250px;
-  object-fit: cover;
-  border-radius: 0.5rem;
+  object-fit: contain;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .project-modal__image-link {
   display: block;
-  transition: transform 0.3s ease, opacity 0.3s ease;
+  align-items: center;
+  border-radius: 0.5rem;
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
 }
 
 .project-modal__image-link:hover {
   transform: scale(1.02);
-}
-
-.project-modal__image-link:hover .project-modal__image {
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.4);
 }
 
