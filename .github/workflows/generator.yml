@@ -1,0 +1,38 @@
+name: Regenerate Posts DB
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'blog/posts/**'
+      - 'blog/build-posts.js'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🛒 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '25.7.0'
+          cache: 'npm'
+
+      - name: 📦 Install dependencies
+        run: npm install
+
+      - name: ⚙️ Run generation script
+        run: npm run build-posts
+
+      - name: 🚀 Auto-commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update posts-db.js [skip ci]"
+          file_pattern: 'blog/posts-db.js'
