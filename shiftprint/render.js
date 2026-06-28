@@ -4,27 +4,66 @@
  */
 
 const THEME_PRESETS = {
-  paper: {
-    bg: '#efe9dd',
+  oficina: {
     card: '#ffffff',
-    text: '#262220',
-    accent: '#3a5a8c',
-    headerBg: '#262220'
+    text: '#1e2330',
+    accent: '#3b4cca',
+    headerBg: '#1e2330'
+  },
+  espresso: {
+    card: '#fdf8f2',
+    text: '#2c1d0e',
+    accent: '#7a4520',
+    headerBg: '#3d2210'
+  },
+  mono: {
+    card: '#ffffff',
+    text: '#1a1a1a',
+    accent: '#1a1a1a',
+    headerBg: '#1a1a1a'
+  },
+  hospital: {
+    card: '#f7fbf8',
+    text: '#1b2e24',
+    accent: '#2d7a4f',
+    headerBg: '#2d7a4f'
   },
   ink: {
-    bg: '#15171c',
     card: '#1e2128',
     text: '#e8e6e1',
     accent: '#7aa2f7',
     headerBg: '#2a2e38'
   },
-  mono: {
-    bg: '#e9e9e9',
-    card: '#ffffff',
-    text: '#1a1a1a',
-    accent: '#1a1a1a',
-    headerBg: '#1a1a1a'
-  }
+  terminal: {
+    card: '#141510',
+    text: '#e8c96a',
+    accent: '#c8a83a',
+    headerBg: '#1e1d14'
+  },
+  blueprint: {
+    card: '#1f2e50',
+    text: '#d4e4f7',
+    accent: '#5ba3d9',
+    headerBg: '#0f1a30'
+  },
+  shadow_clay: {
+  card: '#272727',
+  text: '#D4AA7D',
+  accent: '#D4AA7D',
+  headerBg: '#0e0e0e'
+  },
+  icy_gunmetal: {
+  card: '#35393C',
+  text: '#A4D8FF',
+  accent: '#A4D8FF',
+  headerBg: '#1e2124'
+  },
+  raspberry_space: {
+  card: '#012641',
+  text: '#f0f4f8',
+  accent: '#EE005A',
+  headerBg: '#EE005A'
+  },
 };
 
 /**
@@ -53,7 +92,7 @@ function isLightColor(hex) {
 /**
  * Renderiza la tarjeta de horario dentro del elemento contenedor dado.
  * config: {
- *   bg, card, text, accent, headerBg, fontData, fontTitle,
+ *   card, text, accent, headerBg, fontData, fontTitle,
  *   fontSize, radius, padding, border, zebra, weekend, shadow, title
  * }
  */
@@ -62,7 +101,6 @@ function renderScheduleCard(container, scheduleRows, config) {
 
   const card = document.createElement('div');
   card.className = 'shift-card';
-  card.style.background = config.bg;
   card.style.fontFamily = config.fontData;
   card.style.color = config.text;
 
