@@ -51,6 +51,7 @@ const els = {
   cfgWeekend: document.getElementById('cfgWeekend'),
   cfgShadow: document.getElementById('cfgShadow'),
   cfgTitle: document.getElementById('cfgTitle'),
+  cfgTitleAlign: document.getElementById('cfgTitleAlign'),
 
   outFontSize: document.getElementById('outFontSize'),
   outRadius: document.getElementById('outRadius'),
@@ -99,7 +100,8 @@ function readConfig() {
     zebra: els.cfgZebra.checked,
     weekend: els.cfgWeekend.checked,
     shadow: els.cfgShadow.checked,
-    title: els.cfgTitle.value || 'Mis turnos'
+    title: els.cfgTitle.value || 'Mis turnos',
+    titleAlign: els.cfgTitleAlign.value
   };
 }
 
@@ -518,7 +520,8 @@ function applyConfigFromObject(c) {
   if (c.zebra !== undefined)   els.cfgZebra.checked = c.zebra;
   if (c.weekend !== undefined) els.cfgWeekend.checked = c.weekend;
   if (c.shadow !== undefined)  els.cfgShadow.checked = c.shadow;
-  if (c.title)     els.cfgTitle.value = c.title;
+  if (c.title)       els.cfgTitle.value = c.title;
+  if (c.titleAlign)  els.cfgTitleAlign.value = c.titleAlign;
   els.cfgTheme.value = 'custom';
 }
 
@@ -650,7 +653,7 @@ const liveControls = [
   els.cfgCard, els.cfgText, els.cfgAccent, els.cfgHeaderBg,
   els.cfgFontData, els.cfgFontTitle, els.cfgFontSize, els.cfgRadius,
   els.cfgPadding, els.cfgBorder, els.cfgZebra, els.cfgWeekend,
-  els.cfgShadow, els.cfgTitle
+  els.cfgShadow, els.cfgTitle, els.cfgTitleAlign
 ];
 
 liveControls.forEach(el => {
