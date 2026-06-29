@@ -85,6 +85,7 @@ body{
   display:flex;
   flex-direction:column;
   gap: 20px;
+  min-width: 0;
 }
 
 .block{
@@ -572,7 +573,7 @@ body.has-download-banner {
 
   .controls-grid { grid-template-columns: 1fr; }
 
-  .row-actions .btn { flex: 1; min-width: 0; text-align: center; }
+  .row-actions .btn { flex: 1 1 130px; }
 
   textarea { min-height: 120px; }
   #markdownOutput { min-height: 140px; }
