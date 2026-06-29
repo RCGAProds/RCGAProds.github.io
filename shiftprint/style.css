@@ -493,6 +493,7 @@ body.modal-open {
 
 body.has-download-banner {
   padding-bottom: 80px;
+  overflow-x: hidden;
 }
 
 .mdb-inner {
