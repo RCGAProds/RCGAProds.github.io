@@ -531,14 +531,9 @@ function finishMobileRestore() {
   els.parseStatus.textContent = 'Tabla restaurada desde enlace compartido.';
   els.parseStatus.className = 'status ok';
 
-  const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)
-    || window.innerWidth < 768
-    || navigator.maxTouchPoints > 0;
-
-  if (isMobile) {
-    els.mobileDownloadBanner.hidden = false;
-    setTimeout(() => els.mobileDownloadBanner.scrollIntoView({ behavior: 'smooth' }), 300);
-  }
+  els.mobileDownloadBanner.hidden = false;
+  document.body.classList.add('has-download-banner');
+  setTimeout(() => els.mobileDownloadBanner.scrollIntoView({ behavior: 'smooth' }), 300);
 }
 
 /* =========================================================
