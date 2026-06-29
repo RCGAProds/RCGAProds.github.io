@@ -255,6 +255,8 @@ textarea:focus{
 }
 .preview-stage{
   display:inline-block;
+  min-width: 0;
+  max-width: 100%;
 }
 .empty-state{
   text-align:center;
