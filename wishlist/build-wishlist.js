@@ -67,7 +67,9 @@ async function getAppDetailsSequential(appIds) {
       short_description: appData.short_description,
       is_free: appData.is_free || false,
       price_overview: appData.price_overview || null,
-      categories: (appData.categories || []).map(c => ({ id: c.id, description: c.description })),
+      categories: (appData.categories || [])
+        .filter(c => !(c.id === 37 && !appData.is_free))
+        .map(c => ({ id: c.id, description: c.description })),
       genres: (appData.genres || []).map(g => ({ id: g.id, description: g.description })),
       release_date: appData.release_date || null,
       developers: appData.developers || [],
