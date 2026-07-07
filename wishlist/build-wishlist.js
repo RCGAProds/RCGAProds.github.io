@@ -5,9 +5,9 @@ const STEAM_ID = "76561198803983178"
 const CC = "es"
 const LANGUAGE = "spanish"
 const OUTPUT_FILE = path.join(__dirname, "wishlist-db.js")
-const BATCH_SIZE = 50
 const WISHLIST_API = "https://api.steampowered.com/IWishlistService/GetWishlist/v1/"
 const DETAILS_API = "https://store.steampowered.com/api/appdetails"
+const REQUEST_DELAY_MS = 1500
 
 async function fetchWithRetry(url, retries = 3) {
   for (let i = 0; i < retries; i++) {
@@ -42,44 +42,41 @@ async function getWishlistAppIds() {
   return items.map(i => ({ appid: i.appid, priority: i.priority, date_added: i.date_added }))
 }
 
-async function getAppDetailsBatch(appIds) {
+async function getAppDetailsSequential(appIds) {
   const results = {}
 
-  for (let i = 0; i < appIds.length; i += BATCH_SIZE) {
-    const batch = appIds.slice(i, i + BATCH_SIZE)
-    const ids = batch.map(b => b.appid).join(",")
-    console.log(`Fetching details for ${batch.length} apps (batch ${Math.floor(i / BATCH_SIZE) + 1})...`)
+  for (let i = 0; i < appIds.length; i++) {
+    const item = appIds[i]
+    console.log(`Fetching details for ${item.appid} (${i + 1}/${appIds.length})...`)
 
-    const url = `${DETAILS_API}?appids=${ids}&cc=${CC}&l=${LANGUAGE}`
+    const url = `${DETAILS_API}?appids=${item.appid}&cc=${CC}&l=${LANGUAGE}`
     const res = await fetchWithRetry(url)
     const data = await res.json()
 
-    for (const b of batch) {
-      const entry = data[String(b.appid)]
-      if (!entry || !entry.success || !entry.data) {
-        console.log(`  Skipping app ${b.appid}: no data`)
-        continue
-      }
-      const appData = entry.data
-      results[b.appid] = {
-        ...b,
-        name: appData.name,
-        type: appData.type,
-        header_image: appData.header_image,
-        short_description: appData.short_description,
-        is_free: appData.is_free || false,
-        price_overview: appData.price_overview || null,
-        categories: (appData.categories || []).map(c => ({ id: c.id, description: c.description })),
-        genres: (appData.genres || []).map(g => ({ id: g.id, description: g.description })),
-        release_date: appData.release_date || null,
-        developers: appData.developers || [],
-        publishers: appData.publishers || [],
-        platforms: appData.platforms || {},
-      }
+    const entry = data[String(item.appid)]
+    if (!entry || !entry.success || !entry.data) {
+      console.log(`  Skipping app ${item.appid}: no data`)
+      continue
+    }
+    const appData = entry.data
+    results[item.appid] = {
+      ...item,
+      name: appData.name,
+      type: appData.type,
+      header_image: appData.header_image,
+      short_description: appData.short_description,
+      is_free: appData.is_free || false,
+      price_overview: appData.price_overview || null,
+      categories: (appData.categories || []).map(c => ({ id: c.id, description: c.description })),
+      genres: (appData.genres || []).map(g => ({ id: g.id, description: g.description })),
+      release_date: appData.release_date || null,
+      developers: appData.developers || [],
+      publishers: appData.publishers || [],
+      platforms: appData.platforms || {},
     }
 
-    if (i + BATCH_SIZE < appIds.length) {
-      await new Promise(r => setTimeout(r, 1000))
+    if (i < appIds.length - 1) {
+      await new Promise(r => setTimeout(r, REQUEST_DELAY_MS))
     }
   }
 
@@ -136,7 +133,7 @@ async function main() {
 
     let games = []
     if (appIds.length > 0) {
-      const detailsMap = await getAppDetailsBatch(appIds)
+      const detailsMap = await getAppDetailsSequential(appIds)
       games = buildGamesArray(appIds, detailsMap)
       console.log(`Successfully processed ${games.length}/${appIds.length} games`)
     } else {
