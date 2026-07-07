@@ -789,10 +789,6 @@ const wishlistGames = [
         "description": "JcJ en LAN"
       },
       {
-        "id": 37,
-        "description": "JcJ a pantalla (com)partida"
-      },
-      {
         "id": 24,
         "description": "Pantalla partida/compartida"
       },
@@ -890,10 +886,6 @@ const wishlistGames = [
       {
         "id": 36,
         "description": "JcJ en línea"
-      },
-      {
-        "id": 37,
-        "description": "JcJ a pantalla (com)partida"
       },
       {
         "id": 24,
@@ -1354,10 +1346,6 @@ const wishlistGames = [
         "description": "JcJ en línea"
       },
       {
-        "id": 37,
-        "description": "JcJ a pantalla (com)partida"
-      },
-      {
         "id": 24,
         "description": "Pantalla partida/compartida"
       },
@@ -1725,10 +1713,6 @@ const wishlistGames = [
       {
         "id": 47,
         "description": "JcJ en LAN"
-      },
-      {
-        "id": 37,
-        "description": "JcJ a pantalla (com)partida"
       },
       {
         "id": 9,
@@ -3618,10 +3602,6 @@ const wishlistGames = [
         "description": "JcJ"
       },
       {
-        "id": 37,
-        "description": "JcJ a pantalla (com)partida"
-      },
-      {
         "id": 9,
         "description": "Cooperativo"
       },
@@ -3685,57 +3665,6 @@ const wishlistGames = [
       "windows": true,
       "mac": true,
       "linux": true
-    }
-  },
-  {
-    "appId": 1218250,
-    "priority": 0,
-    "dateAdded": 1698972126,
-    "name": "We Went Back",
-    "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1218250/header.jpg?t=1608521499",
-    "description": "We Went Back is a time-looping horror game in which you wake up in an abandoned space station utterly alone. The exit door is locked and you must find a way to escape what lurks within. Find clues, experience dynamically changing environments and confront terror in order to find a way out.",
-    "price": "Gratuito",
-    "originalPrice": null,
-    "discount": 0,
-    "isFree": true,
-    "categories": [
-      {
-        "id": 2,
-        "description": "Un jugador"
-      },
-      {
-        "id": 22,
-        "description": "Logros de Steam"
-      },
-      {
-        "id": 62,
-        "description": "Préstamo familiar"
-      }
-    ],
-    "genres": [
-      {
-        "id": "25",
-        "description": "Aventura"
-      },
-      {
-        "id": "37",
-        "description": "Free to Play"
-      },
-      {
-        "id": "23",
-        "description": "Indie"
-      }
-    ],
-    "releaseDate": "3 ABR 2020",
-    "comingSoon": false,
-    "developers": [
-      "Dead Thread Games"
-    ],
-    "platforms": {
-      "windows": true,
-      "mac": false,
-      "linux": false
     }
   },
   {
@@ -4244,10 +4173,6 @@ const wishlistGames = [
       {
         "id": 36,
         "description": "JcJ en línea"
-      },
-      {
-        "id": 37,
-        "description": "JcJ a pantalla (com)partida"
       },
       {
         "id": 9,
@@ -4968,10 +4893,6 @@ const wishlistGames = [
       {
         "id": 36,
         "description": "JcJ en línea"
-      },
-      {
-        "id": 37,
-        "description": "JcJ a pantalla (com)partida"
       },
       {
         "id": 24,
@@ -6493,93 +6414,6 @@ const wishlistGames = [
     }
   },
   {
-    "appId": 2452280,
-    "priority": 0,
-    "dateAdded": 1740941409,
-    "name": "Mecha BREAK",
-    "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2452280/592f77ee2e48b09ea460a8538098259fc3c579df/header.jpg?t=1779790307",
-    "description": "Forma un escuadrón en Mecha BREAK, un shooter multijugador en tercera persona con tres modos intensos, llenos de combates terrestres y aéreos. Pilota tu asaltante al pie del cañón y neutraliza a los enemigos. ¿Estás listo para el enfrentamiento definitivo?",
-    "price": "Gratuito",
-    "originalPrice": null,
-    "discount": 0,
-    "isFree": true,
-    "categories": [
-      {
-        "id": 1,
-        "description": "Multijugador"
-      },
-      {
-        "id": 49,
-        "description": "JcJ"
-      },
-      {
-        "id": 36,
-        "description": "JcJ en línea"
-      },
-      {
-        "id": 9,
-        "description": "Cooperativo"
-      },
-      {
-        "id": 38,
-        "description": "Cooperativo en línea"
-      },
-      {
-        "id": 22,
-        "description": "Logros de Steam"
-      },
-      {
-        "id": 28,
-        "description": "Compat. total con mando"
-      },
-      {
-        "id": 35,
-        "description": "Compras dentro de la aplicación"
-      },
-      {
-        "id": 55,
-        "description": "Compatible con DualShock"
-      },
-      {
-        "id": 57,
-        "description": "Compatible con DualShock"
-      },
-      {
-        "id": 15,
-        "description": "Estadísticas"
-      },
-      {
-        "id": 62,
-        "description": "Préstamo familiar"
-      }
-    ],
-    "genres": [
-      {
-        "id": "1",
-        "description": "Acción"
-      },
-      {
-        "id": "29",
-        "description": "Multijugador masivo"
-      },
-      {
-        "id": "37",
-        "description": "Free to Play"
-      }
-    ],
-    "releaseDate": "1 JUL 2025",
-    "comingSoon": false,
-    "developers": [
-      "Amazing Seasun Games"
-    ],
-    "platforms": {
-      "windows": true,
-      "mac": false,
-      "linux": false
-    }
-  },
-  {
     "appId": 2458560,
     "priority": 0,
     "dateAdded": 1727820878,
@@ -8073,4 +7907,4 @@ const wishlistGames = [
   }
 ]
 
-const wishlistLastUpdate = "2026-07-07T13:42:38.047Z"
+const wishlistLastUpdate = "2026-07-07T14:23:59.381Z"
