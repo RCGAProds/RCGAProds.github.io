@@ -87,11 +87,19 @@
         color: #fff;
       }
 
-      .filters {
+      .filters-wrapper {
+        margin-bottom: 20px;
+      }
+      .filters-inner {
         display: flex;
         flex-wrap: wrap;
         gap: 8px;
-        margin-bottom: 20px;
+        overflow: hidden;
+        max-height: 90px;
+        transition: max-height 0.3s ease;
+      }
+      .filters-inner.expanded {
+        max-height: none;
       }
       .filter-btn {
         padding: 6px 14px;
@@ -125,6 +133,33 @@
         background: #4caf50;
         border-color: #4caf50;
         color: #fff;
+      }
+      .show-more-btn {
+        display: none;
+        margin-top: 8px;
+        padding: 6px 14px;
+        border: 2px solid #ddd;
+        border-radius: 20px;
+        background: #fff;
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: bold;
+        color: #1b9c1b;
+        transition: all 0.2s;
+        user-select: none;
+      }
+      .show-more-btn:hover {
+        border-color: #1b9c1b;
+        background: #e8f5e9;
+      }
+      body.dark-mode .show-more-btn {
+        background: #2a2a2a;
+        border-color: #444;
+        color: #4caf50;
+      }
+      body.dark-mode .show-more-btn:hover {
+        border-color: #4caf50;
+        background: #1b3d1b;
       }
 
       #game-count {
@@ -272,7 +307,10 @@
       </select>
     </div>
 
-    <div class="filters" id="filters"></div>
+    <div class="filters-wrapper">
+      <div class="filters-inner" id="filters"></div>
+      <button class="show-more-btn" id="show-more-btn"></button>
+    </div>
 
     <div id="game-count"></div>
     <div id="game-grid" class="game-grid"></div>
@@ -280,52 +318,77 @@
 
     <script src="wishlist-db.js"></script>
     <script>
+      const PRIORITY_GENRES = [
+        "Action", "Acción",
+        "Adventure", "Aventura",
+        "RPG", "Rol",
+        "Strategy", "Estrategia",
+        "Simulation", "Simulación",
+        "Horror", "Terror",
+        "Indie",
+        "Casual",
+        "Sports", "Deportes",
+        "Racing", "Carreras",
+        "Free to Play", "Gratuito",
+        "Early Access", "Acceso Anticipado",
+        "Massively Multiplayer", "Multijugador masivo",
+      ]
+
       let activeFilters = new Set()
       let currentSort = "priority"
       let searchQuery = ""
 
-      function getUniqueFilters(games) {
-        const genreSet = new Set()
-        const catSet = new Set()
-
-        for (const g of games) {
-          for (const genre of g.genres) {
-            genreSet.add(genre.description)
-          }
-          for (const cat of g.categories) {
-            catSet.add(cat.description)
+      function getFrequency(arr, key) {
+        const freq = {}
+        for (const item of arr) {
+          for (const el of item[key]) {
+            freq[el.description] = (freq[el.description] || 0) + 1
           }
         }
+        return freq
+      }
 
-        return {
-          genres: Array.from(genreSet).sort(),
-          categories: Array.from(catSet).sort(),
-        }
+      function getPriorityIndex(name) {
+        const idx = PRIORITY_GENRES.indexOf(name)
+        return idx >= 0 ? idx : Infinity
       }
 
       function renderFilters(games) {
-        const { genres, categories } = getUniqueFilters(games)
-        const container = document.getElementById("filters")
-        let html = '<button class="filter-btn active" data-filter="__all">Todos</button>'
+        const genreFreq = getFrequency(games, "genres")
+        const catFreq = getFrequency(games, "categories")
+        const allGenres = Object.keys(genreFreq)
+        const allCats = Object.keys(catFreq)
 
-        const allFilters = [...genres, ...categories]
-        for (const f of allFilters) {
-          html += `<button class="filter-btn" data-filter="${f}">${f}</button>`
+        const priority = []
+        const rest = []
+
+        for (const g of allGenres) {
+          if (getPriorityIndex(g) < Infinity) priority.push(g)
+          else rest.push(g)
         }
 
+        priority.sort((a, b) => getPriorityIndex(a) - getPriorityIndex(b))
+        rest.sort((a, b) => (genreFreq[b] - genreFreq[a]) || a.localeCompare(b))
+        allCats.sort((a, b) => (catFreq[b] - catFreq[a]) || a.localeCompare(b))
+
+        const sortedFilters = [...priority, ...rest, ...allCats]
+
+        const container = document.getElementById("filters")
+        let html = '<button class="filter-btn active" data-filter="__all">Todos</button>'
+        for (const f of sortedFilters) {
+          html += `<button class="filter-btn" data-filter="${f}">${f}</button>`
+        }
         container.innerHTML = html
 
         container.querySelectorAll(".filter-btn").forEach(btn => {
           btn.addEventListener("click", () => {
             const filter = btn.dataset.filter
-
             if (filter === "__all") {
               activeFilters.clear()
               container.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"))
               container.querySelector('[data-filter="__all"]').classList.add("active")
             } else {
               document.querySelector('[data-filter="__all"]').classList.remove("active")
-
               if (activeFilters.has(filter)) {
                 activeFilters.delete(filter)
                 btn.classList.remove("active")
@@ -333,14 +396,36 @@
                 activeFilters.add(filter)
                 btn.classList.add("active")
               }
-
               if (activeFilters.size === 0) {
                 document.querySelector('[data-filter="__all"]').classList.add("active")
               }
             }
-
             renderGames()
           })
+        })
+
+        const toggleBtn = document.getElementById("show-more-btn")
+        const inner = container
+        inner.style.maxHeight = ""
+
+        requestAnimationFrame(() => {
+          if (inner.scrollHeight > inner.clientHeight) {
+            const collapsedH = inner.clientHeight + "px"
+            inner.style.maxHeight = collapsedH
+            toggleBtn.textContent = "▼ Ver más"
+            toggleBtn.style.display = "inline-block"
+            toggleBtn.onclick = () => {
+              if (inner.style.maxHeight === collapsedH) {
+                inner.style.maxHeight = inner.scrollHeight + "px"
+                toggleBtn.textContent = "▲ Ver menos"
+              } else {
+                inner.style.maxHeight = collapsedH
+                toggleBtn.textContent = "▼ Ver más"
+              }
+            }
+          } else {
+            inner.style.maxHeight = ""
+          }
         })
       }
 
