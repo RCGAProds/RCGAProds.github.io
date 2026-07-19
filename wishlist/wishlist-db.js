@@ -303,9 +303,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/dd8237b8ab283a8225a6ba3fc0dee7e1b135cbee/header_alt_assets_25.jpg?t=1779908213",
     "description": "No Man's Sky es un juego de ciencia ficción sobre exploración y supervivencia en un universo infinito generado de forma procedimental.",
-    "price": "58,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "23,59€",
+    "originalPrice": "58,99€",
+    "discount": 60,
     "isFree": false,
     "categories": [
       {
@@ -1081,7 +1081,7 @@ const wishlistGames = [
     "dateAdded": 1740068203,
     "name": "Squad",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393380/55a550dd5edfbab9cbd83a07a434f403f3d8eae2/header_alt_assets_9.jpg?t=1781548039",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393380/0b19b50aabea356bd8f534fbe7d6db9bd227810a/header.jpg?t=1784319638",
     "description": "Squad es un FPS táctico que ofrece experiencias de combate auténticas a través del trabajo en equipo, la comunicación y el combate realista. Cierra la brecha entre el shooter arcade y el realismo militar con batallas de 100 jugadores, guerra con armas combinadas y construcción de bases.v",
     "price": "33,99€",
     "originalPrice": null,
@@ -1852,9 +1852,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/543900/header.jpg?t=1718869280",
     "description": "METAL GEAR SURVIVE se basa en el estilo de juego de infiltración de MGSV con elementos de exploración y supervivencia para crear una experiencia totalmente nueva. *Se requiere conexión a internet para jugar.",
-    "price": "39,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "23,99€",
+    "originalPrice": "39,99€",
+    "discount": 40,
     "isFree": false,
     "categories": [
       {
@@ -2165,9 +2165,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/581320/5cea6f39f733394deda9f85e36722d4ca5e3db5f/header.jpg?t=1779984920",
     "description": "Insurgency: Sandstorm es un juego de disparos táctico en primera persona que destaca por su combate a corta distancia y su brutal intensidad. Cada bala cuenta, cada paso importa, y trabajar en equipo es la única forma de sobrevivir a la barbarie de la guerra moderna.",
-    "price": "29,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "7,49€",
+    "originalPrice": "29,99€",
+    "discount": 75,
     "isFree": false,
     "categories": [
       {
@@ -2820,9 +2820,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/891360/header.jpg?t=1727695902",
     "description": "Hellcoming es un juego survival horror cooperativo para 1-4 jugadores, dónde necesitarás limpiar grandes áreas de una abominación infernal con la ayuda de herramientas especiales.",
-    "price": "3,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "2,79€",
+    "originalPrice": "3,99€",
+    "discount": 30,
     "isFree": false,
     "categories": [
       {
@@ -3112,7 +3112,7 @@ const wishlistGames = [
     "dateAdded": 1774109798,
     "name": "Timberborn",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062090/eeb2babf15cbf4ebc175316a5d3e42a060f3d97c/header.jpg?t=1782818342",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062090/eeb2babf15cbf4ebc175316a5d3e42a060f3d97c/header.jpg?t=1784023977",
     "description": "La humanidad desapareció hace mucho. En un mundo azotado por sequías y residuos tóxicos, ¿sobrevivirán tus castores leñapunk? Disfruta de un juego de construcción de mundo abierto con animales ingeniosos, arquitectura vertical, física de líquidos, terraformación... ¡y altas dosis de madera!",
     "price": "33,99€",
     "originalPrice": null,
@@ -3209,9 +3209,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1063420/header.jpg?t=1780298639",
     "description": "Void Crew es un roguelite caótico y cooperativo para 1-6 jugadores. Prepara tu nave y a tu tripulación para misiones emocionantes, libra batallas espaciales contra enemigos brutales y... ¡que no cunda el pánico!",
-    "price": "24,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "12,49€",
+    "originalPrice": "24,99€",
+    "discount": 50,
     "isFree": false,
     "categories": [
       {
@@ -4335,9 +4335,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1382070/a69eb56f73446624325dec8a4fe74dc4ae09fb96/header.jpg?t=1764842475",
     "description": "Desafía la percepción, redefine la realidad y transforma el mundo que te rodea con tu cámara instantánea. Viewfinder es una nueva experiencia de un jugador que ofrece horas de vivencias interesantes y divertidas en la búsqueda de la verdad tras los misterios del pasado.",
-    "price": "24,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "8,74€",
+    "originalPrice": "24,99€",
+    "discount": 65,
     "isFree": false,
     "categories": [
       {
@@ -4877,9 +4877,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1557740/header.jpg?t=1759328419",
     "description": "Rounds es un «roguelite» de disparos 1c1 en el que la intensidad aumenta a cada ronda que pasa. Quien pierda una ronda desbloqueará mejoras ingeniosas con las que crear una combinación mejor para contrarrestar la de su oponente.",
-    "price": "5,49€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "2,74€",
+    "originalPrice": "5,49€",
+    "discount": 50,
     "isFree": false,
     "categories": [
       {
@@ -5306,11 +5306,11 @@ const wishlistGames = [
     "dateAdded": 1667947405,
     "name": "Luto",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1729740/def13c797b5c98624d24fb0b75d2e57ea0fdbf70/header.jpg?t=1772534744",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1729740/def13c797b5c98624d24fb0b75d2e57ea0fdbf70/header.jpg?t=1784213685",
     "description": "Luto es una experiencia de terror psicológico en la que asumes el papel de alguien incapaz de abandonar su hogar. Cada intento de escapar te adentrará más en lo desconocido, donde nada es lo que parece y todo pondrá a prueba tus sentidos.",
-    "price": "19,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "11,99€",
+    "originalPrice": "19,99€",
+    "discount": 40,
     "isFree": false,
     "categories": [
       {
@@ -5514,7 +5514,7 @@ const wishlistGames = [
     "dateAdded": 1782060140,
     "name": "WARDOGS",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/faa36e7d2606de6c5992f2b00ee4afd0c3188ae7/header.jpg?t=1782143332",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/faa36e7d2606de6c5992f2b00ee4afd0c3188ae7/header.jpg?t=1784127113",
     "description": "WARDOGS es un shooter de guerra total en primera persona que conjuga tiroteos tácticos y combate de armas combinadas con mecánicas de construcción y destrucción en un vasto campo de batalla tipo sandbox para hasta 100 jugadores.",
     "price": "Próximamente",
     "originalPrice": null,
@@ -5548,10 +5548,6 @@ const wishlistGames = [
       {
         "id": 70,
         "description": "Sonido envolvente"
-      },
-      {
-        "id": 61,
-        "description": "HDR disponible"
       },
       {
         "id": 62,
@@ -5672,7 +5668,7 @@ const wishlistGames = [
     "dateAdded": 1667156994,
     "name": "Brotato",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/f98281910016f8924be37cce3d4b119f5223a358/header.jpg?t=1781105127",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/f98281910016f8924be37cce3d4b119f5223a358/header.jpg?t=1784203819",
     "description": "Brotato es un roguelite de disparos en el que te moverás de arriba abajo del escenario. Encarna a una patata con 6 armas simultáneas para hacer frente a los alienígenas. Elige entre una variedad de características y objetos para crear combinaciones únicas y sobrevivir hasta que acudan los refuerzos.",
     "price": "4,99€",
     "originalPrice": null,
@@ -6185,6 +6181,101 @@ const wishlistGames = [
     }
   },
   {
+    "appId": 2296990,
+    "priority": 0,
+    "dateAdded": 1783583450,
+    "name": "We Were Here Expeditions: The FriendShip",
+    "type": "game",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2296990/header.jpg?t=1764331912",
+    "description": "Haz equipo con tu amigo en línea y pon a prueba vuestra amistad resolviendo rompecabezas juntos en un parque de atracciones abandonado. Trabajad juntos para superar los retos mentales en esta experiencia independiente de We Were Here.",
+    "price": "3,99€",
+    "originalPrice": null,
+    "discount": 0,
+    "isFree": false,
+    "categories": [
+      {
+        "id": 1,
+        "description": "Multijugador"
+      },
+      {
+        "id": 9,
+        "description": "Cooperativo"
+      },
+      {
+        "id": 38,
+        "description": "Cooperativo en línea"
+      },
+      {
+        "id": 27,
+        "description": "Multijugador multiplataforma"
+      },
+      {
+        "id": 22,
+        "description": "Logros de Steam"
+      },
+      {
+        "id": 68,
+        "description": "Controles de volumen personalizados"
+      },
+      {
+        "id": 55,
+        "description": "Compatible con DualShock"
+      },
+      {
+        "id": 56,
+        "description": "Compatible con DualShock"
+      },
+      {
+        "id": 57,
+        "description": "Compatible con DualSense"
+      },
+      {
+        "id": 58,
+        "description": "Compatible con DualSense"
+      },
+      {
+        "id": 65,
+        "description": "Opciones de subtítulos"
+      },
+      {
+        "id": 18,
+        "description": "Compat. parcial con mando"
+      },
+      {
+        "id": 23,
+        "description": "Steam Cloud"
+      },
+      {
+        "id": 62,
+        "description": "Préstamo familiar"
+      }
+    ],
+    "genres": [
+      {
+        "id": "25",
+        "description": "Aventura"
+      },
+      {
+        "id": "4",
+        "description": "Casual"
+      },
+      {
+        "id": "23",
+        "description": "Indie"
+      }
+    ],
+    "releaseDate": "14 SEP 2023",
+    "comingSoon": false,
+    "developers": [
+      "Total Mayhem Games"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    }
+  },
+  {
     "appId": 2321470,
     "priority": 0,
     "dateAdded": 1709432105,
@@ -6683,11 +6774,11 @@ const wishlistGames = [
     "dateAdded": 1742133676,
     "name": "The Mound: Omen of Cthulhu",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/0a3d1867d5781f18cb4fd0b1151729605e892c6b/header.jpg?t=1783713354",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/0a3d1867d5781f18cb4fd0b1151729605e892c6b/header.jpg?t=1784110925",
     "description": "Forma un equipo de hasta 4 jugadores y domina la selva antes de que te devore…",
-    "price": "Próximamente",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "23,99€",
+    "originalPrice": "29,99€",
+    "discount": 20,
     "isFree": false,
     "categories": [
       {
@@ -6778,7 +6869,7 @@ const wishlistGames = [
       }
     ],
     "releaseDate": "15 JUL 2026",
-    "comingSoon": true,
+    "comingSoon": false,
     "developers": [
       "ACE Team"
     ],
@@ -6903,9 +6994,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2695940/7ba4bc192562f2fd7267801f965ed93a6f8b61c7/header.jpg?t=1774881329",
     "description": "PANICORE es un juego de survival horror que mezcla muerte permanente, monstruos de IA y una experiencia cooperativa. Intenta escapar y que no te atrapen, pero cuidado: no solo oyen tus pasos, sino también tu voz.",
-    "price": "9,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "6,69€",
+    "originalPrice": "9,99€",
+    "discount": 33,
     "isFree": false,
     "categories": [
       {
@@ -7041,9 +7132,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2828860/2aefa73a902e6273688efec4b399c9722a13cd23/header.jpg?t=1782409448",
     "description": "The Forever Winter es un juego de disparos de terror y supervivencia táctica cooperativa en el que tú y tu escuadrón deben saquear a los muertos para sobrevivir bajo la sombra de aterradoras y gigantescas máquinas de guerra atrapadas en un conflicto interminable.",
-    "price": "28,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "14,49€",
+    "originalPrice": "28,99€",
+    "discount": 50,
     "isFree": false,
     "categories": [
       {
@@ -7236,7 +7327,7 @@ const wishlistGames = [
     "dateAdded": 1737395553,
     "name": "Murky Divers",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963880/2f0bff77040756cf65161e0996f997aa820b52ca/header_alt_assets_1.jpg?t=1781623446",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963880/2f0bff77040756cf65161e0996f997aa820b52ca/header_alt_assets_1.jpg?t=1784115677",
     "description": "Solo o hasta 8 jugadores. Elimina los experimentos fallidos de tus jefes en laboratorios submarinos abandonados. Dirige tu submarino, evita los horrores abisales y deshazte de los cadáveres con tu tripulación.",
     "price": "8,99€",
     "originalPrice": null,
@@ -7467,9 +7558,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3144860/3fb15b767ff7a032ddd81661c2791e056badfd00/header.jpg?t=1781118407",
     "description": "Adéntrate en un viaje realista en primera persona para un solo jugador por las duras latitudes septentrionales mientras navegas por aguas interminables en busca del camino de vuelta a tu hogar. ¿Seguirás la luz?",
-    "price": "24,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "17,49€",
+    "originalPrice": "24,99€",
+    "discount": 30,
     "isFree": false,
     "categories": [
       {
@@ -7924,102 +8015,7 @@ const wishlistGames = [
       "mac": false,
       "linux": false
     }
-  },
-  {
-    "appId": 2296990,
-    "priority": 0,
-    "dateAdded": 1783583450,
-    "name": "We Were Here Expeditions: The FriendShip",
-    "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2296990/header.jpg?t=1764331912",
-    "description": "Haz equipo con tu amigo en línea y pon a prueba vuestra amistad resolviendo rompecabezas juntos en un parque de atracciones abandonado. Trabajad juntos para superar los retos mentales en esta experiencia independiente de We Were Here.",
-    "price": "3,99€",
-    "originalPrice": null,
-    "discount": 0,
-    "isFree": false,
-    "categories": [
-      {
-        "id": 1,
-        "description": "Multijugador"
-      },
-      {
-        "id": 9,
-        "description": "Cooperativo"
-      },
-      {
-        "id": 38,
-        "description": "Cooperativo en línea"
-      },
-      {
-        "id": 27,
-        "description": "Multijugador multiplataforma"
-      },
-      {
-        "id": 22,
-        "description": "Logros de Steam"
-      },
-      {
-        "id": 68,
-        "description": "Controles de volumen personalizados"
-      },
-      {
-        "id": 55,
-        "description": "Compatible con DualShock"
-      },
-      {
-        "id": 56,
-        "description": "Compatible con DualShock"
-      },
-      {
-        "id": 57,
-        "description": "Compatible con DualSense"
-      },
-      {
-        "id": 58,
-        "description": "Compatible con DualSense"
-      },
-      {
-        "id": 65,
-        "description": "Opciones de subtítulos"
-      },
-      {
-        "id": 18,
-        "description": "Compat. parcial con mando"
-      },
-      {
-        "id": 23,
-        "description": "Steam Cloud"
-      },
-      {
-        "id": 62,
-        "description": "Préstamo familiar"
-      }
-    ],
-    "genres": [
-      {
-        "id": "25",
-        "description": "Aventura"
-      },
-      {
-        "id": "4",
-        "description": "Casual"
-      },
-      {
-        "id": "23",
-        "description": "Indie"
-      }
-    ],
-    "releaseDate": "14 SEP 2023",
-    "comingSoon": false,
-    "developers": [
-      "Total Mayhem Games"
-    ],
-    "platforms": {
-      "windows": true,
-      "mac": false,
-      "linux": false
-    }
   }
 ]
 
-const wishlistLastUpdate = "2026-07-12T08:15:16.634Z"
+const wishlistLastUpdate = "2026-07-19T08:14:28.781Z"
