@@ -107,7 +107,7 @@ const wishlistGames = [
     "dateAdded": 1681319050,
     "name": "Project Zomboid",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1785324125",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1785771763",
     "description": "Project Zomboid is the ultimate in zombie survival. Alone or in MP: you loot, build, craft, fight, farm and fish in a struggle to survive. A hardcore RPG skillset, a vast map, massively customisable sandbox and a cute tutorial raccoon await the unwary. So how will you die? All it takes is a bite..",
     "price": "25,49€",
     "originalPrice": null,
@@ -161,10 +161,6 @@ const wishlistGames = [
       {
         "id": 18,
         "description": "Compat. parcial con mando"
-      },
-      {
-        "id": 23,
-        "description": "Steam Cloud"
       },
       {
         "id": 44,
@@ -965,9 +961,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/335670/header.jpg?t=1756162720",
     "description": "El desdichado periplo de un hombre destrozado...",
-    "price": "19,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "11,99€",
+    "originalPrice": "19,99€",
+    "discount": 40,
     "isFree": false,
     "categories": [
       {
@@ -1028,9 +1024,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391540/header.jpg?t=1757349115",
     "description": "UNDERTALE! The RPG game where you don't have to destroy anyone.",
-    "price": "2,49€",
-    "originalPrice": "9,99€",
-    "discount": 75,
+    "price": "9,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -1083,9 +1079,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393380/0b19b50aabea356bd8f534fbe7d6db9bd227810a/header.jpg?t=1784319638",
     "description": "Squad es un FPS táctico que ofrece experiencias de combate auténticas a través del trabajo en equipo, la comunicación y el combate realista. Cierra la brecha entre el shooter arcade y el realismo militar con batallas de 100 jugadores, guerra con armas combinadas y construcción de bases.v",
-    "price": "13,59€",
-    "originalPrice": "33,99€",
-    "discount": 60,
+    "price": "33,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -1405,7 +1401,7 @@ const wishlistGames = [
     "dateAdded": 1683064563,
     "name": "Conan Exiles Enhanced",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/5893ff0d1f86e5082ac1a9735f1e123a00c45a53/header_alt_assets_8_spanish.jpg?t=1784642443",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/710f42dec831fa88bcf736d0715152822231505f/header.jpg?t=1784642443",
     "description": "Conan Exiles Enhanced es un juego de supervivencia en un mundo abierto ambientado en las tierras de Hiboria, ahora en Unreal Engine 5 con mejoras visuales. ¡SOBREVIVE, CONSTRUYE y DOMINA solo o con amigos en un mundo lleno de aventuras!",
     "price": "39,99€",
     "originalPrice": null,
@@ -1511,9 +1507,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/502500/header.jpg?t=1777545285",
     "description": "¡Conviértete en un as de la aviación y vuela por cielos fotorrealistas con 360 grados de movimiento, acaba con los aviones enemigos y disfruta de la emoción de los despegues realistas! ¡Los combates aéreos nunca han sido mejores!",
-    "price": "14,99€",
-    "originalPrice": "74,99€",
-    "discount": 80,
+    "price": "59,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -1584,7 +1580,7 @@ const wishlistGames = [
     "dateAdded": 1614889253,
     "name": "SCUM",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/513710/9ff47c09f7e041df09fcbd9d2abbcd24270d31c9/header_alt_assets_3.jpg?t=1784560168",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/513710/a33eb72f52841f591b296f78e46824d7aabb2c87/header.jpg?t=1784560168",
     "description": "Adéntrate en SCUM, un juego de supervivencia en un mundo abierto cuya personalización de personaje definirá cómo eres. Saquea, fabrica, caza, construye y lucha para sobrevivir en una isla donde cada opción afecta a tu destino. Sobrevive. Sé letal. Hazte más fuerte.",
     "price": "44,99€",
     "originalPrice": null,
@@ -1937,11 +1933,11 @@ const wishlistGames = [
     "dateAdded": 1729296988,
     "name": "Deep Rock Galactic",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/9639a5e6a07dd235596edac2c5c2334a737b28b6/header_alt_assets_27_spanish.jpg?t=1785396408",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/7218336ad0b0fdbe13bfe7503627f30ac901b02c/header_alt_assets_15.jpg?t=1786014445",
     "description": "Deep Rock Galactic es un FPS cooperativo para 1 a 4 jugadores. Juega con unos fornidos enanos espaciales en entornos 100 % destructibles, formados por cuevas generadas proceduralmente e interminables hordas de monstruos alienígenas.",
-    "price": "8,99€",
-    "originalPrice": "29,99€",
-    "discount": 70,
+    "price": "29,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -2461,8 +2457,8 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/686810/ba5b238c5655447f425e607775ca92ac58c31f1d/header_alt_assets_5.jpg?t=1781272760",
     "description": "Únete a Hell Let Loose, un shooter bestial en primera persona ambientado en la II Guerra Mundial que incluye batallas épicas de 100 jugadores con infantería, tanques, artillería, un frente dinámico y un sistema de gestión de recursos inspirado en los títulos de ETR.",
-    "price": "17,49€",
-    "originalPrice": "69,99€",
+    "price": "12,49€",
+    "originalPrice": "49,99€",
     "discount": 75,
     "isFree": false,
     "categories": [
@@ -2813,6 +2809,90 @@ const wishlistGames = [
     }
   },
   {
+    "appId": 881940,
+    "priority": 0,
+    "dateAdded": 1785523947,
+    "name": "Guns 'n Goblins",
+    "type": "game",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881940/55edb2e63dc016a4ef504a2eab9e9d8cb63d66e9/header.jpg?t=1785143475",
+    "description": "Sobrevive a aluviones de monstruos, a cuál más multitudinario, en este juego de disparos con progreso incremental. Fortifica tu Campanario, sube de nivel y mejora tu arsenal para pasar de aprendiz de la campana a cazadragones magistral.",
+    "price": "Próximamente",
+    "originalPrice": null,
+    "discount": 0,
+    "isFree": false,
+    "categories": [
+      {
+        "id": 2,
+        "description": "Un jugador"
+      },
+      {
+        "id": 22,
+        "description": "Logros de Steam"
+      },
+      {
+        "id": 28,
+        "description": "Compat. total con mando"
+      },
+      {
+        "id": 67,
+        "description": "Comodidad de la cámara"
+      },
+      {
+        "id": 66,
+        "description": "Alternativas de color"
+      },
+      {
+        "id": 68,
+        "description": "Controles de volumen personalizados"
+      },
+      {
+        "id": 74,
+        "description": "Jugable sin restricciones de tiempo"
+      },
+      {
+        "id": 79,
+        "description": "Guardar en cualquier momento"
+      },
+      {
+        "id": 69,
+        "description": "Sonido estéreo"
+      },
+      {
+        "id": 23,
+        "description": "Steam Cloud"
+      },
+      {
+        "id": 62,
+        "description": "Préstamo familiar"
+      }
+    ],
+    "genres": [
+      {
+        "id": "1",
+        "description": "Acción"
+      },
+      {
+        "id": "23",
+        "description": "Indie"
+      },
+      {
+        "id": "3",
+        "description": "Rol"
+      }
+    ],
+    "releaseDate": "2.º trimestre del 2027",
+    "comingSoon": true,
+    "developers": [
+      "Lance",
+      "Argl"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    }
+  },
+  {
     "appId": 891360,
     "priority": 0,
     "dateAdded": 1647653757,
@@ -3114,9 +3194,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062090/eeb2babf15cbf4ebc175316a5d3e42a060f3d97c/header.jpg?t=1784023977",
     "description": "La humanidad desapareció hace mucho. En un mundo azotado por sequías y residuos tóxicos, ¿sobrevivirán tus castores leñapunk? Disfruta de un juego de construcción de mundo abierto con animales ingeniosos, arquitectura vertical, física de líquidos, terraformación... ¡y altas dosis de madera!",
-    "price": "23,79€",
-    "originalPrice": "33,99€",
-    "discount": 30,
+    "price": "33,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -3310,7 +3390,7 @@ const wishlistGames = [
     "dateAdded": 1743618906,
     "name": "SONG OF HORROR COMPLETE EDITION",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1096570/header.jpg?t=1709572980",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1096570/header.jpg?t=1785849707",
     "description": "Una aventura de terror en tercera persona con cámaras fijas. Teme a La Presencia, una misteriosa entidad contra la que no puedes luchar: mantente alerta, escóndete, respira hondo… Explora lugares encantados donde permanecen almas en pena y espíritus perdidos.",
     "price": "29,99€",
     "originalPrice": null,
@@ -3342,6 +3422,14 @@ const wishlistGames = [
       {
         "id": "25",
         "description": "Aventura"
+      },
+      {
+        "id": "23",
+        "description": "Indie"
+      },
+      {
+        "id": "37",
+        "description": "Free to Play"
       }
     ],
     "releaseDate": "31 OCT 2019",
@@ -3430,8 +3518,8 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1138850/header.jpg?t=1780480028",
     "description": "Usa las manos y brazos de un astronauta espacial de la década de 1970 y ábrete paso empujando, tirando y girando elementos en diferentes escenarios estelares cada vez más complicados: no hay gravedad, nada permanece inmóvil, no hay nada seguro y nada es sencillo.",
-    "price": "5,99€",
-    "originalPrice": "23,99€",
+    "price": "4,87€",
+    "originalPrice": "19,50€",
     "discount": 75,
     "isFree": false,
     "categories": [
@@ -4157,9 +4245,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1329500/header.jpg?t=1785516646",
     "description": "¡Arañas con espadas láser! Pelea a muerte o forma un equipo para rechazar enjambres de enemigos salvajes. Lucha y dispara para cruzar el mapa mientras realizas vistosos de parkour.",
-    "price": "14,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "5,99€",
+    "originalPrice": "14,99€",
+    "discount": 60,
     "isFree": false,
     "categories": [
       {
@@ -4659,9 +4747,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1456940/header.jpg?t=1781540315",
     "description": "Un juego de disparos táctico de extracción mezclado con terror inmersivo y supervivencia. Sé un mercenario en busca de botín, o bien un monstruo alienígena que caza humanos desde las sombras. Juega en solitario o con amigos y disfruta de este oscuro juego multijugador asimétrico JcJcE.",
-    "price": "19,50€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "4,87€",
+    "originalPrice": "19,50€",
+    "discount": 75,
     "isFree": false,
     "categories": [
       {
@@ -5241,9 +5329,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1622350/header.jpg?t=1763430983",
     "description": "Un juego de aventuras sano y narrativo sobre el rechazo, la pertenencia y el verdadero significado del hogar. Sigue la historia de una gata de refugio recién adoptada que se convierte en víctima de un elaborado plan cuando un imitador callejero y celoso le roba su lugar en el hogar.",
-    "price": "14,79€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "5,91€",
+    "originalPrice": "14,79€",
+    "discount": 60,
     "isFree": false,
     "categories": [
       {
@@ -5672,11 +5760,11 @@ const wishlistGames = [
     "dateAdded": 1667156994,
     "name": "Brotato",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/f98281910016f8924be37cce3d4b119f5223a358/header.jpg?t=1784793505",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/f98281910016f8924be37cce3d4b119f5223a358/header.jpg?t=1785901135",
     "description": "Brotato es un roguelite de disparos en el que te moverás de arriba abajo del escenario. Encarna a una patata con 6 armas simultáneas para hacer frente a los alienígenas. Elige entre una variedad de características y objetos para crear combinaciones únicas y sobrevivir hasta que acudan los refuerzos.",
-    "price": "2,99€",
-    "originalPrice": "4,99€",
-    "discount": 40,
+    "price": "4,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -5748,10 +5836,6 @@ const wishlistGames = [
       {
         "id": "3",
         "description": "Rol"
-      },
-      {
-        "id": "37",
-        "description": "Free to Play"
       }
     ],
     "releaseDate": "23 JUN 2023",
@@ -6891,9 +6975,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2627570/header.jpg?t=1779339502",
     "description": "Relive your childhood nostalgia at Goofy Gorillas, the largest virtual jungle gym! Battle it out with your friends in a wide range of casual but intense PvP gamemodes, or chill out and take part in some extra activities around the venue! Make the Goofy experience your own!",
-    "price": "7,79€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "5,45€",
+    "originalPrice": "7,79€",
+    "discount": 30,
     "isFree": false,
     "categories": [
       {
@@ -7333,9 +7417,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963880/2f0bff77040756cf65161e0996f997aa820b52ca/header_alt_assets_1.jpg?t=1784115677",
     "description": "Solo o hasta 8 jugadores. Elimina los experimentos fallidos de tus jefes en laboratorios submarinos abandonados. Dirige tu submarino, evita los horrores abisales y deshazte de los cadáveres con tu tripulación.",
-    "price": "4,94€",
-    "originalPrice": "8,99€",
-    "discount": 45,
+    "price": "8,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -7762,11 +7846,11 @@ const wishlistGames = [
     "dateAdded": 1741815855,
     "name": "R.E.P.O.",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/a12c92856b71315da885924ea5e1d5290c8025b8/header_alt_assets_2.jpg?t=1778158882",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/1ea445e044a2d5b09cfa8291350b63ebed6e5741/header.jpg?t=1778158882",
     "description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires.",
-    "price": "6,16€",
-    "originalPrice": "9,49€",
-    "discount": 35,
+    "price": "9,49€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -7839,9 +7923,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/8ba81356b84aa937573fa29fdd708dbd96b01537/header.jpg?t=1784649345",
     "description": "Un juego «rogue-lite» con máquinas tragaperras de pesadilla. Apuesta tu vida en un simulador de deuda interminable.",
-    "price": "9,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "5,99€",
+    "originalPrice": "9,99€",
+    "discount": 40,
     "isFree": false,
     "categories": [
       {
@@ -8019,91 +8103,7 @@ const wishlistGames = [
       "mac": false,
       "linux": false
     }
-  },
-  {
-    "appId": 881940,
-    "priority": 0,
-    "dateAdded": 1785523947,
-    "name": "Guns 'n Goblins",
-    "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881940/55edb2e63dc016a4ef504a2eab9e9d8cb63d66e9/header.jpg?t=1785143475",
-    "description": "Sobrevive a aluviones de monstruos, a cuál más multitudinario, en este juego de disparos con progreso incremental. Fortifica tu Campanario, sube de nivel y mejora tu arsenal para pasar de aprendiz de la campana a cazadragones magistral.",
-    "price": "Próximamente",
-    "originalPrice": null,
-    "discount": 0,
-    "isFree": false,
-    "categories": [
-      {
-        "id": 2,
-        "description": "Un jugador"
-      },
-      {
-        "id": 22,
-        "description": "Logros de Steam"
-      },
-      {
-        "id": 28,
-        "description": "Compat. total con mando"
-      },
-      {
-        "id": 67,
-        "description": "Comodidad de la cámara"
-      },
-      {
-        "id": 66,
-        "description": "Alternativas de color"
-      },
-      {
-        "id": 68,
-        "description": "Controles de volumen personalizados"
-      },
-      {
-        "id": 74,
-        "description": "Jugable sin restricciones de tiempo"
-      },
-      {
-        "id": 79,
-        "description": "Guardar en cualquier momento"
-      },
-      {
-        "id": 69,
-        "description": "Sonido estéreo"
-      },
-      {
-        "id": 23,
-        "description": "Steam Cloud"
-      },
-      {
-        "id": 62,
-        "description": "Préstamo familiar"
-      }
-    ],
-    "genres": [
-      {
-        "id": "1",
-        "description": "Acción"
-      },
-      {
-        "id": "23",
-        "description": "Indie"
-      },
-      {
-        "id": "3",
-        "description": "Rol"
-      }
-    ],
-    "releaseDate": "2.º trimestre del 2027",
-    "comingSoon": true,
-    "developers": [
-      "Lance",
-      "Argl"
-    ],
-    "platforms": {
-      "windows": true,
-      "mac": false,
-      "linux": false
-    }
   }
 ]
 
-const wishlistLastUpdate = "2026-08-02T08:21:20.393Z"
+const wishlistLastUpdate = "2026-08-09T06:53:57.069Z"
