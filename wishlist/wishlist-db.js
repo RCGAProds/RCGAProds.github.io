@@ -297,7 +297,7 @@ const wishlistGames = [
     "dateAdded": 1590590403,
     "name": "No Man's Sky",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/5f39cba0164881a53f6aee01f72180f7c619c011/header.jpg?t=1779908213",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg?t=1786529709",
     "description": "No Man's Sky es un juego de ciencia ficción sobre exploración y supervivencia en un universo infinito generado de forma procedimental.",
     "price": "58,99€",
     "originalPrice": null,
@@ -862,9 +862,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/327030/3c9070049ed6dd542d327727093a74a413e733c8/header.jpg?t=1781615998",
     "description": "Gracias a su precioso aspecto 2D dibujado a mano, nuevas armas, la nueva función de fabricación, vehículos y edificios, además del regreso de queridas armas y mecánicas de juego clásicas, Worms W.M.D es la mejor experiencia de Worms jamás vista.",
-    "price": "5,99€",
-    "originalPrice": "29,99€",
-    "discount": 80,
+    "price": "29,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -1079,9 +1079,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393380/0b19b50aabea356bd8f534fbe7d6db9bd227810a/header.jpg?t=1784319638",
     "description": "Squad es un FPS táctico que ofrece experiencias de combate auténticas a través del trabajo en equipo, la comunicación y el combate realista. Cierra la brecha entre el shooter arcade y el realismo militar con batallas de 100 jugadores, guerra con armas combinadas y construcción de bases.v",
-    "price": "33,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "21,24€",
+    "originalPrice": "42,49€",
+    "discount": 50,
     "isFree": false,
     "categories": [
       {
@@ -1158,9 +1158,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
     "description": "Huye de las ruinas devastadas del metro de Moscú y embárcate en un viaje épico por todo el continente en las estepas de la Rusia postapocalíptica. Explora niveles no lineales enormes, sobrevive en un mundo abierto y sigue una narrativa apasionante que abarca todo un año en la mayor aventura de Metro hasta ahora.",
-    "price": "29,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "4,49€",
+    "originalPrice": "29,99€",
+    "discount": 85,
     "isFree": false,
     "categories": [
       {
@@ -1223,7 +1223,7 @@ const wishlistGames = [
     "dateAdded": 1683065700,
     "name": "Stardew Valley",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1754692865",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1786554168",
     "description": "Acabas de heredar la vieja parcela agrícola de tu abuelo de Stardew Valley. Decides partir hacia una nueva vida con unas herramientas usadas y algunas monedas. ¿Te ves capaz de vivir de la tierra y convertir estos campos descuidados en un hogar próspero?",
     "price": "13,99€",
     "originalPrice": null,
@@ -2040,11 +2040,11 @@ const wishlistGames = [
     "dateAdded": 1728955265,
     "name": "HELLDIVERS™ 2",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/b4fbfe143366135871039b703c65dcc1ea37fe99/header_spanish.jpg?t=1779899567",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/1ce535d4e78dacd9c834b3966eef37a25fc7cffb/header_spanish.jpg?t=1786525389",
     "description": "La última línea de ataque de la galaxia. Alístate en los Helldivers y únete a la lucha por la libertad en una galaxia hostil en un juego de disparos en tercera persona rápido, frenético y feroz.",
-    "price": "39,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "29,99€",
+    "originalPrice": "39,99€",
+    "discount": 25,
     "isFree": false,
     "categories": [
       {
@@ -2457,9 +2457,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/686810/ba5b238c5655447f425e607775ca92ac58c31f1d/header_alt_assets_5.jpg?t=1781272760",
     "description": "Únete a Hell Let Loose, un shooter bestial en primera persona ambientado en la II Guerra Mundial que incluye batallas épicas de 100 jugadores con infantería, tanques, artillería, un frente dinámico y un sistema de gestión de recursos inspirado en los títulos de ETR.",
-    "price": "12,49€",
-    "originalPrice": "49,99€",
-    "discount": 75,
+    "price": "49,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -2963,9 +2963,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960990/header.jpg?t=1667468566",
     "description": "Beyond: Two Souls es una historia psicológica de acción y suspense que cuenta con las actuaciones de las estrellas de Hollywood Elliot Page y Willem Dafoe. Te embarcarás en un viaje trepidante alrededor del mundo, al jugar la extraordinaria vida de Jodie Holmes.",
-    "price": "19,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "0,99€",
+    "originalPrice": "19,99€",
+    "discount": 95,
     "isFree": false,
     "categories": [
       {
@@ -3767,9 +3767,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/header.jpg?t=1667468479",
     "description": "Detroit: Become Human pone el destino de la humanidad y los androides en tus manos. Cada decisión que tomes afectará al resultado del juego, en una de las tramas narrativas con ramificaciones más intrincadas que jamás se ha visto.",
-    "price": "39,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "7,99€",
+    "originalPrice": "39,99€",
+    "discount": 80,
     "isFree": false,
     "categories": [
       {
@@ -3826,9 +3826,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1225560/header.jpg?t=1777484649",
     "description": "Unravel es un juego de plataformas basado en la física. Yarny, un personaje hecho de una hebra de lana, vivirá una aventura que desborda la realidad.",
-    "price": "4,99€",
-    "originalPrice": "19,99€",
-    "discount": 75,
+    "price": "19,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -3877,9 +3877,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1225570/header.jpg?t=1777389655",
     "description": "Cuando cortas con el pasado, se forman nuevos vínculos.",
-    "price": "4,99€",
-    "originalPrice": "19,99€",
-    "discount": 75,
+    "price": "19,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -4245,9 +4245,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1329500/header.jpg?t=1785516646",
     "description": "¡Arañas con espadas láser! Pelea a muerte o forma un equipo para rechazar enjambres de enemigos salvajes. Lucha y dispara para cruzar el mapa mientras realizas vistosos de parkour.",
-    "price": "5,99€",
-    "originalPrice": "14,99€",
-    "discount": 60,
+    "price": "14,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -4478,9 +4478,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/header_spanish.jpg?t=1777395376",
     "description": "Embárcate en la aventura de tu vida en It Takes Two. Invita a un amigo a acompañarte gratis con el Pase de amigo* para colaborar en una gran variedad de desafíos deliciosamente rompedores.",
-    "price": "11,99€",
-    "originalPrice": "39,99€",
-    "discount": 70,
+    "price": "39,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -4569,9 +4569,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1435790/413708a2da512607f70bb22b29270359586c6e5f/header.jpg?t=1782813501",
     "description": "Un juego de enigmas en primera persona al que puedes jugar en solitario o cooperativamente en línea. Descubre un conjunto de salas de escape totalmente interactivas. ¡Traslada muebles, recoge y examínalo todo, rompe vasijas y destruye candados! Este juego es compatible con salas comunitarias.",
-    "price": "8,49€",
-    "originalPrice": "16,99€",
-    "discount": 50,
+    "price": "16,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -4700,9 +4700,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/header.jpg?t=1760651835",
     "description": "The Walking Dead: The Telltale Definitive Series contiene las 4 temporadas, The Walking Dead: 400 Days y The Walking Dead: Michonne, que cuenta con más de 50 horas de juego repartidas en 23 episodios únicos.",
-    "price": "48,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "12,24€",
+    "originalPrice": "48,99€",
+    "discount": 75,
     "isFree": false,
     "categories": [
       {
@@ -4747,9 +4747,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1456940/header.jpg?t=1781540315",
     "description": "Un juego de disparos táctico de extracción mezclado con terror inmersivo y supervivencia. Sé un mercenario en busca de botín, o bien un monstruo alienígena que caza humanos desde las sombras. Juega en solitario o con amigos y disfruta de este oscuro juego multijugador asimétrico JcJcE.",
-    "price": "4,87€",
-    "originalPrice": "19,50€",
-    "discount": 75,
+    "price": "19,50€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -5606,9 +5606,9 @@ const wishlistGames = [
     "dateAdded": 1782060140,
     "name": "WARDOGS",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/59d4daf753bd5d982e6675f7eee363bc817c574e/header.jpg?t=1785318392",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/59d4daf753bd5d982e6675f7eee363bc817c574e/header.jpg?t=1786467028",
     "description": "WARDOGS es un shooter de guerra total en primera persona que conjuga tiroteos tácticos y combate de armas combinadas con mecánicas de construcción y destrucción en un vasto campo de batalla tipo sandbox para hasta 100 jugadores.",
-    "price": "Próximamente",
+    "price": "39,99€",
     "originalPrice": null,
     "discount": 0,
     "isFree": false,
@@ -5668,7 +5668,7 @@ const wishlistGames = [
         "description": "Acceso anticipado"
       }
     ],
-    "releaseDate": "2026",
+    "releaseDate": "10 SEP 2026",
     "comingSoon": true,
     "developers": [
       "BULKHEAD"
@@ -5857,9 +5857,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/f3dac53a5d3e68a4bb67786872b4693260049b26/header.jpg?t=1784563663",
     "description": "Escape the Backrooms es un juego de terror y exploración cooperativa de 1 a 4 jugadores. Recorre más de 30 niveles de salas traseras estremecedoras mientras evitas entidades y otros peligros. Tu misión es escapar, pero ten cuidado: nada te asegurará sobrevivir.",
-    "price": "7,59€",
-    "originalPrice": "9,49€",
-    "discount": 20,
+    "price": "9,49€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -6975,9 +6975,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2627570/header.jpg?t=1779339502",
     "description": "Relive your childhood nostalgia at Goofy Gorillas, the largest virtual jungle gym! Battle it out with your friends in a wide range of casual but intense PvP gamemodes, or chill out and take part in some extra activities around the venue! Make the Goofy experience your own!",
-    "price": "5,45€",
-    "originalPrice": "7,79€",
-    "discount": 30,
+    "price": "7,79€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -7279,9 +7279,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2903710/d6801ae03af87c864507c6d2ff0b360bbca3dfcf/header.jpg?t=1782407881",
     "description": "&quot;Lost Lullabies&quot; es un juego de terror cooperativo ambientado en 1980, inspirado en las historias reales de un orfanato acabado por un incendio en el año 1960 en Lowell. Se juega con 1-4 jugadores, el objetivo es identificar y expulsar espíritus malévolos solo o con su equipo.",
-    "price": "10,79€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "3,77€",
+    "originalPrice": "10,79€",
+    "discount": 65,
     "isFree": false,
     "categories": [
       {
@@ -7923,9 +7923,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/8ba81356b84aa937573fa29fdd708dbd96b01537/header.jpg?t=1784649345",
     "description": "Un juego «rogue-lite» con máquinas tragaperras de pesadilla. Apuesta tu vida en un simulador de deuda interminable.",
-    "price": "5,99€",
-    "originalPrice": "9,99€",
-    "discount": 40,
+    "price": "9,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -8106,4 +8106,4 @@ const wishlistGames = [
   }
 ]
 
-const wishlistLastUpdate = "2026-08-09T06:53:57.069Z"
+const wishlistLastUpdate = "2026-08-16T06:37:09.344Z"
