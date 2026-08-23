@@ -297,7 +297,7 @@ const wishlistGames = [
     "dateAdded": 1590590403,
     "name": "No Man's Sky",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg?t=1786529709",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg?t=1787045299",
     "description": "No Man's Sky es un juego de ciencia ficción sobre exploración y supervivencia en un universo infinito generado de forma procedimental.",
     "price": "58,99€",
     "originalPrice": null,
@@ -961,9 +961,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/335670/header.jpg?t=1756162720",
     "description": "El desdichado periplo de un hombre destrozado...",
-    "price": "11,99€",
-    "originalPrice": "19,99€",
-    "discount": 40,
+    "price": "19,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -1079,9 +1079,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393380/0b19b50aabea356bd8f534fbe7d6db9bd227810a/header.jpg?t=1784319638",
     "description": "Squad es un FPS táctico que ofrece experiencias de combate auténticas a través del trabajo en equipo, la comunicación y el combate realista. Cierra la brecha entre el shooter arcade y el realismo militar con batallas de 100 jugadores, guerra con armas combinadas y construcción de bases.v",
-    "price": "21,24€",
-    "originalPrice": "42,49€",
-    "discount": 50,
+    "price": "33,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -1933,7 +1933,7 @@ const wishlistGames = [
     "dateAdded": 1729296988,
     "name": "Deep Rock Galactic",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/7218336ad0b0fdbe13bfe7503627f30ac901b02c/header_alt_assets_15.jpg?t=1786014445",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/37b58a6c4816ee60b0ca97cb6724d6e904c58c41/header.jpg?t=1786014445",
     "description": "Deep Rock Galactic es un FPS cooperativo para 1 a 4 jugadores. Juega con unos fornidos enanos espaciales en entornos 100 % destructibles, formados por cuevas generadas proceduralmente e interminables hordas de monstruos alienígenas.",
     "price": "29,99€",
     "originalPrice": null,
@@ -2042,9 +2042,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/1ce535d4e78dacd9c834b3966eef37a25fc7cffb/header_spanish.jpg?t=1786525389",
     "description": "La última línea de ataque de la galaxia. Alístate en los Helldivers y únete a la lucha por la libertad en una galaxia hostil en un juego de disparos en tercera persona rápido, frenético y feroz.",
-    "price": "29,99€",
-    "originalPrice": "39,99€",
-    "discount": 25,
+    "price": "39,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -2455,7 +2455,7 @@ const wishlistGames = [
     "dateAdded": 1718925798,
     "name": "Hell Let Loose",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/686810/ba5b238c5655447f425e607775ca92ac58c31f1d/header_alt_assets_5.jpg?t=1781272760",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/686810/ba5b238c5655447f425e607775ca92ac58c31f1d/header_alt_assets_5.jpg?t=1786957663",
     "description": "Únete a Hell Let Loose, un shooter bestial en primera persona ambientado en la II Guerra Mundial que incluye batallas épicas de 100 jugadores con infantería, tanques, artillería, un frente dinámico y un sistema de gestión de recursos inspirado en los títulos de ETR.",
     "price": "49,99€",
     "originalPrice": null,
@@ -2963,9 +2963,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960990/header.jpg?t=1667468566",
     "description": "Beyond: Two Souls es una historia psicológica de acción y suspense que cuenta con las actuaciones de las estrellas de Hollywood Elliot Page y Willem Dafoe. Te embarcarás en un viaje trepidante alrededor del mundo, al jugar la extraordinaria vida de Jodie Holmes.",
-    "price": "0,99€",
-    "originalPrice": "19,99€",
-    "discount": 95,
+    "price": "19,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -3451,9 +3451,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1119730/edbc791f576913bd2b7d3aeeed8bc5dd73614872/header.jpg?t=1781527978",
     "description": "Constructor. Granjero. Cazador. Comerciante. Está claro que llevar un rancho no es un trabajo cualquiera. ¿Crees que tienes lo que hace falta para transformar la deteriorada hacienda de tu familia en el rancho más próspero del valle? Pues entonces sal a la aventura en este cautivador simulador de mundo abierto para uno o varios jugadores.",
-    "price": "24,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "3,74€",
+    "originalPrice": "24,99€",
+    "discount": 85,
     "isFree": false,
     "categories": [
       {
@@ -3518,9 +3518,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1138850/header.jpg?t=1780480028",
     "description": "Usa las manos y brazos de un astronauta espacial de la década de 1970 y ábrete paso empujando, tirando y girando elementos en diferentes escenarios estelares cada vez más complicados: no hay gravedad, nada permanece inmóvil, no hay nada seguro y nada es sencillo.",
-    "price": "4,87€",
-    "originalPrice": "19,50€",
-    "discount": 75,
+    "price": "19,50€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -3767,9 +3767,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/header.jpg?t=1667468479",
     "description": "Detroit: Become Human pone el destino de la humanidad y los androides en tus manos. Cada decisión que tomes afectará al resultado del juego, en una de las tramas narrativas con ramificaciones más intrincadas que jamás se ha visto.",
-    "price": "7,99€",
-    "originalPrice": "39,99€",
-    "discount": 80,
+    "price": "39,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -4147,6 +4147,81 @@ const wishlistGames = [
     }
   },
   {
+    "appId": 1284190,
+    "priority": 0,
+    "dateAdded": 1787162625,
+    "name": "The Planet Crafter",
+    "type": "game",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1284190/header.jpg?t=1783691047",
+    "description": "Un juego de supervivencia espacial y terraformación, diseñado para entre 1 y 10 jugadores. Altera el ecosistema de un planeta inhóspito para que sea habitable para la humanidad. Sobrevive, obtén recursos y monta tu base. Luego, genera oxígeno, calor y presión para crear una nueva biosfera.",
+    "price": "23,99€",
+    "originalPrice": null,
+    "discount": 0,
+    "isFree": false,
+    "categories": [
+      {
+        "id": 2,
+        "description": "Un jugador"
+      },
+      {
+        "id": 1,
+        "description": "Multijugador"
+      },
+      {
+        "id": 9,
+        "description": "Cooperativo"
+      },
+      {
+        "id": 38,
+        "description": "Cooperativo en línea"
+      },
+      {
+        "id": 22,
+        "description": "Logros de Steam"
+      },
+      {
+        "id": 28,
+        "description": "Compat. total con mando"
+      },
+      {
+        "id": 55,
+        "description": "Compatible con DualShock"
+      },
+      {
+        "id": 56,
+        "description": "Compatible con DualShock"
+      },
+      {
+        "id": 57,
+        "description": "Compatible con DualSense"
+      },
+      {
+        "id": 58,
+        "description": "Compatible con DualSense"
+      },
+      {
+        "id": 62,
+        "description": "Préstamo familiar"
+      }
+    ],
+    "genres": [
+      {
+        "id": "25",
+        "description": "Aventura"
+      }
+    ],
+    "releaseDate": "10 ABR 2024",
+    "comingSoon": false,
+    "developers": [
+      "Miju Games"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    }
+  },
+  {
     "appId": 1326470,
     "priority": 0,
     "dateAdded": 1667859482,
@@ -4356,9 +4431,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1361000/header.jpg?t=1639062908",
     "description": "In Silence es un juego de terror multijugador. Un jugador asume el papel del monstruo que tiene habilidades auditivas hipersensibles y casi completamente ciego. Los otros jugadores (2-6) juegan como sobrevivientes, tratando de escapar o cazando al monstruo.",
-    "price": "9,75€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "3,90€",
+    "originalPrice": "9,75€",
+    "discount": 60,
     "isFree": false,
     "categories": [
       {
@@ -4700,9 +4775,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/header.jpg?t=1760651835",
     "description": "The Walking Dead: The Telltale Definitive Series contiene las 4 temporadas, The Walking Dead: 400 Days y The Walking Dead: Michonne, que cuenta con más de 50 horas de juego repartidas en 23 episodios únicos.",
-    "price": "12,24€",
-    "originalPrice": "48,99€",
-    "discount": 75,
+    "price": "48,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -4822,9 +4897,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1497440/header.jpg?t=1763721043",
     "description": "De Jeppe Carlsen, el diseñador principal de juegos de LIMBO e INSIDE, COCOON te lleva a una aventura a través de mundos dentro de mundos. Domina la mecánica de salto de mundo para desentrañar un misterio cósmico.",
-    "price": "22,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "9,19€",
+    "originalPrice": "22,99€",
+    "discount": 60,
     "isFree": false,
     "categories": [
       {
@@ -5238,9 +5313,9 @@ const wishlistGames = [
     "type": "dlc",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1607890/header.jpg?t=1782157661",
     "description": "¡Entrégate al vacío que se extiende por Petrichor V en la primera expansión de Risk of Rain 2! Aquí te esperan fases, supervivientes y monstruos nuevos, además de objetos de una clase nunca vista que te ayudarán a mandar a los cangrejos de vuelta a su dimensión.",
-    "price": "14,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "7,49€",
+    "originalPrice": "14,99€",
+    "discount": 50,
     "isFree": false,
     "categories": [
       {
@@ -5329,9 +5404,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1622350/header.jpg?t=1763430983",
     "description": "Un juego de aventuras sano y narrativo sobre el rechazo, la pertenencia y el verdadero significado del hogar. Sigue la historia de una gata de refugio recién adoptada que se convierte en víctima de un elaborado plan cuando un imitador callejero y celoso le roba su lugar en el hogar.",
-    "price": "5,91€",
-    "originalPrice": "14,79€",
-    "discount": 60,
+    "price": "14,79€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -5557,7 +5632,7 @@ const wishlistGames = [
     "type": "dlc",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817490/75295520695693d23ee6b214aae832b90d19b503/header.jpg?t=1770858209",
     "description": "Three times the size of Chapter 1, you must descend deeper into the toy factory. Mind-boggling puzzles and horrific toys await. Grapple and swing your way to safety. Try to escape- and don't let Mommy find you.",
-    "price": "8,19€",
+    "price": "8,99€",
     "originalPrice": null,
     "discount": 0,
     "isFree": false,
@@ -5606,7 +5681,7 @@ const wishlistGames = [
     "dateAdded": 1782060140,
     "name": "WARDOGS",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/59d4daf753bd5d982e6675f7eee363bc817c574e/header.jpg?t=1786467028",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/59d4daf753bd5d982e6675f7eee363bc817c574e/header.jpg?t=1787240917",
     "description": "WARDOGS es un shooter de guerra total en primera persona que conjuga tiroteos tácticos y combate de armas combinadas con mecánicas de construcción y destrucción en un vasto campo de batalla tipo sandbox para hasta 100 jugadores.",
     "price": "39,99€",
     "originalPrice": null,
@@ -5760,7 +5835,7 @@ const wishlistGames = [
     "dateAdded": 1667156994,
     "name": "Brotato",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/f98281910016f8924be37cce3d4b119f5223a358/header.jpg?t=1785901135",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/f98281910016f8924be37cce3d4b119f5223a358/header.jpg?t=1787049651",
     "description": "Brotato es un roguelite de disparos en el que te moverás de arriba abajo del escenario. Encarna a una patata con 6 armas simultáneas para hacer frente a los alienígenas. Elige entre una variedad de características y objetos para crear combinaciones únicas y sobrevivir hasta que acudan los refuerzos.",
     "price": "4,99€",
     "originalPrice": null,
@@ -5855,7 +5930,7 @@ const wishlistGames = [
     "dateAdded": 1698713575,
     "name": "Escape the Backrooms",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/f3dac53a5d3e68a4bb67786872b4693260049b26/header.jpg?t=1784563663",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/f3dac53a5d3e68a4bb67786872b4693260049b26/header.jpg?t=1787051435",
     "description": "Escape the Backrooms es un juego de terror y exploración cooperativa de 1 a 4 jugadores. Recorre más de 30 niveles de salas traseras estremecedoras mientras evitas entidades y otros peligros. Tu misión es escapar, pero ten cuidado: nada te asegurará sobrevivir.",
     "price": "9,49€",
     "originalPrice": null,
@@ -5945,9 +6020,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1948280/header.jpg?t=1769357052",
     "description": "Stacklands es un juego de construir aldeas apilando cartas para conseguir comida, construir estructuras y luchar contra criaturas. 🃏 Por ejemplo, si colocas una carta de Aldeano sobre una de Arbusto de bayas, se crearán cartas de Baya para comer. 🃏 ¡Juega bien tus cartas y expande tu aldea!",
-    "price": "7,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "3,99€",
+    "originalPrice": "7,99€",
+    "discount": 50,
     "isFree": false,
     "categories": [
       {
@@ -6201,9 +6276,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2233120/header.jpg?t=1772189524",
     "description": "A Quiet Place: The Road Ahead es un juego de terror y aventura para un jugador inspirado en la famosa franquicia cinematográfica en el que tendrás que sobrevivir en silencio.",
-    "price": "29,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "9,89€",
+    "originalPrice": "29,99€",
+    "discount": 67,
     "isFree": false,
     "categories": [
       {
@@ -6369,7 +6444,7 @@ const wishlistGames = [
     "dateAdded": 1709432105,
     "name": "Deep Rock Galactic: Survivor",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2321470/header.jpg?t=1780935538",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2321470/header.jpg?t=1787051272",
     "description": "DEEP ROCK GALACTIC: SURVIVOR es un auto-shooter de supervivencia para un jugador. Acaba con hordas de letales alienígenas, descubre tesoros, y sobrevive desbloqueando poderosas mejoras del arsenal de la saga Deep Rock Galactic. ¡Ahora le toca a un solo enano enfrentarse a todo el planeta Hoxxes!",
     "price": "12,99€",
     "originalPrice": null,
@@ -7080,11 +7155,11 @@ const wishlistGames = [
     "dateAdded": 1727557739,
     "name": "PANICORE",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2695940/7ba4bc192562f2fd7267801f965ed93a6f8b61c7/header.jpg?t=1774881329",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2695940/058125e647453cb39f0695ea86d267a98f61a96d/header_alt_assets_3.jpg?t=1787424195",
     "description": "PANICORE es un juego de survival horror que mezcla muerte permanente, monstruos de IA y una experiencia cooperativa. Intenta escapar y que no te atrapen, pero cuidado: no solo oyen tus pasos, sino también tu voz.",
-    "price": "9,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "6,69€",
+    "originalPrice": "9,99€",
+    "discount": 33,
     "isFree": false,
     "categories": [
       {
@@ -7106,6 +7181,18 @@ const wishlistGames = [
       {
         "id": 22,
         "description": "Logros de Steam"
+      },
+      {
+        "id": 28,
+        "description": "Compat. total con mando"
+      },
+      {
+        "id": 55,
+        "description": "Compatible con DualShock"
+      },
+      {
+        "id": 57,
+        "description": "Compatible con DualSense"
       },
       {
         "id": 23,
@@ -7277,7 +7364,7 @@ const wishlistGames = [
     "dateAdded": 1729001215,
     "name": "Lost Lullabies: The Orphanage Chronicles",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2903710/d6801ae03af87c864507c6d2ff0b360bbca3dfcf/header.jpg?t=1782407881",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2903710/d6801ae03af87c864507c6d2ff0b360bbca3dfcf/header.jpg?t=1787041619",
     "description": "&quot;Lost Lullabies&quot; es un juego de terror cooperativo ambientado en 1980, inspirado en las historias reales de un orfanato acabado por un incendio en el año 1960 en Lowell. Se juega con 1-4 jugadores, el objetivo es identificar y expulsar espíritus malévolos solo o con su equipo.",
     "price": "3,77€",
     "originalPrice": "10,79€",
@@ -7415,7 +7502,7 @@ const wishlistGames = [
     "dateAdded": 1737395553,
     "name": "Murky Divers",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963880/2f0bff77040756cf65161e0996f997aa820b52ca/header_alt_assets_1.jpg?t=1784115677",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963880/582e04c544ef60fb5e3e35f0cdd8f7e8522393a0/header.jpg?t=1784115677",
     "description": "Solo o hasta 8 jugadores. Elimina los experimentos fallidos de tus jefes en laboratorios submarinos abandonados. Dirige tu submarino, evita los horrores abisales y deshazte de los cadáveres con tu tripulación.",
     "price": "8,99€",
     "originalPrice": null,
@@ -7787,7 +7874,7 @@ const wishlistGames = [
     "dateAdded": 1727996659,
     "name": "MARINES VS GOD",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3209950/4cab0f6d087e2444d500be945fc4f13f867f3f15/header.jpg?t=1774729591",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3209950/4cab0f6d087e2444d500be945fc4f13f867f3f15/header.jpg?t=1787038150",
     "description": "Conviértete en un Dios y caza a los Marines con más de 100 hechizos poderosos, o únete a los Marines para disparar a demonios, robar tesoros divinos y escapar del planeta en este épico juego de acción multijugador 4vs1 asimétrico.",
     "price": "Próximamente",
     "originalPrice": null,
@@ -7829,7 +7916,7 @@ const wishlistGames = [
         "description": "Simuladores"
       }
     ],
-    "releaseDate": "2026",
+    "releaseDate": "2027",
     "comingSoon": true,
     "developers": [
       "Marines vs God team"
@@ -7921,7 +8008,7 @@ const wishlistGames = [
     "dateAdded": 1760562081,
     "name": "CloverPit",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/8ba81356b84aa937573fa29fdd708dbd96b01537/header.jpg?t=1784649345",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/8ba81356b84aa937573fa29fdd708dbd96b01537/header.jpg?t=1787220045",
     "description": "Un juego «rogue-lite» con máquinas tragaperras de pesadilla. Apuesta tu vida en un simulador de deuda interminable.",
     "price": "9,99€",
     "originalPrice": null,
@@ -8106,4 +8193,4 @@ const wishlistGames = [
   }
 ]
 
-const wishlistLastUpdate = "2026-08-16T06:37:09.344Z"
+const wishlistLastUpdate = "2026-08-23T06:38:05.518Z"
