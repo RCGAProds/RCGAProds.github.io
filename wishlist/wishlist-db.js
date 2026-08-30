@@ -107,7 +107,7 @@ const wishlistGames = [
     "dateAdded": 1681319050,
     "name": "Project Zomboid",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1785771763",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1787740093",
     "description": "Project Zomboid is the ultimate in zombie survival. Alone or in MP: you loot, build, craft, fight, farm and fish in a struggle to survive. A hardcore RPG skillset, a vast map, massively customisable sandbox and a cute tutorial raccoon await the unwary. So how will you die? All it takes is a bite..",
     "price": "25,49€",
     "originalPrice": null,
@@ -860,8 +860,8 @@ const wishlistGames = [
     "dateAdded": 1646511729,
     "name": "Worms W.M.D",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/327030/3c9070049ed6dd542d327727093a74a413e733c8/header.jpg?t=1781615998",
-    "description": "Gracias a su precioso aspecto 2D dibujado a mano, nuevas armas, la nueva función de fabricación, vehículos y edificios, además del regreso de queridas armas y mecánicas de juego clásicas, Worms W.M.D es la mejor experiencia de Worms jamás vista.",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/327030/3c9070049ed6dd542d327727093a74a413e733c8/header.jpg?t=1787741779",
+    "description": "Únete a la pelea y dirige a tus guerreros gusanos a la batalla en el emblemático juego de disparos de artillería arcade en 2D, en el que la seriedad de la estrategia y lo exagerado de las armas decidirá quién sobrevive y quién no.",
     "price": "29,99€",
     "originalPrice": null,
     "discount": 0,
@@ -1158,9 +1158,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
     "description": "Huye de las ruinas devastadas del metro de Moscú y embárcate en un viaje épico por todo el continente en las estepas de la Rusia postapocalíptica. Explora niveles no lineales enormes, sobrevive en un mundo abierto y sigue una narrativa apasionante que abarca todo un año en la mayor aventura de Metro hasta ahora.",
-    "price": "4,49€",
-    "originalPrice": "29,99€",
-    "discount": 85,
+    "price": "29,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -1580,7 +1580,7 @@ const wishlistGames = [
     "dateAdded": 1614889253,
     "name": "SCUM",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/513710/a33eb72f52841f591b296f78e46824d7aabb2c87/header.jpg?t=1784560168",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/513710/4936f4cad404b86ec3cbeb5d9d7e89fab3b329d3/header_alt_assets_4.jpg?t=1787679410",
     "description": "Adéntrate en SCUM, un juego de supervivencia en un mundo abierto cuya personalización de personaje definirá cómo eres. Saquea, fabrica, caza, construye y lucha para sobrevivir en una isla donde cada opción afecta a tu destino. Sobrevive. Sé letal. Hazte más fuerte.",
     "price": "44,99€",
     "originalPrice": null,
@@ -2741,9 +2741,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/ec621653454cdad232187af4eb79f23c05aceca5/header.jpg?t=1781607969",
     "description": "CONTROL es un emocionante título de acción y aventuras en tercera persona con gráficos espectaculares que ha ganado más de 80 premios.",
-    "price": "39,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "3,99€",
+    "originalPrice": "39,99€",
+    "discount": 90,
     "isFree": false,
     "categories": [
       {
@@ -3676,9 +3676,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211630/header.jpg?t=1728584652",
     "description": "Five new games: the hit threequel Quiplash 3, the collaborative chaos of The Devils and the Details, the fierce drawing game Champ’d Up, the speech game Talking Points and the guessing game Blather 'Round. Use phones or tablets as controllers and play with up to 8 players, and an audience of 10,000!",
-    "price": "29,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "16,49€",
+    "originalPrice": "29,99€",
+    "discount": 45,
     "isFree": false,
     "categories": [
       {
@@ -3958,7 +3958,7 @@ const wishlistGames = [
     "dateAdded": 1646597983,
     "name": "ELDEN RING",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1784684281",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1787868578",
     "description": "EL NUEVO JUEGO DE ROL Y ACCIÓN DE AMBIENTACIÓN FANTÁSTICA. Álzate, Sinluz, y que la gracia te guíe para abrazar el poder del Círculo de Elden y encumbrarte como señor del Círculo en las Tierras Intermedias.",
     "price": "59,99€",
     "originalPrice": null,
@@ -4970,11 +4970,11 @@ const wishlistGames = [
     "dateAdded": 1728411114,
     "name": "A Day Out",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1547670/header.jpg?t=1782560962",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1547670/header.jpg?t=1787913121",
     "description": "A Day Out is a monster-hunting and case-solving co-op third person shooter. Capture monsters and discover a new supernatural world with your friends!",
-    "price": "9,75€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "4,87€",
+    "originalPrice": "9,75€",
+    "discount": 50,
     "isFree": false,
     "categories": [
       {
@@ -5044,9 +5044,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1557740/header.jpg?t=1759328419",
     "description": "Rounds es un «roguelite» de disparos 1c1 en el que la intensidad aumenta a cada ronda que pasa. Quien pierda una ronda desbloqueará mejoras ingeniosas con las que crear una combinación mejor para contrarrestar la de su oponente.",
-    "price": "5,49€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "2,74€",
+    "originalPrice": "5,49€",
+    "discount": 50,
     "isFree": false,
     "categories": [
       {
@@ -5681,7 +5681,7 @@ const wishlistGames = [
     "dateAdded": 1782060140,
     "name": "WARDOGS",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/59d4daf753bd5d982e6675f7eee363bc817c574e/header.jpg?t=1787240917",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/59d4daf753bd5d982e6675f7eee363bc817c574e/header.jpg?t=1787571659",
     "description": "WARDOGS es un shooter de guerra total en primera persona que conjuga tiroteos tácticos y combate de armas combinadas con mecánicas de construcción y destrucción en un vasto campo de batalla tipo sandbox para hasta 100 jugadores.",
     "price": "39,99€",
     "originalPrice": null,
@@ -5930,7 +5930,7 @@ const wishlistGames = [
     "dateAdded": 1698713575,
     "name": "Escape the Backrooms",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/f3dac53a5d3e68a4bb67786872b4693260049b26/header.jpg?t=1787051435",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/a17d3df3956f11af6e09d1ccfde5339cc96024d0/header_alt_assets_3.jpg?t=1787829140",
     "description": "Escape the Backrooms es un juego de terror y exploración cooperativa de 1 a 4 jugadores. Recorre más de 30 niveles de salas traseras estremecedoras mientras evitas entidades y otros peligros. Tu misión es escapar, pero ten cuidado: nada te asegurará sobrevivir.",
     "price": "9,49€",
     "originalPrice": null,
@@ -6162,9 +6162,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2093010/header.jpg?t=1733831221",
     "description": "El detective Wyatt se enfrenta a un escalofriante misterio mientras investiga la desaparición de una empleada doméstica. Descubre siniestros secretos mientras navegas por una casa embrujada, donde cada sombra esconde un terror al acecho.",
-    "price": "8,79€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "2,63€",
+    "originalPrice": "8,79€",
+    "discount": 70,
     "isFree": false,
     "categories": [
       {
@@ -6351,9 +6351,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2296990/header.jpg?t=1764331912",
     "description": "Haz equipo con tu amigo en línea y pon a prueba vuestra amistad resolviendo rompecabezas juntos en un parque de atracciones abandonado. Trabajad juntos para superar los retos mentales en esta experiencia independiente de We Were Here.",
-    "price": "3,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "1,99€",
+    "originalPrice": "3,99€",
+    "discount": 50,
     "isFree": false,
     "categories": [
       {
@@ -6446,9 +6446,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2321470/header.jpg?t=1787051272",
     "description": "DEEP ROCK GALACTIC: SURVIVOR es un auto-shooter de supervivencia para un jugador. Acaba con hordas de letales alienígenas, descubre tesoros, y sobrevive desbloqueando poderosas mejoras del arsenal de la saga Deep Rock Galactic. ¡Ahora le toca a un solo enano enfrentarse a todo el planeta Hoxxes!",
-    "price": "12,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "7,79€",
+    "originalPrice": "12,99€",
+    "discount": 40,
     "isFree": false,
     "categories": [
       {
@@ -6675,9 +6675,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458560/7189f59dabf1deaba67cd22c7f05b33575d2ac6b/header.jpg?t=1775656697",
     "description": "Zoochosis es un juego de simulación de terror en primera persona con cámara corporal. Eres un cuidador nocturno del zoológico. Identifica a los animales mutantes infectados, crea una vacuna y cúralos. ¿Puedes salvar a todos y sobrevivir?",
-    "price": "24,50€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "10,78€",
+    "originalPrice": "24,50€",
+    "discount": 56,
     "isFree": false,
     "categories": [
       {
@@ -6833,9 +6833,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2467300/dd62d28502fd2c3b36be41dcd89cad21109f555c/header.jpg?t=1753507983",
     "description": "One player becomes the paranoid hunter, while the others disguise themselves as deer among a herd of AI. As a deer, blend in, outsmart the hunter, and strike when the moment is right. As the hunter, figure out who's faking it—before you lose your mind.",
-    "price": "6,89€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "0,96€",
+    "originalPrice": "6,89€",
+    "discount": 86,
     "isFree": false,
     "categories": [
       {
@@ -6939,9 +6939,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/0a3d1867d5781f18cb4fd0b1151729605e892c6b/header.jpg?t=1785400715",
     "description": "Forma un equipo de hasta 4 jugadores y domina la selva antes de que te devore…",
-    "price": "29,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "23,99€",
+    "originalPrice": "29,99€",
+    "discount": 20,
     "isFree": false,
     "categories": [
       {
@@ -7366,9 +7366,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2903710/d6801ae03af87c864507c6d2ff0b360bbca3dfcf/header.jpg?t=1787041619",
     "description": "&quot;Lost Lullabies&quot; es un juego de terror cooperativo ambientado en 1980, inspirado en las historias reales de un orfanato acabado por un incendio en el año 1960 en Lowell. Se juega con 1-4 jugadores, el objetivo es identificar y expulsar espíritus malévolos solo o con su equipo.",
-    "price": "3,77€",
-    "originalPrice": "10,79€",
-    "discount": 65,
+    "price": "10,79€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -7733,9 +7733,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3144860/3fb15b767ff7a032ddd81661c2791e056badfd00/header.jpg?t=1781118407",
     "description": "Adéntrate en un viaje realista en primera persona para un solo jugador por las duras latitudes septentrionales mientras navegas por aguas interminables en busca del camino de vuelta a tu hogar. ¿Seguirás la luz?",
-    "price": "24,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "16,24€",
+    "originalPrice": "24,99€",
+    "discount": 35,
     "isFree": false,
     "categories": [
       {
@@ -8008,7 +8008,7 @@ const wishlistGames = [
     "dateAdded": 1760562081,
     "name": "CloverPit",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/8ba81356b84aa937573fa29fdd708dbd96b01537/header.jpg?t=1787220045",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/8ba81356b84aa937573fa29fdd708dbd96b01537/header.jpg?t=1787580462",
     "description": "Un juego «rogue-lite» con máquinas tragaperras de pesadilla. Apuesta tu vida en un simulador de deuda interminable.",
     "price": "9,99€",
     "originalPrice": null,
@@ -8193,4 +8193,4 @@ const wishlistGames = [
   }
 ]
 
-const wishlistLastUpdate = "2026-08-23T06:38:05.518Z"
+const wishlistLastUpdate = "2026-08-30T11:15:26.836Z"
