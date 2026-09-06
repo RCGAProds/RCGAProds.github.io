@@ -109,9 +109,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1787740093",
     "description": "Project Zomboid is the ultimate in zombie survival. Alone or in MP: you loot, build, craft, fight, farm and fish in a struggle to survive. A hardcore RPG skillset, a vast map, massively customisable sandbox and a cute tutorial raccoon await the unwary. So how will you die? All it takes is a bite..",
-    "price": "25,49€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "17,07€",
+    "originalPrice": "25,49€",
+    "discount": 33,
     "isFree": false,
     "categories": [
       {
@@ -695,9 +695,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/310790/header.jpg?t=1573065014",
     "description": "¡Vive la evolución total de la premiada franquicia Geometry Wars y destruye oleadas de enemigos en una cuadrícula 3D en este frenético shooter arcade!",
-    "price": "14,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "7,49€",
+    "originalPrice": "14,99€",
+    "discount": 50,
     "isFree": false,
     "categories": [
       {
@@ -1024,9 +1024,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391540/header.jpg?t=1757349115",
     "description": "UNDERTALE! The RPG game where you don't have to destroy anyone.",
-    "price": "9,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "2,49€",
+    "originalPrice": "9,99€",
+    "discount": 75,
     "isFree": false,
     "categories": [
       {
@@ -1401,11 +1401,11 @@ const wishlistGames = [
     "dateAdded": 1683064563,
     "name": "Conan Exiles Enhanced",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/710f42dec831fa88bcf736d0715152822231505f/header.jpg?t=1784642443",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/710f42dec831fa88bcf736d0715152822231505f/header.jpg?t=1788196106",
     "description": "Conan Exiles Enhanced es un juego de supervivencia en un mundo abierto ambientado en las tierras de Hiboria, ahora en Unreal Engine 5 con mejoras visuales. ¡SOBREVIVE, CONSTRUYE y DOMINA solo o con amigos en un mundo lleno de aventuras!",
-    "price": "39,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "19,99€",
+    "originalPrice": "39,99€",
+    "discount": 50,
     "isFree": false,
     "categories": [
       {
@@ -1582,9 +1582,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/513710/4936f4cad404b86ec3cbeb5d9d7e89fab3b329d3/header_alt_assets_4.jpg?t=1787679410",
     "description": "Adéntrate en SCUM, un juego de supervivencia en un mundo abierto cuya personalización de personaje definirá cómo eres. Saquea, fabrica, caza, construye y lucha para sobrevivir en una isla donde cada opción afecta a tu destino. Sobrevive. Sé letal. Hazte más fuerte.",
-    "price": "44,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "17,99€",
+    "originalPrice": "44,99€",
+    "discount": 60,
     "isFree": false,
     "categories": [
       {
@@ -1848,9 +1848,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/543900/header.jpg?t=1718869280",
     "description": "METAL GEAR SURVIVE se basa en el estilo de juego de infiltración de MGSV con elementos de exploración y supervivencia para crear una experiencia totalmente nueva. *Se requiere conexión a internet para jugar.",
-    "price": "39,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "23,99€",
+    "originalPrice": "39,99€",
+    "discount": 40,
     "isFree": false,
     "categories": [
       {
@@ -2040,7 +2040,7 @@ const wishlistGames = [
     "dateAdded": 1728955265,
     "name": "HELLDIVERS™ 2",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/1ce535d4e78dacd9c834b3966eef37a25fc7cffb/header_spanish.jpg?t=1786525389",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/1ce535d4e78dacd9c834b3966eef37a25fc7cffb/header_spanish.jpg?t=1788431424",
     "description": "La última línea de ataque de la galaxia. Alístate en los Helldivers y únete a la lucha por la libertad en una galaxia hostil en un juego de disparos en tercera persona rápido, frenético y feroz.",
     "price": "39,99€",
     "originalPrice": null,
@@ -2161,9 +2161,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/581320/5cea6f39f733394deda9f85e36722d4ca5e3db5f/header.jpg?t=1779984920",
     "description": "Insurgency: Sandstorm es un juego de disparos táctico en primera persona que destaca por su combate a corta distancia y su brutal intensidad. Cada bala cuenta, cada paso importa, y trabajar en equipo es la única forma de sobrevivir a la barbarie de la guerra moderna.",
-    "price": "29,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "5,99€",
+    "originalPrice": "29,99€",
+    "discount": 80,
     "isFree": false,
     "categories": [
       {
@@ -2528,9 +2528,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/699740/aed32a1a561dc7c3eb2120bd549ddbce8d2a29a2/header.jpg?t=1759937712",
     "description": "A singleplayer fast-paced classic RTS game in which you take on the role of a fallen lord on his journey back to become one of the mightiest in the medieval realm of Valtoria.",
-    "price": "14,79€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "9,31€",
+    "originalPrice": "14,79€",
+    "discount": 37,
     "isFree": false,
     "categories": [
       {
@@ -3046,9 +3046,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/962130/header.jpg?t=1768264530",
     "description": "The world is a vast, beautiful and dangerous place – especially when you have been shrunk to the size of an ant. Can you thrive alongside the hordes of giant insects, fighting to survive the perils of the backyard?",
-    "price": "39,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "19,99€",
+    "originalPrice": "39,99€",
+    "discount": 50,
     "isFree": false,
     "categories": [
       {
@@ -3192,11 +3192,11 @@ const wishlistGames = [
     "dateAdded": 1774109798,
     "name": "Timberborn",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062090/eeb2babf15cbf4ebc175316a5d3e42a060f3d97c/header.jpg?t=1784023977",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062090/c4710b9e891d6c512383d3be7b60f0ee47a415ff/header_alt_assets_16_spanish.jpg?t=1788438437",
     "description": "La humanidad desapareció hace mucho. En un mundo azotado por sequías y residuos tóxicos, ¿sobrevivirán tus castores leñapunk? Disfruta de un juego de construcción de mundo abierto con animales ingeniosos, arquitectura vertical, física de líquidos, terraformación... ¡y altas dosis de madera!",
-    "price": "33,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "23,79€",
+    "originalPrice": "33,99€",
+    "discount": 30,
     "isFree": false,
     "categories": [
       {
@@ -3293,9 +3293,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1063420/header.jpg?t=1780298639",
     "description": "Void Crew es un roguelite caótico y cooperativo para 1-6 jugadores. Prepara tu nave y a tu tripulación para misiones emocionantes, libra batallas espaciales contra enemigos brutales y... ¡que no cunda el pánico!",
-    "price": "24,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "12,49€",
+    "originalPrice": "24,99€",
+    "discount": 50,
     "isFree": false,
     "categories": [
       {
@@ -3390,7 +3390,7 @@ const wishlistGames = [
     "dateAdded": 1743618906,
     "name": "SONG OF HORROR COMPLETE EDITION",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1096570/header.jpg?t=1785849707",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1096570/header.jpg?t=1788345845",
     "description": "Una aventura de terror en tercera persona con cámaras fijas. Teme a La Presencia, una misteriosa entidad contra la que no puedes luchar: mantente alerta, escóndete, respira hondo… Explora lugares encantados donde permanecen almas en pena y espíritus perdidos.",
     "price": "29,99€",
     "originalPrice": null,
@@ -3451,9 +3451,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1119730/edbc791f576913bd2b7d3aeeed8bc5dd73614872/header.jpg?t=1781527978",
     "description": "Constructor. Granjero. Cazador. Comerciante. Está claro que llevar un rancho no es un trabajo cualquiera. ¿Crees que tienes lo que hace falta para transformar la deteriorada hacienda de tu familia en el rancho más próspero del valle? Pues entonces sal a la aventura en este cautivador simulador de mundo abierto para uno o varios jugadores.",
-    "price": "3,74€",
-    "originalPrice": "24,99€",
-    "discount": 85,
+    "price": "24,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -3676,9 +3676,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211630/header.jpg?t=1728584652",
     "description": "Five new games: the hit threequel Quiplash 3, the collaborative chaos of The Devils and the Details, the fierce drawing game Champ’d Up, the speech game Talking Points and the guessing game Blather 'Round. Use phones or tablets as controllers and play with up to 8 players, and an audience of 10,000!",
-    "price": "16,49€",
-    "originalPrice": "29,99€",
-    "discount": 45,
+    "price": "29,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -4152,11 +4152,11 @@ const wishlistGames = [
     "dateAdded": 1787162625,
     "name": "The Planet Crafter",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1284190/header.jpg?t=1783691047",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1284190/1fcb9cf62d42088d123b1c0c419d6ee2054d5c9b/header_alt_assets_13_spanish.jpg?t=1788266415",
     "description": "Un juego de supervivencia espacial y terraformación, diseñado para entre 1 y 10 jugadores. Altera el ecosistema de un planeta inhóspito para que sea habitable para la humanidad. Sobrevive, obtén recursos y monta tu base. Luego, genera oxígeno, calor y presión para crear una nueva biosfera.",
-    "price": "23,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "11,99€",
+    "originalPrice": "23,99€",
+    "discount": 50,
     "isFree": false,
     "categories": [
       {
@@ -4229,9 +4229,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg?t=1708624856",
     "description": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator.",
-    "price": "28,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "8,69€",
+    "originalPrice": "28,99€",
+    "discount": 70,
     "isFree": false,
     "categories": [
       {
@@ -4431,9 +4431,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1361000/header.jpg?t=1639062908",
     "description": "In Silence es un juego de terror multijugador. Un jugador asume el papel del monstruo que tiene habilidades auditivas hipersensibles y casi completamente ciego. Los otros jugadores (2-6) juegan como sobrevivientes, tratando de escapar o cazando al monstruo.",
-    "price": "3,90€",
-    "originalPrice": "9,75€",
-    "discount": 60,
+    "price": "9,75€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -4897,9 +4897,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1497440/header.jpg?t=1763721043",
     "description": "De Jeppe Carlsen, el diseñador principal de juegos de LIMBO e INSIDE, COCOON te lleva a una aventura a través de mundos dentro de mundos. Domina la mecánica de salto de mundo para desentrañar un misterio cósmico.",
-    "price": "9,19€",
-    "originalPrice": "22,99€",
-    "discount": 60,
+    "price": "22,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -5107,9 +5107,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1570330/51c85189b4c01ee8f9aecf101b95c5143c445d87/header.jpg?t=1777045637",
     "description": "West Hunt is a 1-8 player social deduction game set in the Old West! Among the hardworking townsfolk hides an Outlaw or two causing mischief and mayhem across town. Luckily, there are eagle-eyed Sheriffs ready to sniff them out! No matter what role you play, you're sure to have a hog-killin' time!",
-    "price": "8,19€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "4,09€",
+    "originalPrice": "8,19€",
+    "discount": 50,
     "isFree": false,
     "categories": [
       {
@@ -5313,9 +5313,9 @@ const wishlistGames = [
     "type": "dlc",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1607890/header.jpg?t=1782157661",
     "description": "¡Entrégate al vacío que se extiende por Petrichor V en la primera expansión de Risk of Rain 2! Aquí te esperan fases, supervivientes y monstruos nuevos, además de objetos de una clase nunca vista que te ayudarán a mandar a los cangrejos de vuelta a su dimensión.",
-    "price": "7,49€",
-    "originalPrice": "14,99€",
-    "discount": 50,
+    "price": "14,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -5577,9 +5577,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1766740/header.jpg?t=1776483802",
     "description": "Recorre una isla abierta sobre un viejo tren, mejóralo a lo largo del juego y úsalo para enfrentarte a un malvado tren araña llamado Charles.",
-    "price": "19,50€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "1,95€",
+    "originalPrice": "19,50€",
+    "discount": 90,
     "isFree": false,
     "categories": [
       {
@@ -5681,7 +5681,7 @@ const wishlistGames = [
     "dateAdded": 1782060140,
     "name": "WARDOGS",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/59d4daf753bd5d982e6675f7eee363bc817c574e/header.jpg?t=1787571659",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/59d4daf753bd5d982e6675f7eee363bc817c574e/header.jpg?t=1788683537",
     "description": "WARDOGS es un shooter de guerra total en primera persona que conjuga tiroteos tácticos y combate de armas combinadas con mecánicas de construcción y destrucción en un vasto campo de batalla tipo sandbox para hasta 100 jugadores.",
     "price": "39,99€",
     "originalPrice": null,
@@ -5755,81 +5755,6 @@ const wishlistGames = [
     }
   },
   {
-    "appId": 1898920,
-    "priority": 0,
-    "dateAdded": 1716654106,
-    "name": "War of the Worlds",
-    "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1898920/header.jpg?t=1707284181",
-    "description": "Hardcore horror open world survival game which throws the player into the middle of the extermination of mankind with the sole purpose of surviving long enough to find a way to bring down the alien machines. Loot buildings, fight off hostile survivors, stay hidden from the machines, and stay alive.",
-    "price": "Próximamente",
-    "originalPrice": null,
-    "discount": 0,
-    "isFree": false,
-    "categories": [
-      {
-        "id": 2,
-        "description": "Un jugador"
-      },
-      {
-        "id": 1,
-        "description": "Multijugador"
-      },
-      {
-        "id": 49,
-        "description": "JcJ"
-      },
-      {
-        "id": 36,
-        "description": "JcJ en línea"
-      },
-      {
-        "id": 9,
-        "description": "Cooperativo"
-      },
-      {
-        "id": 38,
-        "description": "Cooperativo en línea"
-      },
-      {
-        "id": 62,
-        "description": "Préstamo familiar"
-      }
-    ],
-    "genres": [
-      {
-        "id": "1",
-        "description": "Acción"
-      },
-      {
-        "id": "25",
-        "description": "Aventura"
-      },
-      {
-        "id": "23",
-        "description": "Indie"
-      },
-      {
-        "id": "28",
-        "description": "Simuladores"
-      },
-      {
-        "id": "70",
-        "description": "Acceso anticipado"
-      }
-    ],
-    "releaseDate": "Por confirmarse",
-    "comingSoon": true,
-    "developers": [
-      "FlipSwitch Games"
-    ],
-    "platforms": {
-      "windows": true,
-      "mac": false,
-      "linux": false
-    }
-  },
-  {
     "appId": 1942280,
     "priority": 0,
     "dateAdded": 1667156994,
@@ -5837,9 +5762,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/f98281910016f8924be37cce3d4b119f5223a358/header.jpg?t=1787049651",
     "description": "Brotato es un roguelite de disparos en el que te moverás de arriba abajo del escenario. Encarna a una patata con 6 armas simultáneas para hacer frente a los alienígenas. Elige entre una variedad de características y objetos para crear combinaciones únicas y sobrevivir hasta que acudan los refuerzos.",
-    "price": "4,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "2,99€",
+    "originalPrice": "4,99€",
+    "discount": 40,
     "isFree": false,
     "categories": [
       {
@@ -6020,9 +5945,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1948280/header.jpg?t=1769357052",
     "description": "Stacklands es un juego de construir aldeas apilando cartas para conseguir comida, construir estructuras y luchar contra criaturas. 🃏 Por ejemplo, si colocas una carta de Aldeano sobre una de Arbusto de bayas, se crearán cartas de Baya para comer. 🃏 ¡Juega bien tus cartas y expande tu aldea!",
-    "price": "3,99€",
-    "originalPrice": "7,99€",
-    "discount": 50,
+    "price": "7,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -6162,9 +6087,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2093010/header.jpg?t=1733831221",
     "description": "El detective Wyatt se enfrenta a un escalofriante misterio mientras investiga la desaparición de una empleada doméstica. Descubre siniestros secretos mientras navegas por una casa embrujada, donde cada sombra esconde un terror al acecho.",
-    "price": "2,63€",
-    "originalPrice": "8,79€",
-    "discount": 70,
+    "price": "8,79€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -6276,9 +6201,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2233120/header.jpg?t=1772189524",
     "description": "A Quiet Place: The Road Ahead es un juego de terror y aventura para un jugador inspirado en la famosa franquicia cinematográfica en el que tendrás que sobrevivir en silencio.",
-    "price": "9,89€",
-    "originalPrice": "29,99€",
-    "discount": 67,
+    "price": "29,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -6675,9 +6600,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458560/7189f59dabf1deaba67cd22c7f05b33575d2ac6b/header.jpg?t=1775656697",
     "description": "Zoochosis es un juego de simulación de terror en primera persona con cámara corporal. Eres un cuidador nocturno del zoológico. Identifica a los animales mutantes infectados, crea una vacuna y cúralos. ¿Puedes salvar a todos y sobrevivir?",
-    "price": "10,78€",
-    "originalPrice": "24,50€",
-    "discount": 56,
+    "price": "24,50€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -6937,7 +6862,7 @@ const wishlistGames = [
     "dateAdded": 1742133676,
     "name": "The Mound: Omen of Cthulhu",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/0a3d1867d5781f18cb4fd0b1151729605e892c6b/header.jpg?t=1785400715",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/cefd63a1434b8a43790c7ea49a69b400257ef4cd/header_alt_assets_0.jpg?t=1788530496",
     "description": "Forma un equipo de hasta 4 jugadores y domina la selva antes de que te devore…",
     "price": "23,99€",
     "originalPrice": "29,99€",
@@ -7157,9 +7082,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2695940/058125e647453cb39f0695ea86d267a98f61a96d/header_alt_assets_3.jpg?t=1787424195",
     "description": "PANICORE es un juego de survival horror que mezcla muerte permanente, monstruos de IA y una experiencia cooperativa. Intenta escapar y que no te atrapen, pero cuidado: no solo oyen tus pasos, sino también tu voz.",
-    "price": "6,69€",
-    "originalPrice": "9,99€",
-    "discount": 33,
+    "price": "9,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -7733,9 +7658,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3144860/3fb15b767ff7a032ddd81661c2791e056badfd00/header.jpg?t=1781118407",
     "description": "Adéntrate en un viaje realista en primera persona para un solo jugador por las duras latitudes septentrionales mientras navegas por aguas interminables en busca del camino de vuelta a tu hogar. ¿Seguirás la luz?",
-    "price": "16,24€",
-    "originalPrice": "24,99€",
-    "discount": 35,
+    "price": "24,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -8193,4 +8118,4 @@ const wishlistGames = [
   }
 ]
 
-const wishlistLastUpdate = "2026-08-30T11:15:26.836Z"
+const wishlistLastUpdate = "2026-09-06T10:16:26.733Z"
