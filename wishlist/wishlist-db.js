@@ -109,9 +109,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1787740093",
     "description": "Project Zomboid is the ultimate in zombie survival. Alone or in MP: you loot, build, craft, fight, farm and fish in a struggle to survive. A hardcore RPG skillset, a vast map, massively customisable sandbox and a cute tutorial raccoon await the unwary. So how will you die? All it takes is a bite..",
-    "price": "17,07€",
-    "originalPrice": "25,49€",
-    "discount": 33,
+    "price": "25,49€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -297,11 +297,11 @@ const wishlistGames = [
     "dateAdded": 1590590403,
     "name": "No Man's Sky",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg?t=1787045299",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/2c6e38b43a5309dfcd3cc0f0134e222b0fa2d1b1/header_alt_assets_25.jpg?t=1789027039",
     "description": "No Man's Sky es un juego de ciencia ficción sobre exploración y supervivencia en un universo infinito generado de forma procedimental.",
-    "price": "58,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "23,59€",
+    "originalPrice": "58,99€",
+    "discount": 60,
     "isFree": false,
     "categories": [
       {
@@ -1077,7 +1077,7 @@ const wishlistGames = [
     "dateAdded": 1740068203,
     "name": "Squad",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393380/0b19b50aabea356bd8f534fbe7d6db9bd227810a/header.jpg?t=1784319638",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393380/0b19b50aabea356bd8f534fbe7d6db9bd227810a/header.jpg?t=1789146284",
     "description": "Squad es un FPS táctico que ofrece experiencias de combate auténticas a través del trabajo en equipo, la comunicación y el combate realista. Cierra la brecha entre el shooter arcade y el realismo militar con batallas de 100 jugadores, guerra con armas combinadas y construcción de bases.v",
     "price": "33,99€",
     "originalPrice": null,
@@ -1403,9 +1403,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/710f42dec831fa88bcf736d0715152822231505f/header.jpg?t=1788196106",
     "description": "Conan Exiles Enhanced es un juego de supervivencia en un mundo abierto ambientado en las tierras de Hiboria, ahora en Unreal Engine 5 con mejoras visuales. ¡SOBREVIVE, CONSTRUYE y DOMINA solo o con amigos en un mundo lleno de aventuras!",
-    "price": "19,99€",
-    "originalPrice": "39,99€",
-    "discount": 50,
+    "price": "39,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -1580,11 +1580,11 @@ const wishlistGames = [
     "dateAdded": 1614889253,
     "name": "SCUM",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/513710/4936f4cad404b86ec3cbeb5d9d7e89fab3b329d3/header_alt_assets_4.jpg?t=1787679410",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/513710/a33eb72f52841f591b296f78e46824d7aabb2c87/header.jpg?t=1787679410",
     "description": "Adéntrate en SCUM, un juego de supervivencia en un mundo abierto cuya personalización de personaje definirá cómo eres. Saquea, fabrica, caza, construye y lucha para sobrevivir en una isla donde cada opción afecta a tu destino. Sobrevive. Sé letal. Hazte más fuerte.",
-    "price": "17,99€",
-    "originalPrice": "44,99€",
-    "discount": 60,
+    "price": "44,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -1935,9 +1935,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/37b58a6c4816ee60b0ca97cb6724d6e904c58c41/header.jpg?t=1786014445",
     "description": "Deep Rock Galactic es un FPS cooperativo para 1 a 4 jugadores. Juega con unos fornidos enanos espaciales en entornos 100 % destructibles, formados por cuevas generadas proceduralmente e interminables hordas de monstruos alienígenas.",
-    "price": "29,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "8,99€",
+    "originalPrice": "29,99€",
+    "discount": 70,
     "isFree": false,
     "categories": [
       {
@@ -2528,9 +2528,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/699740/aed32a1a561dc7c3eb2120bd549ddbce8d2a29a2/header.jpg?t=1759937712",
     "description": "A singleplayer fast-paced classic RTS game in which you take on the role of a fallen lord on his journey back to become one of the mightiest in the medieval realm of Valtoria.",
-    "price": "9,31€",
-    "originalPrice": "14,79€",
-    "discount": 37,
+    "price": "14,79€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -2741,9 +2741,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/ec621653454cdad232187af4eb79f23c05aceca5/header.jpg?t=1781607969",
     "description": "CONTROL es un emocionante título de acción y aventuras en tercera persona con gráficos espectaculares que ha ganado más de 80 premios.",
-    "price": "3,99€",
-    "originalPrice": "39,99€",
-    "discount": 90,
+    "price": "39,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -3046,9 +3046,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/962130/header.jpg?t=1768264530",
     "description": "The world is a vast, beautiful and dangerous place – especially when you have been shrunk to the size of an ant. Can you thrive alongside the hordes of giant insects, fighting to survive the perils of the backyard?",
-    "price": "19,99€",
-    "originalPrice": "39,99€",
-    "discount": 50,
+    "price": "39,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -3958,7 +3958,7 @@ const wishlistGames = [
     "dateAdded": 1646597983,
     "name": "ELDEN RING",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1787868578",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/d98994fe44b885fd491f3ccc93e3fd6a5e0feece/header_alt_assets_3_spanish.jpg?t=1789162449",
     "description": "EL NUEVO JUEGO DE ROL Y ACCIÓN DE AMBIENTACIÓN FANTÁSTICA. Álzate, Sinluz, y que la gracia te guíe para abrazar el poder del Círculo de Elden y encumbrarte como señor del Círculo en las Tierras Intermedias.",
     "price": "59,99€",
     "originalPrice": null,
@@ -4229,9 +4229,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg?t=1708624856",
     "description": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator.",
-    "price": "8,69€",
-    "originalPrice": "28,99€",
-    "discount": 70,
+    "price": "28,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -4502,9 +4502,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1382070/a69eb56f73446624325dec8a4fe74dc4ae09fb96/header.jpg?t=1764842475",
     "description": "Desafía la percepción, redefine la realidad y transforma el mundo que te rodea con tu cámara instantánea. Viewfinder es una nueva experiencia de un jugador que ofrece horas de vivencias interesantes y divertidas en la búsqueda de la verdad tras los misterios del pasado.",
-    "price": "24,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "7,49€",
+    "originalPrice": "24,99€",
+    "discount": 70,
     "isFree": false,
     "categories": [
       {
@@ -4972,9 +4972,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1547670/header.jpg?t=1787913121",
     "description": "A Day Out is a monster-hunting and case-solving co-op third person shooter. Capture monsters and discover a new supernatural world with your friends!",
-    "price": "4,87€",
-    "originalPrice": "9,75€",
-    "discount": 50,
+    "price": "9,75€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -5044,9 +5044,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1557740/header.jpg?t=1759328419",
     "description": "Rounds es un «roguelite» de disparos 1c1 en el que la intensidad aumenta a cada ronda que pasa. Quien pierda una ronda desbloqueará mejoras ingeniosas con las que crear una combinación mejor para contrarrestar la de su oponente.",
-    "price": "2,74€",
-    "originalPrice": "5,49€",
-    "discount": 50,
+    "price": "5,49€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -5107,9 +5107,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1570330/51c85189b4c01ee8f9aecf101b95c5143c445d87/header.jpg?t=1777045637",
     "description": "West Hunt is a 1-8 player social deduction game set in the Old West! Among the hardworking townsfolk hides an Outlaw or two causing mischief and mayhem across town. Luckily, there are eagle-eyed Sheriffs ready to sniff them out! No matter what role you play, you're sure to have a hog-killin' time!",
-    "price": "4,09€",
-    "originalPrice": "8,19€",
-    "discount": 50,
+    "price": "8,19€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -5681,7 +5681,7 @@ const wishlistGames = [
     "dateAdded": 1782060140,
     "name": "WARDOGS",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/59d4daf753bd5d982e6675f7eee363bc817c574e/header.jpg?t=1788683537",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/59d4daf753bd5d982e6675f7eee363bc817c574e/header.jpg?t=1789059636",
     "description": "WARDOGS es un shooter de guerra total en primera persona que conjuga tiroteos tácticos y combate de armas combinadas con mecánicas de construcción y destrucción en un vasto campo de batalla tipo sandbox para hasta 100 jugadores.",
     "price": "39,99€",
     "originalPrice": null,
@@ -5699,6 +5699,10 @@ const wishlistGames = [
       {
         "id": 36,
         "description": "JcJ en línea"
+      },
+      {
+        "id": 22,
+        "description": "Logros de Steam"
       },
       {
         "id": 67,
@@ -5744,7 +5748,7 @@ const wishlistGames = [
       }
     ],
     "releaseDate": "10 SEP 2026",
-    "comingSoon": true,
+    "comingSoon": false,
     "developers": [
       "BULKHEAD"
     ],
@@ -5760,7 +5764,7 @@ const wishlistGames = [
     "dateAdded": 1667156994,
     "name": "Brotato",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/f98281910016f8924be37cce3d4b119f5223a358/header.jpg?t=1787049651",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/f98281910016f8924be37cce3d4b119f5223a358/header.jpg?t=1789029155",
     "description": "Brotato es un roguelite de disparos en el que te moverás de arriba abajo del escenario. Encarna a una patata con 6 armas simultáneas para hacer frente a los alienígenas. Elige entre una variedad de características y objetos para crear combinaciones únicas y sobrevivir hasta que acudan los refuerzos.",
     "price": "2,99€",
     "originalPrice": "4,99€",
@@ -5855,11 +5859,11 @@ const wishlistGames = [
     "dateAdded": 1698713575,
     "name": "Escape the Backrooms",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/a17d3df3956f11af6e09d1ccfde5339cc96024d0/header_alt_assets_3.jpg?t=1787829140",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/a17d3df3956f11af6e09d1ccfde5339cc96024d0/header_alt_assets_3.jpg?t=1789140529",
     "description": "Escape the Backrooms es un juego de terror y exploración cooperativa de 1 a 4 jugadores. Recorre más de 30 niveles de salas traseras estremecedoras mientras evitas entidades y otros peligros. Tu misión es escapar, pero ten cuidado: nada te asegurará sobrevivir.",
-    "price": "9,49€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "7,59€",
+    "originalPrice": "9,49€",
+    "discount": 20,
     "isFree": false,
     "categories": [
       {
@@ -6276,9 +6280,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2296990/header.jpg?t=1764331912",
     "description": "Haz equipo con tu amigo en línea y pon a prueba vuestra amistad resolviendo rompecabezas juntos en un parque de atracciones abandonado. Trabajad juntos para superar los retos mentales en esta experiencia independiente de We Were Here.",
-    "price": "1,99€",
-    "originalPrice": "3,99€",
-    "discount": 50,
+    "price": "3,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -6371,9 +6375,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2321470/header.jpg?t=1787051272",
     "description": "DEEP ROCK GALACTIC: SURVIVOR es un auto-shooter de supervivencia para un jugador. Acaba con hordas de letales alienígenas, descubre tesoros, y sobrevive desbloqueando poderosas mejoras del arsenal de la saga Deep Rock Galactic. ¡Ahora le toca a un solo enano enfrentarse a todo el planeta Hoxxes!",
-    "price": "7,79€",
-    "originalPrice": "12,99€",
-    "discount": 40,
+    "price": "12,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -6460,7 +6464,7 @@ const wishlistGames = [
     "dateAdded": 1681937426,
     "name": "Unrecord",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2381520/header.jpg?t=1713515501",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2381520/header.jpg?t=1789060539",
     "description": "Unrecord is a single-player FPS that tells the story of a tactical police officer from the perspective of his body camera. As you work to solve a complex case, you'll need to use your tactical and detective skills to succeed.",
     "price": "Próximamente",
     "originalPrice": null,
@@ -6501,7 +6505,7 @@ const wishlistGames = [
     "releaseDate": "Por confirmarse",
     "comingSoon": true,
     "developers": [
-      "DRAMA"
+      "Drama Studios"
     ],
     "platforms": {
       "windows": true,
@@ -6758,9 +6762,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2467300/dd62d28502fd2c3b36be41dcd89cad21109f555c/header.jpg?t=1753507983",
     "description": "One player becomes the paranoid hunter, while the others disguise themselves as deer among a herd of AI. As a deer, blend in, outsmart the hunter, and strike when the moment is right. As the hunter, figure out who's faking it—before you lose your mind.",
-    "price": "0,96€",
-    "originalPrice": "6,89€",
-    "discount": 86,
+    "price": "6,89€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -6864,9 +6868,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/cefd63a1434b8a43790c7ea49a69b400257ef4cd/header_alt_assets_0.jpg?t=1788530496",
     "description": "Forma un equipo de hasta 4 jugadores y domina la selva antes de que te devore…",
-    "price": "23,99€",
-    "originalPrice": "29,99€",
-    "discount": 20,
+    "price": "29,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -7429,9 +7433,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963880/582e04c544ef60fb5e3e35f0cdd8f7e8522393a0/header.jpg?t=1784115677",
     "description": "Solo o hasta 8 jugadores. Elimina los experimentos fallidos de tus jefes en laboratorios submarinos abandonados. Dirige tu submarino, evita los horrores abisales y deshazte de los cadáveres con tu tripulación.",
-    "price": "8,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "4,94€",
+    "originalPrice": "8,99€",
+    "discount": 45,
     "isFree": false,
     "categories": [
       {
@@ -7860,9 +7864,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/1ea445e044a2d5b09cfa8291350b63ebed6e5741/header.jpg?t=1778158882",
     "description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires.",
-    "price": "9,49€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "6,16€",
+    "originalPrice": "9,49€",
+    "discount": 35,
     "isFree": false,
     "categories": [
       {
@@ -8118,4 +8122,4 @@ const wishlistGames = [
   }
 ]
 
-const wishlistLastUpdate = "2026-09-06T10:16:26.733Z"
+const wishlistLastUpdate = "2026-09-13T11:05:47.694Z"
