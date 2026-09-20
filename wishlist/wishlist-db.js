@@ -7,9 +7,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13570/header.jpg?t=1764776065",
     "description": "Vive uno de los juegos de acción y sigilo más aclamados de la historia por la crítica. Descubre una conspiración que te toca de cerca e impide la Tercera Guerra Mundial.",
-    "price": "9,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "2,49€",
+    "originalPrice": "9,99€",
+    "discount": 75,
     "isFree": false,
     "categories": [
       {
@@ -297,7 +297,7 @@ const wishlistGames = [
     "dateAdded": 1590590403,
     "name": "No Man's Sky",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/2c6e38b43a5309dfcd3cc0f0134e222b0fa2d1b1/header_alt_assets_25.jpg?t=1789027039",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/2c6e38b43a5309dfcd3cc0f0134e222b0fa2d1b1/header_alt_assets_25.jpg?t=1789479023",
     "description": "No Man's Sky es un juego de ciencia ficción sobre exploración y supervivencia en un universo infinito generado de forma procedimental.",
     "price": "23,59€",
     "originalPrice": "58,99€",
@@ -695,9 +695,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/310790/header.jpg?t=1573065014",
     "description": "¡Vive la evolución total de la premiada franquicia Geometry Wars y destruye oleadas de enemigos en una cuadrícula 3D en este frenético shooter arcade!",
-    "price": "7,49€",
-    "originalPrice": "14,99€",
-    "discount": 50,
+    "price": "14,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -860,11 +860,11 @@ const wishlistGames = [
     "dateAdded": 1646511729,
     "name": "Worms W.M.D",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/327030/3c9070049ed6dd542d327727093a74a413e733c8/header.jpg?t=1787741779",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/327030/3c9070049ed6dd542d327727093a74a413e733c8/header.jpg?t=1789549177",
     "description": "Únete a la pelea y dirige a tus guerreros gusanos a la batalla en el emblemático juego de disparos de artillería arcade en 2D, en el que la seriedad de la estrategia y lo exagerado de las armas decidirá quién sobrevive y quién no.",
-    "price": "29,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "5,99€",
+    "originalPrice": "29,99€",
+    "discount": 80,
     "isFree": false,
     "categories": [
       {
@@ -961,9 +961,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/335670/header.jpg?t=1756162720",
     "description": "El desdichado periplo de un hombre destrozado...",
-    "price": "19,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "10,99€",
+    "originalPrice": "19,99€",
+    "discount": 45,
     "isFree": false,
     "categories": [
       {
@@ -1024,9 +1024,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391540/header.jpg?t=1757349115",
     "description": "UNDERTALE! The RPG game where you don't have to destroy anyone.",
-    "price": "2,49€",
-    "originalPrice": "9,99€",
-    "discount": 75,
+    "price": "9,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -1848,9 +1848,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/543900/header.jpg?t=1718869280",
     "description": "METAL GEAR SURVIVE se basa en el estilo de juego de infiltración de MGSV con elementos de exploración y supervivencia para crear una experiencia totalmente nueva. *Se requiere conexión a internet para jugar.",
-    "price": "23,99€",
-    "originalPrice": "39,99€",
-    "discount": 40,
+    "price": "39,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -2040,7 +2040,7 @@ const wishlistGames = [
     "dateAdded": 1728955265,
     "name": "HELLDIVERS™ 2",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/1ce535d4e78dacd9c834b3966eef37a25fc7cffb/header_spanish.jpg?t=1788431424",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/1ce535d4e78dacd9c834b3966eef37a25fc7cffb/header_spanish.jpg?t=1789585784",
     "description": "La última línea de ataque de la galaxia. Alístate en los Helldivers y únete a la lucha por la libertad en una galaxia hostil en un juego de disparos en tercera persona rápido, frenético y feroz.",
     "price": "39,99€",
     "originalPrice": null,
@@ -2161,9 +2161,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/581320/5cea6f39f733394deda9f85e36722d4ca5e3db5f/header.jpg?t=1779984920",
     "description": "Insurgency: Sandstorm es un juego de disparos táctico en primera persona que destaca por su combate a corta distancia y su brutal intensidad. Cada bala cuenta, cada paso importa, y trabajar en equipo es la única forma de sobrevivir a la barbarie de la guerra moderna.",
-    "price": "5,99€",
-    "originalPrice": "29,99€",
-    "discount": 80,
+    "price": "29,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -2455,7 +2455,7 @@ const wishlistGames = [
     "dateAdded": 1718925798,
     "name": "Hell Let Loose",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/686810/ba5b238c5655447f425e607775ca92ac58c31f1d/header_alt_assets_5.jpg?t=1786957663",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/686810/ba5b238c5655447f425e607775ca92ac58c31f1d/header_alt_assets_5.jpg?t=1789551660",
     "description": "Únete a Hell Let Loose, un shooter bestial en primera persona ambientado en la II Guerra Mundial que incluye batallas épicas de 100 jugadores con infantería, tanques, artillería, un frente dinámico y un sistema de gestión de recursos inspirado en los títulos de ETR.",
     "price": "49,99€",
     "originalPrice": null,
@@ -2660,7 +2660,7 @@ const wishlistGames = [
     "dateAdded": 1724108780,
     "name": "Deceive Inc.",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/820520/header.jpg?t=1709320483",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/820520/header.jpg?t=1789672974",
     "description": "Ponte en la piel de los mejores agentes secretos del mundo en este juego multijugador de sigilo y subterfugio sociales. Cuando trabajas para DECEIVE INC., no existe el juego sucio.",
     "price": "19,99€",
     "originalPrice": null,
@@ -2900,9 +2900,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/891360/header.jpg?t=1727695902",
     "description": "Hellcoming es un juego survival horror cooperativo para 1-4 jugadores, dónde necesitarás limpiar grandes áreas de una abominación infernal con la ayuda de herramientas especiales.",
-    "price": "3,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "2,79€",
+    "originalPrice": "3,99€",
+    "discount": 30,
     "isFree": false,
     "categories": [
       {
@@ -3194,9 +3194,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062090/c4710b9e891d6c512383d3be7b60f0ee47a415ff/header_alt_assets_16_spanish.jpg?t=1788438437",
     "description": "La humanidad desapareció hace mucho. En un mundo azotado por sequías y residuos tóxicos, ¿sobrevivirán tus castores leñapunk? Disfruta de un juego de construcción de mundo abierto con animales ingeniosos, arquitectura vertical, física de líquidos, terraformación... ¡y altas dosis de madera!",
-    "price": "23,79€",
-    "originalPrice": "33,99€",
-    "discount": 30,
+    "price": "33,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -3293,9 +3293,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1063420/header.jpg?t=1780298639",
     "description": "Void Crew es un roguelite caótico y cooperativo para 1-6 jugadores. Prepara tu nave y a tu tripulación para misiones emocionantes, libra batallas espaciales contra enemigos brutales y... ¡que no cunda el pánico!",
-    "price": "12,49€",
-    "originalPrice": "24,99€",
-    "discount": 50,
+    "price": "24,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -3518,9 +3518,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1138850/header.jpg?t=1780480028",
     "description": "Usa las manos y brazos de un astronauta espacial de la década de 1970 y ábrete paso empujando, tirando y girando elementos en diferentes escenarios estelares cada vez más complicados: no hay gravedad, nada permanece inmóvil, no hay nada seguro y nada es sencillo.",
-    "price": "19,50€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "5,99€",
+    "originalPrice": "23,99€",
+    "discount": 75,
     "isFree": false,
     "categories": [
       {
@@ -3826,9 +3826,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1225560/header.jpg?t=1777484649",
     "description": "Unravel es un juego de plataformas basado en la física. Yarny, un personaje hecho de una hebra de lana, vivirá una aventura que desborda la realidad.",
-    "price": "19,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "4,99€",
+    "originalPrice": "19,99€",
+    "discount": 75,
     "isFree": false,
     "categories": [
       {
@@ -3877,9 +3877,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1225570/header.jpg?t=1777389655",
     "description": "Cuando cortas con el pasado, se forman nuevos vínculos.",
-    "price": "19,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "4,99€",
+    "originalPrice": "19,99€",
+    "discount": 75,
     "isFree": false,
     "categories": [
       {
@@ -4063,9 +4063,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1274570/bb90f9fa36e4c35a5f28cdc38cf75b3eb5c39032/header.jpg?t=1765533474",
     "description": "DEVOUR es un juego cooperativo de supervivencia para 1-4 jugadores. Detén a los poseídos miembros del culto antes de que te arrastren al infierno. Corre, Grita, Escondete, Evita ser atrapado.",
-    "price": "9,75€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "6,82€",
+    "originalPrice": "9,75€",
+    "discount": 30,
     "isFree": false,
     "categories": [
       {
@@ -4154,9 +4154,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1284190/1fcb9cf62d42088d123b1c0c419d6ee2054d5c9b/header_alt_assets_13_spanish.jpg?t=1788266415",
     "description": "Un juego de supervivencia espacial y terraformación, diseñado para entre 1 y 10 jugadores. Altera el ecosistema de un planeta inhóspito para que sea habitable para la humanidad. Sobrevive, obtén recursos y monta tu base. Luego, genera oxígeno, calor y presión para crear una nueva biosfera.",
-    "price": "11,99€",
-    "originalPrice": "23,99€",
-    "discount": 50,
+    "price": "23,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -4320,9 +4320,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1329500/header.jpg?t=1785516646",
     "description": "¡Arañas con espadas láser! Pelea a muerte o forma un equipo para rechazar enjambres de enemigos salvajes. Lucha y dispara para cruzar el mapa mientras realizas vistosos de parkour.",
-    "price": "14,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "5,99€",
+    "originalPrice": "14,99€",
+    "discount": 60,
     "isFree": false,
     "categories": [
       {
@@ -4553,9 +4553,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/header_spanish.jpg?t=1777395376",
     "description": "Embárcate en la aventura de tu vida en It Takes Two. Invita a un amigo a acompañarte gratis con el Pase de amigo* para colaborar en una gran variedad de desafíos deliciosamente rompedores.",
-    "price": "39,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "11,99€",
+    "originalPrice": "39,99€",
+    "discount": 70,
     "isFree": false,
     "categories": [
       {
@@ -4644,9 +4644,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1435790/413708a2da512607f70bb22b29270359586c6e5f/header.jpg?t=1782813501",
     "description": "Un juego de enigmas en primera persona al que puedes jugar en solitario o cooperativamente en línea. Descubre un conjunto de salas de escape totalmente interactivas. ¡Traslada muebles, recoge y examínalo todo, rompe vasijas y destruye candados! Este juego es compatible con salas comunitarias.",
-    "price": "16,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "8,49€",
+    "originalPrice": "16,99€",
+    "discount": 50,
     "isFree": false,
     "categories": [
       {
@@ -4822,9 +4822,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1456940/header.jpg?t=1781540315",
     "description": "Un juego de disparos táctico de extracción mezclado con terror inmersivo y supervivencia. Sé un mercenario en busca de botín, o bien un monstruo alienígena que caza humanos desde las sombras. Juega en solitario o con amigos y disfruta de este oscuro juego multijugador asimétrico JcJcE.",
-    "price": "19,50€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "4,87€",
+    "originalPrice": "19,50€",
+    "discount": 75,
     "isFree": false,
     "categories": [
       {
@@ -5577,9 +5577,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1766740/header.jpg?t=1776483802",
     "description": "Recorre una isla abierta sobre un viejo tren, mejóralo a lo largo del juego y úsalo para enfrentarte a un malvado tren araña llamado Charles.",
-    "price": "1,95€",
-    "originalPrice": "19,50€",
-    "discount": 90,
+    "price": "19,50€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -5630,11 +5630,11 @@ const wishlistGames = [
     "dateAdded": 1651797619,
     "name": "Poppy Playtime - Chapter 2",
     "type": "dlc",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817490/75295520695693d23ee6b214aae832b90d19b503/header.jpg?t=1770858209",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817490/75295520695693d23ee6b214aae832b90d19b503/header.jpg?t=1789515302",
     "description": "Three times the size of Chapter 1, you must descend deeper into the toy factory. Mind-boggling puzzles and horrific toys await. Grapple and swing your way to safety. Try to escape- and don't let Mommy find you.",
-    "price": "8,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "6,29€",
+    "originalPrice": "8,99€",
+    "discount": 30,
     "isFree": false,
     "categories": [
       {
@@ -5681,7 +5681,7 @@ const wishlistGames = [
     "dateAdded": 1782060140,
     "name": "WARDOGS",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/59d4daf753bd5d982e6675f7eee363bc817c574e/header.jpg?t=1789059636",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/59d4daf753bd5d982e6675f7eee363bc817c574e/header.jpg?t=1789503126",
     "description": "WARDOGS es un shooter de guerra total en primera persona que conjuga tiroteos tácticos y combate de armas combinadas con mecánicas de construcción y destrucción en un vasto campo de batalla tipo sandbox para hasta 100 jugadores.",
     "price": "39,99€",
     "originalPrice": null,
@@ -5719,10 +5719,6 @@ const wishlistGames = [
       {
         "id": 70,
         "description": "Sonido envolvente"
-      },
-      {
-        "id": 62,
-        "description": "Préstamo familiar"
       }
     ],
     "genres": [
@@ -5766,9 +5762,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/f98281910016f8924be37cce3d4b119f5223a358/header.jpg?t=1789029155",
     "description": "Brotato es un roguelite de disparos en el que te moverás de arriba abajo del escenario. Encarna a una patata con 6 armas simultáneas para hacer frente a los alienígenas. Elige entre una variedad de características y objetos para crear combinaciones únicas y sobrevivir hasta que acudan los refuerzos.",
-    "price": "2,99€",
-    "originalPrice": "4,99€",
-    "discount": 40,
+    "price": "4,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -5859,7 +5855,7 @@ const wishlistGames = [
     "dateAdded": 1698713575,
     "name": "Escape the Backrooms",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/a17d3df3956f11af6e09d1ccfde5339cc96024d0/header_alt_assets_3.jpg?t=1789140529",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/a17d3df3956f11af6e09d1ccfde5339cc96024d0/header_alt_assets_3.jpg?t=1789378450",
     "description": "Escape the Backrooms es un juego de terror y exploración cooperativa de 1 a 4 jugadores. Recorre más de 30 niveles de salas traseras estremecedoras mientras evitas entidades y otros peligros. Tu misión es escapar, pero ten cuidado: nada te asegurará sobrevivir.",
     "price": "7,59€",
     "originalPrice": "9,49€",
@@ -7236,9 +7232,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2828860/2aefa73a902e6273688efec4b399c9722a13cd23/header.jpg?t=1785327281",
     "description": "The Forever Winter es un juego de disparos de terror y supervivencia táctica cooperativa en el que tú y tu escuadrón deben saquear a los muertos para sobrevivir bajo la sombra de aterradoras y gigantescas máquinas de guerra atrapadas en un conflicto interminable.",
-    "price": "28,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "20,29€",
+    "originalPrice": "28,99€",
+    "discount": 30,
     "isFree": false,
     "categories": [
       {
@@ -7803,7 +7799,7 @@ const wishlistGames = [
     "dateAdded": 1727996659,
     "name": "MARINES VS GOD",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3209950/4cab0f6d087e2444d500be945fc4f13f867f3f15/header.jpg?t=1787038150",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3209950/4cab0f6d087e2444d500be945fc4f13f867f3f15/header.jpg?t=1789407610",
     "description": "Conviértete en un Dios y caza a los Marines con más de 100 hechizos poderosos, o únete a los Marines para disparar a demonios, robar tesoros divinos y escapar del planeta en este épico juego de acción multijugador 4vs1 asimétrico.",
     "price": "Próximamente",
     "originalPrice": null,
@@ -7848,7 +7844,8 @@ const wishlistGames = [
     "releaseDate": "2027",
     "comingSoon": true,
     "developers": [
-      "Marines vs God team"
+      "Marines vs God team",
+      "DPS RAIN"
     ],
     "platforms": {
       "windows": true,
@@ -8119,7 +8116,78 @@ const wishlistGames = [
       "mac": false,
       "linux": false
     }
+  },
+  {
+    "appId": 4620600,
+    "priority": 0,
+    "dateAdded": 1789383227,
+    "name": "Dynamite Day",
+    "type": "game",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4620600/7b659a17071b217e8dee179131c1f958a645a177/header.jpg?t=1789625669",
+    "description": "La sirena aúlla, los instrumentos mienten. Dynamite Day, thriller cooperativo en un búnker antimisiles: distingue en minutos el ataque real de las mentiras de los espías y decide si contraatacar. Cooperativo hasta 6 jugadores. Un error - y la humanidad se hace polvo.",
+    "price": "Próximamente",
+    "originalPrice": null,
+    "discount": 0,
+    "isFree": false,
+    "categories": [
+      {
+        "id": 2,
+        "description": "Un jugador"
+      },
+      {
+        "id": 1,
+        "description": "Multijugador"
+      },
+      {
+        "id": 9,
+        "description": "Cooperativo"
+      },
+      {
+        "id": 38,
+        "description": "Cooperativo en línea"
+      },
+      {
+        "id": 22,
+        "description": "Logros de Steam"
+      },
+      {
+        "id": 62,
+        "description": "Préstamo familiar"
+      }
+    ],
+    "genres": [
+      {
+        "id": "23",
+        "description": "Indie"
+      },
+      {
+        "id": "29",
+        "description": "Multijugador masivo"
+      },
+      {
+        "id": "3",
+        "description": "Rol"
+      },
+      {
+        "id": "28",
+        "description": "Simuladores"
+      },
+      {
+        "id": "2",
+        "description": "Estrategia"
+      }
+    ],
+    "releaseDate": "Próximamente",
+    "comingSoon": true,
+    "developers": [
+      "Alice Games"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": true,
+      "linux": false
+    }
   }
 ]
 
-const wishlistLastUpdate = "2026-09-13T11:05:47.694Z"
+const wishlistLastUpdate = "2026-09-20T10:37:34.454Z"
