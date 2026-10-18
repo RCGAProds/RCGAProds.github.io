@@ -1873,7 +1873,7 @@ const wishlistGames = [
     "dateAdded": 1728955265,
     "name": "HELLDIVERS™ 2",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/1ce535d4e78dacd9c834b3966eef37a25fc7cffb/header_spanish.jpg?t=1789585784",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/1ce535d4e78dacd9c834b3966eef37a25fc7cffb/header_spanish.jpg?t=1792146147",
     "description": "La última línea de ataque de la galaxia. Alístate en los Helldivers y únete a la lucha por la libertad en una galaxia hostil en un juego de disparos en tercera persona rápido, frenético y feroz.",
     "price": "39,99€",
     "originalPrice": null,
@@ -1992,11 +1992,11 @@ const wishlistGames = [
     "dateAdded": 1544663423,
     "name": "Insurgency: Sandstorm",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/581320/5cea6f39f733394deda9f85e36722d4ca5e3db5f/header.jpg?t=1779984920",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/581320/header_alt_assets_3_spanish.jpg?t=1791994390",
     "description": "Insurgency: Sandstorm es un juego de disparos táctico en primera persona que destaca por su combate a corta distancia y su brutal intensidad. Cada bala cuenta, cada paso importa, y trabajar en equipo es la única forma de sobrevivir a la barbarie de la guerra moderna.",
-    "price": "29,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "5,99€",
+    "originalPrice": "29,99€",
+    "discount": 80,
     "isFree": false,
     "categories": [
       {
@@ -2428,9 +2428,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg?t=1762888662",
     "description": "Juego del año - The Game Awards 2019 Mejor juego de acción de 2019 - IGN Traza tu propio camino hacia la venganza en la galardonada aventura de FromSoftware, creadores de Bloodborne y la saga Dark Souls. Véngate. Restituye tu honor. Mata con ingenio.",
-    "price": "29,99€",
-    "originalPrice": "59,99€",
-    "discount": 50,
+    "price": "59,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -2647,7 +2647,7 @@ const wishlistGames = [
     "dateAdded": 1785523947,
     "name": "Guns 'n Goblins",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881940/55edb2e63dc016a4ef504a2eab9e9d8cb63d66e9/header.jpg?t=1785143475",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881940/55edb2e63dc016a4ef504a2eab9e9d8cb63d66e9/header.jpg?t=1791879308",
     "description": "Sobrevive a aluviones de monstruos, a cuál más multitudinario, en este juego de disparos con progreso incremental. Fortifica tu Campanario, sube de nivel y mejora tu arsenal para pasar de aprendiz de la campana a cazadragones magistral.",
     "price": "Próximamente",
     "originalPrice": null,
@@ -3284,9 +3284,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1119730/edbc791f576913bd2b7d3aeeed8bc5dd73614872/header.jpg?t=1790339525",
     "description": "Constructor. Granjero. Cazador. Comerciante. Está claro que llevar un rancho no es un trabajo cualquiera. ¿Crees que tienes lo que hace falta para transformar la deteriorada hacienda de tu familia en el rancho más próspero del valle? Pues entonces sal a la aventura en este cautivador simulador de mundo abierto para uno o varios jugadores.",
-    "price": "4,99€",
-    "originalPrice": "24,99€",
-    "discount": 80,
+    "price": "24,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -3791,7 +3791,7 @@ const wishlistGames = [
     "dateAdded": 1646597983,
     "name": "ELDEN RING",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/d98994fe44b885fd491f3ccc93e3fd6a5e0feece/header_alt_assets_3_spanish.jpg?t=1790290043",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1790290043",
     "description": "EL NUEVO JUEGO DE ROL Y ACCIÓN DE AMBIENTACIÓN FANTÁSTICA. Álzate, Sinluz, y que la gracia te guíe para abrazar el poder del Círculo de Elden y encumbrarte como señor del Círculo en las Tierras Intermedias.",
     "price": "59,99€",
     "originalPrice": null,
@@ -3987,9 +3987,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1284190/header.jpg?t=1788266415",
     "description": "Un juego de supervivencia espacial y terraformación, diseñado para entre 1 y 10 jugadores. Altera el ecosistema de un planeta inhóspito para que sea habitable para la humanidad. Sobrevive, obtén recursos y monta tu base. Luego, genera oxígeno, calor y presión para crear una nueva biosfera.",
-    "price": "23,99€",
-    "originalPrice": null,
-    "discount": 0,
+    "price": "14,39€",
+    "originalPrice": "23,99€",
+    "discount": 40,
     "isFree": false,
     "categories": [
       {
@@ -4475,7 +4475,7 @@ const wishlistGames = [
     "dateAdded": 1692999473,
     "name": "Escape Simulator",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1435790/413708a2da512607f70bb22b29270359586c6e5f/header.jpg?t=1791195318",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1435790/413708a2da512607f70bb22b29270359586c6e5f/header.jpg?t=1791969592",
     "description": "Un juego de enigmas en primera persona al que puedes jugar en solitario o cooperativamente en línea. Descubre un conjunto de salas de escape totalmente interactivas. ¡Traslada muebles, recoge y examínalo todo, rompe vasijas y destruye candados! Este juego es compatible con salas comunitarias.",
     "price": "16,99€",
     "originalPrice": null,
@@ -4866,69 +4866,6 @@ const wishlistGames = [
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
-    }
-  },
-  {
-    "appId": 1557740,
-    "priority": 0,
-    "dateAdded": 1728428658,
-    "name": "ROUNDS",
-    "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1557740/header.jpg?t=1759328419",
-    "description": "Rounds es un «roguelite» de disparos 1c1 en el que la intensidad aumenta a cada ronda que pasa. Quien pierda una ronda desbloqueará mejoras ingeniosas con las que crear una combinación mejor para contrarrestar la de su oponente.",
-    "price": "2,74€",
-    "originalPrice": "5,49€",
-    "discount": 50,
-    "isFree": false,
-    "categories": [
-      {
-        "id": 1,
-        "description": "Multijugador"
-      },
-      {
-        "id": 49,
-        "description": "JcJ"
-      },
-      {
-        "id": 36,
-        "description": "JcJ en línea"
-      },
-      {
-        "id": 24,
-        "description": "Pantalla partida/compartida"
-      },
-      {
-        "id": 18,
-        "description": "Compat. parcial con mando"
-      },
-      {
-        "id": 44,
-        "description": "Remote Play Together"
-      },
-      {
-        "id": 62,
-        "description": "Préstamo familiar"
-      }
-    ],
-    "genres": [
-      {
-        "id": "1",
-        "description": "Acción"
-      },
-      {
-        "id": "23",
-        "description": "Indie"
-      }
-    ],
-    "releaseDate": "1 ABR 2021",
-    "comingSoon": false,
-    "developers": [
-      "Landfall"
-    ],
-    "platforms": {
-      "windows": true,
-      "mac": true,
       "linux": false
     }
   },
@@ -5509,107 +5446,12 @@ const wishlistGames = [
     }
   },
   {
-    "appId": 1942280,
-    "priority": 0,
-    "dateAdded": 1667156994,
-    "name": "Brotato",
-    "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/f98281910016f8924be37cce3d4b119f5223a358/header.jpg?t=1789029155",
-    "description": "Brotato es un roguelite de disparos en el que te moverás de arriba abajo del escenario. Encarna a una patata con 6 armas simultáneas para hacer frente a los alienígenas. Elige entre una variedad de características y objetos para crear combinaciones únicas y sobrevivir hasta que acudan los refuerzos.",
-    "price": "4,99€",
-    "originalPrice": null,
-    "discount": 0,
-    "isFree": false,
-    "categories": [
-      {
-        "id": 2,
-        "description": "Un jugador"
-      },
-      {
-        "id": 1,
-        "description": "Multijugador"
-      },
-      {
-        "id": 9,
-        "description": "Cooperativo"
-      },
-      {
-        "id": 39,
-        "description": "Coop. a pantalla (com)partida"
-      },
-      {
-        "id": 24,
-        "description": "Pantalla partida/compartida"
-      },
-      {
-        "id": 22,
-        "description": "Logros de Steam"
-      },
-      {
-        "id": 28,
-        "description": "Compat. total con mando"
-      },
-      {
-        "id": 29,
-        "description": "Cromos de Steam"
-      },
-      {
-        "id": 30,
-        "description": "Steam Workshop"
-      },
-      {
-        "id": 23,
-        "description": "Steam Cloud"
-      },
-      {
-        "id": 43,
-        "description": "Remote Play en TV"
-      },
-      {
-        "id": 44,
-        "description": "Remote Play Together"
-      },
-      {
-        "id": 62,
-        "description": "Préstamo familiar"
-      }
-    ],
-    "genres": [
-      {
-        "id": "1",
-        "description": "Acción"
-      },
-      {
-        "id": "4",
-        "description": "Casual"
-      },
-      {
-        "id": "23",
-        "description": "Indie"
-      },
-      {
-        "id": "3",
-        "description": "Rol"
-      }
-    ],
-    "releaseDate": "23 JUN 2023",
-    "comingSoon": false,
-    "developers": [
-      "Blobfish"
-    ],
-    "platforms": {
-      "windows": true,
-      "mac": true,
-      "linux": true
-    }
-  },
-  {
     "appId": 1943950,
     "priority": 0,
     "dateAdded": 1698713575,
     "name": "Escape the Backrooms",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/f3dac53a5d3e68a4bb67786872b4693260049b26/header.jpg?t=1791478913",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/f3dac53a5d3e68a4bb67786872b4693260049b26/header.jpg?t=1791750022",
     "description": "Escape the Backrooms es un juego de terror y exploración cooperativa de 1 a 4 jugadores. Recorre más de 30 niveles de salas traseras estremecedoras mientras evitas entidades y otros peligros. Tu misión es escapar, pero ten cuidado: nada te asegurará sobrevivir.",
     "price": "9,49€",
     "originalPrice": null,
@@ -5688,73 +5530,6 @@ const wishlistGames = [
     "platforms": {
       "windows": true,
       "mac": false,
-      "linux": false
-    }
-  },
-  {
-    "appId": 1948280,
-    "priority": 0,
-    "dateAdded": 1675392543,
-    "name": "Stacklands",
-    "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1948280/header.jpg?t=1769357052",
-    "description": "Stacklands es un juego de construir aldeas apilando cartas para conseguir comida, construir estructuras y luchar contra criaturas. 🃏 Por ejemplo, si colocas una carta de Aldeano sobre una de Arbusto de bayas, se crearán cartas de Baya para comer. 🃏 ¡Juega bien tus cartas y expande tu aldea!",
-    "price": "3,99€",
-    "originalPrice": "7,99€",
-    "discount": 50,
-    "isFree": false,
-    "categories": [
-      {
-        "id": 2,
-        "description": "Un jugador"
-      },
-      {
-        "id": 22,
-        "description": "Logros de Steam"
-      },
-      {
-        "id": 29,
-        "description": "Cromos de Steam"
-      },
-      {
-        "id": 30,
-        "description": "Steam Workshop"
-      },
-      {
-        "id": 18,
-        "description": "Compat. parcial con mando"
-      },
-      {
-        "id": 23,
-        "description": "Steam Cloud"
-      },
-      {
-        "id": 62,
-        "description": "Préstamo familiar"
-      }
-    ],
-    "genres": [
-      {
-        "id": "4",
-        "description": "Casual"
-      },
-      {
-        "id": "23",
-        "description": "Indie"
-      },
-      {
-        "id": "28",
-        "description": "Simuladores"
-      }
-    ],
-    "releaseDate": "8 ABR 2022",
-    "comingSoon": false,
-    "developers": [
-      "Sokpop Collective"
-    ],
-    "platforms": {
-      "windows": true,
-      "mac": true,
       "linux": false
     }
   },
@@ -6015,101 +5790,6 @@ const wishlistGames = [
     "comingSoon": false,
     "developers": [
       "Stormind Games"
-    ],
-    "platforms": {
-      "windows": true,
-      "mac": false,
-      "linux": false
-    }
-  },
-  {
-    "appId": 2296990,
-    "priority": 0,
-    "dateAdded": 1783583450,
-    "name": "We Were Here Expeditions: The FriendShip",
-    "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2296990/header.jpg?t=1764331912",
-    "description": "Haz equipo con tu amigo en línea y pon a prueba vuestra amistad resolviendo rompecabezas juntos en un parque de atracciones abandonado. Trabajad juntos para superar los retos mentales en esta experiencia independiente de We Were Here.",
-    "price": "0,99€",
-    "originalPrice": "3,99€",
-    "discount": 75,
-    "isFree": false,
-    "categories": [
-      {
-        "id": 1,
-        "description": "Multijugador"
-      },
-      {
-        "id": 9,
-        "description": "Cooperativo"
-      },
-      {
-        "id": 38,
-        "description": "Cooperativo en línea"
-      },
-      {
-        "id": 27,
-        "description": "Multijugador multiplataforma"
-      },
-      {
-        "id": 22,
-        "description": "Logros de Steam"
-      },
-      {
-        "id": 68,
-        "description": "Controles de volumen personalizados"
-      },
-      {
-        "id": 55,
-        "description": "Compatible con DualShock"
-      },
-      {
-        "id": 56,
-        "description": "Compatible con DualShock"
-      },
-      {
-        "id": 57,
-        "description": "Compatible con DualSense"
-      },
-      {
-        "id": 58,
-        "description": "Compatible con DualSense"
-      },
-      {
-        "id": 65,
-        "description": "Opciones de subtítulos"
-      },
-      {
-        "id": 18,
-        "description": "Compat. parcial con mando"
-      },
-      {
-        "id": 23,
-        "description": "Steam Cloud"
-      },
-      {
-        "id": 62,
-        "description": "Préstamo familiar"
-      }
-    ],
-    "genres": [
-      {
-        "id": "25",
-        "description": "Aventura"
-      },
-      {
-        "id": "4",
-        "description": "Casual"
-      },
-      {
-        "id": "23",
-        "description": "Indie"
-      }
-    ],
-    "releaseDate": "14 SEP 2023",
-    "comingSoon": false,
-    "developers": [
-      "Total Mayhem Games"
     ],
     "platforms": {
       "windows": true,
@@ -7125,6 +6805,133 @@ const wishlistGames = [
     }
   },
   {
+    "appId": 2929250,
+    "priority": 0,
+    "dateAdded": 1791801296,
+    "name": "over the hill",
+    "type": "game",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1792002879",
+    "description": "Explora el mundo en la época dorada del todoterreno. Conduce vehículos 4x4 clásicos de los años 60 a los 80 por caminos exigentes y paisajes espectaculares, ya sea por tu cuenta o con amigos.",
+    "price": "19,99€",
+    "originalPrice": "24,99€",
+    "discount": 20,
+    "isFree": false,
+    "categories": [
+      {
+        "id": 2,
+        "description": "Un jugador"
+      },
+      {
+        "id": 1,
+        "description": "Multijugador"
+      },
+      {
+        "id": 9,
+        "description": "Cooperativo"
+      },
+      {
+        "id": 38,
+        "description": "Cooperativo en línea"
+      },
+      {
+        "id": 22,
+        "description": "Logros de Steam"
+      },
+      {
+        "id": 28,
+        "description": "Compat. total con mando"
+      },
+      {
+        "id": 67,
+        "description": "Comodidad de la cámara"
+      },
+      {
+        "id": 68,
+        "description": "Controles de volumen personalizados"
+      },
+      {
+        "id": 60,
+        "description": "Se recomienda usar un mando"
+      },
+      {
+        "id": 80,
+        "description": "#category_playable_at_your_own_pace"
+      },
+      {
+        "id": 74,
+        "description": "Jugable sin restricciones de tiempo"
+      },
+      {
+        "id": 55,
+        "description": "Compatible con DualShock"
+      },
+      {
+        "id": 56,
+        "description": "Compatible con DualShock"
+      },
+      {
+        "id": 57,
+        "description": "Compatible con DualSense"
+      },
+      {
+        "id": 58,
+        "description": "Compatible con DualSense"
+      },
+      {
+        "id": 69,
+        "description": "Sonido estéreo"
+      },
+      {
+        "id": 23,
+        "description": "Steam Cloud"
+      },
+      {
+        "id": 15,
+        "description": "Estadísticas"
+      },
+      {
+        "id": 62,
+        "description": "Préstamo familiar"
+      }
+    ],
+    "genres": [
+      {
+        "id": "25",
+        "description": "Aventura"
+      },
+      {
+        "id": "4",
+        "description": "Casual"
+      },
+      {
+        "id": "23",
+        "description": "Indie"
+      },
+      {
+        "id": "9",
+        "description": "Carreras"
+      },
+      {
+        "id": "28",
+        "description": "Simuladores"
+      },
+      {
+        "id": "18",
+        "description": "Deportes"
+      }
+    ],
+    "releaseDate": "14 OCT 2026",
+    "comingSoon": false,
+    "developers": [
+      "Funselektor Labs Inc."
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": true
+    }
+  },
+  {
     "appId": 2961530,
     "priority": 0,
     "dateAdded": 1725664411,
@@ -7511,9 +7318,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3144860/3fb15b767ff7a032ddd81661c2791e056badfd00/header.jpg?t=1781118407",
     "description": "Adéntrate en un viaje realista en primera persona para un solo jugador por las duras latitudes septentrionales mientras navegas por aguas interminables en busca del camino de vuelta a tu hogar. ¿Seguirás la luz?",
-    "price": "14,99€",
-    "originalPrice": "24,99€",
-    "discount": 40,
+    "price": "24,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -7716,7 +7523,7 @@ const wishlistGames = [
     "dateAdded": 1741815855,
     "name": "R.E.P.O.",
     "type": "game",
-    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/1ea445e044a2d5b09cfa8291350b63ebed6e5741/header.jpg?t=1778158882",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/1ea445e044a2d5b09cfa8291350b63ebed6e5741/header.jpg?t=1791817973",
     "description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires.",
     "price": "9,49€",
     "originalPrice": null,
@@ -7793,9 +7600,9 @@ const wishlistGames = [
     "type": "game",
     "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/8ba81356b84aa937573fa29fdd708dbd96b01537/header.jpg?t=1787580462",
     "description": "Un juego «rogue-lite» con máquinas tragaperras de pesadilla. Apuesta tu vida en un simulador de deuda interminable.",
-    "price": "5,99€",
-    "originalPrice": "9,99€",
-    "discount": 40,
+    "price": "9,99€",
+    "originalPrice": null,
+    "discount": 0,
     "isFree": false,
     "categories": [
       {
@@ -8044,7 +7851,46 @@ const wishlistGames = [
       "mac": true,
       "linux": false
     }
+  },
+  {
+    "appId": 5142140,
+    "priority": 0,
+    "dateAdded": 1791885956,
+    "name": "DEADLINE: Afterlife Processing",
+    "type": "game",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5142140/b8907643ec6f6a70e80e040265c183e1a0b79cbf/header.jpg?t=1791374075",
+    "description": "The dead wait in line. You run the press. Read each soul, judge it, seal it and get paid for it. Tired of doing it yourself? The catalog has machines that'll do the work for you. Management recommends it. Management appreciates your cooperation.",
+    "price": "Próximamente",
+    "originalPrice": null,
+    "discount": 0,
+    "isFree": false,
+    "categories": [
+      {
+        "id": 2,
+        "description": "Un jugador"
+      },
+      {
+        "id": 62,
+        "description": "Préstamo familiar"
+      }
+    ],
+    "genres": [
+      {
+        "id": "23",
+        "description": "Indie"
+      }
+    ],
+    "releaseDate": "Próximamente",
+    "comingSoon": true,
+    "developers": [
+      "SOUNDIL"
+    ],
+    "platforms": {
+      "windows": true,
+      "mac": false,
+      "linux": false
+    }
   }
 ]
 
-const wishlistLastUpdate = "2026-10-11T12:06:40.552Z"
+const wishlistLastUpdate = "2026-10-18T10:23:36.104Z"
